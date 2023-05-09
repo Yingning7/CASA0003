@@ -41,7 +41,12 @@ map_fig = px.scatter_mapbox(
     zoom=4.65,
     height=700,
     center={'lat': 55.58316, 'lon': -3.833221},
-    color_discrete_map={'2': 'red', '3': 'green', '4': 'blue', '5': 'purple'}
+    color_discrete_map={
+        'Culture & Leisure': 'red',
+        'Culture & Leisure (support)': 'green',
+        'Health & Personal Social Services': 'blue',
+        'Health & Personal Social Services (support)': 'purple'
+    }
 )
 map_fig.update_layout(mapbox_style='dark', mapbox_accesstoken='pk.eyJ1IjoiY2NlNzciLCJhIjoiY2xkMWt6amZzMHF6bjNvcGgwbHlvZzl1ZSJ9.UMSqMJzNGQELF2xTwuZLUw')
 map_fig.update_layout(margin={'r': 0, 't': 0, 'l': 0, 'b': 0})
