@@ -21,7 +21,7 @@ data = pd.read_csv('https://raw.githubusercontent.com/Yingning7/CASA0003/master/
 data['type'] = data['type'].astype(str)
 
 
-left, right = st.columns(2)
+left, right = st.columns([1, 2])
 with left:
     selected_year = st.select_slider('year', tuple(np.sort(data['year'].unique())), value=2012)
     selected_type = st.multiselect('type', ['All'] + np.sort(data['type'].unique()).tolist(), default=['All'])
@@ -40,8 +40,10 @@ map_fig = px.scatter_mapbox(
     size='num_employees',
     hover_name='region',
     size_max=(data_filtered['num_employees'].max())/1000,
-    zoom=5,
-    height=700
+    zoom=4.65,
+    height=700,
+    center={'lat': 55.58316, 'lon': -3.833221},
+    color_discrete_map={'2': 'red', '3': 'green', '4': 'blue', '5': 'purple'}
 )
 map_fig.update_layout(mapbox_style='dark', mapbox_accesstoken='pk.eyJ1IjoiY2NlNzciLCJhIjoiY2xkMWt6amZzMHF6bjNvcGgwbHlvZzl1ZSJ9.UMSqMJzNGQELF2xTwuZLUw')
 map_fig.update_layout(margin={'r': 0, 't': 0, 'l': 0, 'b': 0})
