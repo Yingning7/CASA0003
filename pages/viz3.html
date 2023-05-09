@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8' />
+<title>London Borough Night Time Economy</title>
+<meta name='viewport' content='width=device-width, initial-scale=1' />
+<script src='https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.js'></script>
+<link href='https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.css' rel='stylesheet' />
+<style>
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+h1 {
+  font-size: 25px;
+  line-height: 30px;
+}
+
+h2 {
+  font-size: 14px;
+  line-height: 15px;
+}
+
+a {
+  text-decoration: underline;
+  color: #AF7AC5;
+}
+
+#console {
+  position: absolute;
+  width: 230px;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #F5EEF8;
+}
+.session {
+  margin-bottom: 20px;
+}
+
+.row {
+  height: 12px;
+  width: 100%;
+}
+
+.colors {
+  background: linear-gradient(to right, #F4ECF7, #D2B4DE, #A569BD, #7D3C98, #4A235A);
+  margin-bottom: 10px;
+}
+.label {
+  width: 18%;
+  display: inline-block;
+  text-align: center;
+}
+</style>
+</head>
+
+<body>
+
+<div id='map'></div>
+
+<div id='console'>
+  <h1>Night Time Economy</h1>
+    <div class='session'>
+  <h2>Number of Workplaces</h2>
+  <div class='row colors'>
+  </div>
+  <div class='row labels'>
+    <div class='label'>500</div>
+    <div class='label'>1000</div>
+    <div class='label'>2000</div>
+    <div class='label'>3000</div>
+    <div class='label'>4000+</div>
+  </div>
+</div>
+    <div class='session' id='sliderbar'>
+  <h2>Year: <label id='active-year'>2013</label></h2>
+  <input id='slider' class='row' type='range' min='0' max='4' step='1' value='0' />
+</div>
+<p>Data: <a href='https://data.london.gov.uk/dataset/london-night-time-economy/'>Night Time Economy（Cultural and leisure activities）</a>in London, from 2013 to 2017</p>
+</div>
+    
+<script>
+    
+	mapboxgl.accessToken = 'pk.eyJ1IjoiY2NlNzciLCJhIjoiY2xkMWt6amZzMHF6bjNvcGgwbHlvZzl1ZSJ9.UMSqMJzNGQELF2xTwuZLUw';
+    const map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/cce77/cleyec23w000c01mdu9oh2bxo',
+        center: [-0.1276, 51.5072],
+        zoom: 10
+    });
+    
+  map.on('load', () => {
+  map.addLayer({
+    id: 'london_night',
+    type: 'circle',
+    source: {
+    type: 'vector',
+    url: 'mapbox://cce77.bsau0x56' 
+    },
+    'source-layer': 'london_night_edited-azh4bm', 
+    'layout': {
+    'visibility': 'visible'
+    },
+    paint: {
+      'circle-radius': [
+        'interpolate',
+        ['linear'],
+        ['number', ['get', 'num']],
+        5,
+        10,
+        15,
+        30
+      ],
+      'circle-color': [
+        'interpolate',
+        ['linear'],
+        ['number', ['get', 'num']],
+        5,
+        '#F4ECF7',
+        10,
+        '#D2B4DE',
+        20,
+        '#A569BD',
+        30,
+        '#7D3C98',
+        40,
+        '#4A235A'
+      ],
+      'circle-opacity': 0.9
+    }
+  });
+
+map.setFilter('london_night',['==', ['number', ['get', 'year']], 2013])  
+        
+document.getElementById('slider').addEventListener('input', (event) => {
+  const y = parseInt(event.target.value);
+  // update the map
+  var filterYear = ['==', ['number', ['get', 'year']], y+2013]
+  map.setFilter('london_night', filterYear);
+  // update text in the UI
+  document.getElementById('active-year').innerText = y + 2013;
+});
+
+});
+
+map.on('click', 'london_night', (e) => {
+new mapboxgl.Popup()
+.setLngLat(e.lngLat)
+.setHTML(e.features[0].properties.msoaname)
+.addTo(map);
+});
+ 
+// Change the cursor to a pointer when
+// the mouse is over the states layer.
+map.on('mouseenter', 'london_night', () => {
+map.getCanvas().style.cursor = 'pointer';
+});
+ 
+// Change the cursor back to a pointer
+// when it leaves the states layer.
+map.on('mouseleave', 'london_night', () => {
+map.getCanvas().style.cursor = '';
+});
+
+
+
+
+</script>
+
+
+
+</body>
+</html>
