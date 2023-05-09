@@ -16,7 +16,7 @@ st.set_page_config(
 
 st.title('UK Night Time Economy 2012-2022')
 
-data = pd.read_csv('https://raw.githubusercontent.com/Yingning7/CASA0003/master/pages/uknights_complete.csv')
+data = pd.read_csv('https://raw.githubusercontent.com/Yingning7/CASA0003/master/data/uknights_complete.csv')
 
 data['type'] = data['type'].astype(str)
 
