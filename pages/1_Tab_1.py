@@ -23,14 +23,12 @@ data['type'] = data['type'].astype(str)
 
 left, right = st.columns([1, 2])
 with left:
-    selected_year = st.select_slider('year', tuple(np.sort(data['year'].unique())), value=2012)
-    selected_type = st.multiselect('type', ['All'] + np.sort(data['type'].unique()).tolist(), default=['All'])
+    selected_year = st.select_slider('year', tuple(np.sort(data['year'].unique())))
+    selected_type = st.selectbox('type', np.sort(data['type'].unique()).tolist())
 
 data_filtered = data.copy()
-if selected_year != 'All':
-    data_filtered = data_filtered.loc[data['year'] == selected_year]
-if 'All' not in selected_type:
-    data_filtered = data_filtered.loc[data_filtered['type'].isin(selected_type)]
+data_filtered = data_filtered.loc[data['year'] == selected_year]
+data_filtered = data_filtered.loc[data_filtered['type'] == selected_type]
 
 map_fig = px.scatter_mapbox(
     data_filtered,
