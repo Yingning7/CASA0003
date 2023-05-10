@@ -29,16 +29,16 @@ with left:
     elif selected_group == 'All':
         selected_type = 'All'
 
-data_filtered = data.copy()
-data_filtered = data_filtered.loc[data['year'] == selected_year]
+map_data = data.copy()
+map_data = map_data.loc[data['year'] == selected_year]
 if selected_group == 'All':
-    data_filtered = data_filtered.groupby(['year', 'region', 'lat', 'lon'])['num_employees'].sum().reset_index()
+    map_data = map_data.groupby(['year', 'region', 'lat', 'lon'])['num_employees'].sum().reset_index()
 elif selected_group == 'Primary Group':
-    data_filtered = data_filtered.groupby(['year', 'region', 'lat', 'lon', 'primary_type'])['num_employees'].sum().reset_index()
-    data_filtered = data_filtered.loc[data_filtered['primary_type'] == selected_type]
+    map_data = map_data.groupby(['year', 'region', 'lat', 'lon', 'primary_type'])['num_employees'].sum().reset_index()
+    map_data = map_data.loc[map_data['primary_type'] == selected_type]
 elif selected_group == 'Secondary Group':
-    data_filtered = data_filtered = data_filtered.loc[data_filtered['secondary_type'] == selected_type]
-data_filtered['use_type'] = selected_type
+    map_data = map_data = map_data.loc[map_data['secondary_type'] == selected_type]
+map_data['use_type'] = selected_type
 
 region_lat_lon = data[['region', 'lat', 'lon']].drop_duplicates().copy()
 with left:
@@ -54,13 +54,13 @@ else:
     zoom = 10
 
 map_fig = px.scatter_mapbox(
-    data_filtered,
+    map_data,
     lat='lat',
     lon='lon',
     color='use_type',
     size='num_employees',
     hover_name='region',
-    size_max=(data_filtered['num_employees'].max()) / 5000,
+    size_max=(map_data['num_employees'].max()) / 5000,
     zoom=zoom,
     height=700,
     center=centre,
