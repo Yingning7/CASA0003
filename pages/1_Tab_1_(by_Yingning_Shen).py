@@ -13,7 +13,7 @@ st.set_page_config(
     }
 )
 
-st.title('UK Night-Time Workforce 2012-2022')
+st.title('UK Night-Time Workforce 2012-2022 (by Yingning Shen)')
 
 data = pd.read_csv('https://raw.githubusercontent.com/Yingning7/CASA0003/master/data/uknights_complete.csv')
 region_lat_lon = pd.read_csv('https://raw.githubusercontent.com/Yingning7/CASA0003/master/data/region_lat_lon.csv')
