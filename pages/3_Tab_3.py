@@ -13,4 +13,4 @@ st.set_page_config(
 
 st.title('This is Tab 3')
 
-st.components.v1.iframe('https://pages.github.com/', height=1000, width=1000, scrolling=True)
+st.components.v1.iframe('https://agelanyi.github.io/climate-and-uk-wine/website-frontend/index.html#thirdSection', height=1000, width=1000, scrolling=True)
