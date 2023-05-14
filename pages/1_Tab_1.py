@@ -1,6 +1,5 @@
 import pandas as pd
 import streamlit as st
-import numpy as np
 import plotly.express as px
 
 st.set_page_config(
@@ -16,11 +15,12 @@ st.set_page_config(
 
 st.title('UK Night-Time Workforce 2012-2022')
 
-data = pd.read_csv('https://raw.githubusercontent.com/Yingning7/CASA0003/master/data/uknights_complete.csv')
+data = pd.read_csv('./data/uknights_complete.csv')
+region_lat_lon = pd.read_csv('./data/region_lat_lon.csv')
 
 left, right = st.columns([1, 2])
 with left:
-    selected_year = st.select_slider('Year', tuple(np.sort(data['year'].unique())))
+    selected_year = st.select_slider('Year', tuple(sorted(data['year'].unique().tolist())))
     selected_group = st.selectbox('Grouper', ['All', 'Primary Group', 'Secondary Group'])
     if selected_group == 'Primary Group':
         selected_type = st.selectbox('Primary Type', sorted(data['primary_type'].unique().tolist()))
@@ -28,57 +28,55 @@ with left:
         selected_type = st.selectbox('Secondary Type', sorted(data['secondary_type'].unique().tolist()))
     elif selected_group == 'All':
         selected_type = 'All'
+    locate = st.selectbox('Locate', ['Whole UK'] + sorted(region_lat_lon['region'].unique().tolist()))
 
 map_data = data.copy()
 map_data = map_data.loc[data['year'] == selected_year]
 if selected_group == 'All':
-    map_data = map_data.groupby(['year', 'region', 'lat', 'lon'])['num_employees'].sum().reset_index()
+    map_data = map_data.groupby(['year', 'region'])['num_employees'].sum().reset_index()
 elif selected_group == 'Primary Group':
-    map_data = map_data.groupby(['year', 'region', 'lat', 'lon', 'primary_type'])['num_employees'].sum().reset_index()
+    map_data = map_data.groupby(['year', 'region', 'primary_type'])['num_employees'].sum().reset_index()
     map_data = map_data.loc[map_data['primary_type'] == selected_type]
 elif selected_group == 'Secondary Group':
     map_data = map_data = map_data.loc[map_data['secondary_type'] == selected_type]
-map_data['use_type'] = selected_type
+map_data['colour_type'] = selected_type
+map_data_with_lat_lon = pd.merge(map_data, region_lat_lon, on='region')
 
-region_lat_lon = data[['region', 'lat', 'lon']].drop_duplicates().copy()
-with left:
-    locate = st.selectbox('Locate', ['Whole UK'] + sorted(region_lat_lon['region'].unique().tolist()))
 if locate == 'Whole UK':
-    centre = {'lat': 55.58316, 'lon': -3.833221}
-    zoom = 4.65
+    fig_centre = {'lat': 55.58316, 'lon': -3.833221}
+    fig_zoom = 4.65
 else:
-    centre = {
+    fig_centre = {
         'lat': region_lat_lon.loc[region_lat_lon['region'] == locate, 'lat'].item(),
         'lon': region_lat_lon.loc[region_lat_lon['region'] == locate, 'lon'].item()
     }
-    zoom = 10
+    fig_zoom = 10
 
 map_fig = px.scatter_mapbox(
-    map_data,
+    map_data_with_lat_lon,
     lat='lat',
     lon='lon',
-    color='use_type',
+    color='colour_type',
     size='num_employees',
     hover_name='region',
-    size_max=(map_data['num_employees'].max()) / 6000,
-    zoom=zoom,
+    size_max=(map_data_with_lat_lon['num_employees'].max()) / 6000,
+    zoom=fig_zoom,
     height=700,
-    center=centre,
+    center=fig_centre,
     color_discrete_map={
         'Culture & Leisure (native)': 'red',
         'Culture & Leisure (support)': 'green',
         'Health & Personal Social Services (native)': 'blue',
         'Health & Personal Social Services (support)': 'purple',
         'Culture & Leisure': 'red',
-        'Health & Personal Social Services': 'blue'
+        'Health & Personal Social Services': 'blue',
+        'All': 'orange'
     }
 )
 map_fig.update_layout(
     mapbox_style='dark',
-    mapbox_accesstoken='pk.eyJ1IjoiY2NlNzciLCJhIjoiY2xkMWt6amZzMHF6bjNvcGgwbHlvZzl1ZSJ9.UMSqMJzNGQELF2xTwuZLUw'
-)
-map_fig.update_layout(margin={'r': 0, 't': 0, 'l': 0, 'b': 0})
-map_fig.update_layout(
+    mapbox_accesstoken='pk.eyJ1IjoiY2NlNzciLCJhIjoiY2xkMWt6amZzMHF6bjNvcGgwbHlvZzl1ZSJ9.UMSqMJzNGQELF2xTwuZLUw',
+    margin={'r': 0, 't': 0, 'l': 0, 'b': 0},
     legend={
         'yanchor': 'top',
         'y': 0.99,
