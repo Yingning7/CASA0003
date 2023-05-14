@@ -3,7 +3,7 @@ import streamlit as st
 import plotly.express as px
 
 st.set_page_config(
-    page_title='CASA0003 Visualisation - Tab 1',
+    page_title='CASA0003 Visualisation - Tab 1 (by Yingning Shen)',
     layout='wide',
     initial_sidebar_state= 'expanded',
     menu_items={
@@ -15,8 +15,8 @@ st.set_page_config(
 
 st.title('UK Night-Time Workforce 2012-2022')
 
-data = pd.read_csv('./data/uknights_complete.csv')
-region_lat_lon = pd.read_csv('./data/region_lat_lon.csv')
+data = pd.read_csv('https://raw.githubusercontent.com/Yingning7/CASA0003/master/data/uknights_complete.csv')
+region_lat_lon = pd.read_csv('https://raw.githubusercontent.com/Yingning7/CASA0003/master/data/region_lat_lon.csv')
 
 left, right = st.columns([1, 2])
 with left:
