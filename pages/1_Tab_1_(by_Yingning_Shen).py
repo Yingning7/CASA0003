@@ -156,8 +156,6 @@ city_config = {
 
 line_data = pd.concat([get_city_df(data, region_name, isin) for region_name, isin in city_config.items()], ignore_index=True)
 
-st.dataframe(line_data, use_container_width=True)
-
 line_y = st.selectbox(
     'Ways of visualising number of employees',
     ['num_employees_rate_of_change', 'num_employees_ratio', 'num_employees'],
