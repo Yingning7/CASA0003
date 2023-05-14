@@ -14,7 +14,7 @@ st.set_page_config(
     }
 )
 
-st.title('UK Night Time Economy 2012-2022')
+st.title('UK Night-Time Workforce 2012-2022')
 
 data = pd.read_csv('https://raw.githubusercontent.com/Yingning7/CASA0003/master/data/uknights_complete.csv')
 
@@ -60,7 +60,7 @@ map_fig = px.scatter_mapbox(
     color='use_type',
     size='num_employees',
     hover_name='region',
-    size_max=(map_data['num_employees'].max()) / 5000,
+    size_max=(map_data['num_employees'].max()) / 6000,
     zoom=zoom,
     height=700,
     center=centre,
