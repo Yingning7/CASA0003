@@ -12,3 +12,5 @@ st.set_page_config(
 )
 
 st.title('This is Tab 3')
+
+st.components.v1.iframe('https://pages.github.com/', height=1000, width=1000, scrolling=True)
