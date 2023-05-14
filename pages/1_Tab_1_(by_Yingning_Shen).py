@@ -87,3 +87,81 @@ map_fig.update_layout(
 
 with right:
     st.plotly_chart(map_fig, use_container_width=True)
+
+
+def get_city_df(data: pd.DataFrame, region_name: str, isin: list) -> pd.DataFrame:
+    city_data = data.copy()
+    if region_name != 'All':
+        city_data = city_data.loc[city_data['region'].isin(isin)]
+    city_data = city_data.groupby('year')['num_employees'].sum().reset_index().sort_values('year').reset_index(drop=True)
+    city_data['region'] = region_name
+    city_data['num_employees_ratio'] = city_data['num_employees'] / city_data['num_employees'].max()
+    city_data['num_employees_rate_of_change'] = (
+            city_data['num_employees'] - city_data['num_employees'].shift(1)
+    ) / city_data['num_employees'].shift(1) * 100
+    return city_data
+
+
+city_config = {
+    'All': [],
+    'Greater London': [
+        'City of London',
+        'Barking and Dagenham',
+        'Barnet',
+        'Bexley',
+        'Brent',
+        'Bromley',
+        'Camden',
+        'Croydon',
+        'Ealing',
+        'Enfield',
+        'Greenwich',
+        'Hackney',
+        'Hammersmith and Fulham',
+        'Haringey',
+        'Harrow',
+        'Havering',
+        'Hillingdon',
+        'Hounslow',
+        'Islington',
+        'Kensington and Chelsea',
+        'Kingston upon Thames',
+        'Lambeth',
+        'Lewisham',
+        'Merton',
+        'Newham',
+        'Redbridge',
+        'Richmond upon Thames',
+        'Southwark',
+        'Sutton',
+        'Tower Hamlets',
+        'Waltham Forest',
+        'Wandsworth',
+        'Westminster'
+    ],
+    'Greater Manchester': [
+        'Bolton',
+        'Bury',
+        'Manchester',
+        'Oldham',
+        'Rochdale',
+        'Salford',
+        'Stockport',
+        'Tameside',
+        'Trafford',
+        'Wigan'
+    ],
+    'Birmingham': ['Birmingham']
+}
+
+line_data = pd.concat([get_city_df(data, region_name, isin) for region_name, isin in city_config.items()], ignore_index=True)
+
+st.dataframe(line_data, use_container_width=True)
+
+line_y = st.selectbox(
+    'Ways of visualising number of employees',
+    ['num_employees_rate_of_change', 'num_employees_ratio', 'num_employees'],
+    format_func=lambda x: ' '.join(x.split('_')).capitalize()
+)
+
+st.plotly_chart(px.line(line_data, x='year', y=line_y, color='region'), use_container_width=True)
