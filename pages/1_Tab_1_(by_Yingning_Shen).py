@@ -151,15 +151,53 @@ city_config = {
         'Trafford',
         'Wigan'
     ],
-    'Birmingham': ['Birmingham']
+    'Birmingham': ['Birmingham'],
+    'Edinburgh': ['City of Edinburgh', 'Waverley'],
+    'Glasgow': ['Glasgow City']
+
 }
 
 line_data = pd.concat([get_city_df(data, region_name, isin) for region_name, isin in city_config.items()], ignore_index=True)
 
-line_y = st.selectbox(
-    'Ways of visualising number of employees',
-    ['num_employees_rate_of_change', 'num_employees_ratio', 'num_employees'],
-    format_func=lambda x: ' '.join(x.split('_')).capitalize()
+line_fig_1 = px.line(line_data, x='year', y='num_employees_rate_of_change', color='region', markers=True)
+line_fig_1.update_layout(
+    legend={
+        'orientation': 'h',
+        'yanchor': 'bottom',
+        'y': 1.02,
+        'xanchor': 'right',
+        'x': 1
+    }
+)
+line_fig_2 = px.line(line_data, x='year', y='num_employees_ratio', color='region', markers=True)
+line_fig_2.update_layout(
+    legend={
+        'orientation': 'h',
+        'yanchor': 'bottom',
+        'y': 1.02,
+        'xanchor': 'right',
+        'x': 1
+    }
+)
+bar_data = data.groupby(['year', 'secondary_type'])['num_employees'].sum().reset_index()
+bar_fig = px.bar(bar_data,x='year', y='num_employees', color='secondary_type')
+bar_fig.update_layout(
+    legend={
+        'orientation': 'h',
+        'yanchor': 'bottom',
+        'y': 1.02,
+        'xanchor': 'right',
+        'x': 1
+    }
 )
 
-st.plotly_chart(px.line(line_data, x='year', y=line_y, color='region'), use_container_width=True)
+left, right = st.columns(2)
+with left:
+    st.plotly_chart(bar_fig, use_container_width=True)
+with right:
+    tab1, tab2 = st.tabs(["Number of employees rate of change", "Number of employees ratio"])
+    with tab1:
+        st.plotly_chart(line_fig_1, use_container_width=True)
+    with tab2:
+        st.plotly_chart(line_fig_2, use_container_width=True)
+
