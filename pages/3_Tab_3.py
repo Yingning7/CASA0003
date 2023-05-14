@@ -11,6 +11,5 @@ st.set_page_config(
     }
 )
 
-st.title('This is Tab 3')
 
-st.components.v1.iframe('https://yingning7.github.io/', height=1500, width=1500, scrolling=True)
+st.components.v1.iframe('https://yingning7.github.io/', height=700, width=1300, scrolling=True)
