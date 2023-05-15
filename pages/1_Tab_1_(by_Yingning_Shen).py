@@ -212,10 +212,7 @@ line_fig_2.update_layout(
 )
 
 bar_data = data.groupby(['year', 'secondary_type'])['num_employees'].sum().reset_index()
-all_data = data.groupby('year')['num_employees'].sum().reset_index()
-all_data['secondary_type'] = 'Sum of all 4 industry groupings'
-bar_data_1 = pd.concat([bar_data,all_data], ignore_index=True)
-bar_fig = px.bar(bar_data_1,
+bar_fig = px.bar(bar_data,
                  x='year',
                  y='num_employees',
                  color='secondary_type',
