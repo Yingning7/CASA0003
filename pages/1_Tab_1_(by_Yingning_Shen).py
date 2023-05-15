@@ -30,15 +30,18 @@ with left:
     elif selected_group == 'All':
         selected_type = 'All'
 
-    st.markdown('*Grouper:  \n'
-                '- **All**: Numbers of all night-time workers in a selected region and year.  \n'
-                "- **Primary Group**: Include two generalised industry groupings of night-time cultural and leisure activities and "
-                'health and personal social services.  \n'
-                '- **Secondary Group**: Include four more specific industry groupings of Night-time cultural and leisure activities, '
-                'Activities which support night-time cultural and leisure activities, 24-hour health and personal social services and '
-                'activities which support wider social and economic activities.  ')
-
-
+    st.markdown(
+        """
+        *Grouper:
+        
+        - **All**: Numbers of all night-time workers in a selected region and year
+        - **Primary Group**: Include two generalised industry groupings of night-time cultural and leisure activities 
+        and health and personal social services
+        - **Secondary Group**: Include four more specific industry groupings of Night-time cultural and leisure activities, 
+        Activities which support night-time cultural and leisure activities, 24-hour health and personal social services 
+        and activities which support wider social and economic activities
+        """
+    )
 
 map_data = data.copy()
 map_data = map_data.loc[data['year'] == selected_year]
@@ -54,7 +57,7 @@ map_data_with_lat_lon = pd.merge(map_data, region_lat_lon, on='region')
 
 if locate == 'Whole UK':
     fig_centre = {'lat': 55.58316, 'lon': -3.833221}
-    fig_zoom = 4.65
+    fig_zoom = 4.55
 else:
     fig_centre = {
         'lat': region_lat_lon.loc[region_lat_lon['region'] == locate, 'lat'].item(),
@@ -98,11 +101,14 @@ map_fig.update_layout(
 
 with right:
     st.plotly_chart(map_fig, use_container_width=True)
-    st.caption( 'Night-time workers are identified through the Labour Force Survey and are people who "usually" work during '
-                'the evening and/or during the night (irrespective of whether they also work during the day).  \n'
-                'Data sources: https://www.ons.gov.uk/businessindustryandtrade/business/activitysizeandlocation/datasets/employeesworkinginnighttimeindustriesuk.')
+    st.caption(
+        'Night-time workers are identified through the Labour Force Survey and are people who "usually" work during '
+        'the evening and/or during the night (irrespective of whether they also work during the day).\n'
+        'Data sources: https://www.ons.gov.uk/businessindustryandtrade/business/activitysizeandlocation/datasets/employeesworkinginnighttimeindustriesuk.'
+    )
 
 st.divider()
+
 
 def get_city_df(data: pd.DataFrame, region_name: str, isin: list) -> pd.DataFrame:
     city_data = data.copy()
@@ -233,4 +239,3 @@ with tab1:
     st.plotly_chart(line_fig_1, use_container_width=True)
 with tab2:
     st.plotly_chart(line_fig_2, use_container_width=True)
-
