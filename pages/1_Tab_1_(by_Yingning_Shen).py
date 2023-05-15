@@ -21,6 +21,7 @@ region_lat_lon = pd.read_csv('https://raw.githubusercontent.com/Yingning7/CASA00
 left, right = st.columns([1, 2])
 with left:
     selected_year = st.select_slider('Year', tuple(sorted(data['year'].unique().tolist())))
+    locate = st.selectbox('Locate', ['Whole UK'] + sorted(region_lat_lon['region'].unique().tolist()))
     selected_group = st.selectbox('Grouper', ['All', 'Primary Group', 'Secondary Group'])
     if selected_group == 'Primary Group':
         selected_type = st.selectbox('Primary Type', sorted(data['primary_type'].unique().tolist()))
@@ -28,7 +29,16 @@ with left:
         selected_type = st.selectbox('Secondary Type', sorted(data['secondary_type'].unique().tolist()))
     elif selected_group == 'All':
         selected_type = 'All'
-    locate = st.selectbox('Locate', ['Whole UK'] + sorted(region_lat_lon['region'].unique().tolist()))
+
+    st.markdown('*Grouper:  \n'
+                '- **All**: Numbers of all night-time workers in a selected region and year.  \n'
+                "- **Primary Group**: Include two generalised industry groupings of night-time cultural and leisure activities and "
+                'health and personal social services.  \n'
+                '- **Secondary Group**: Include four more specific industry groupings of Night-time cultural and leisure activities, '
+                'Activities which support night-time cultural and leisure activities, 24-hour health and personal social services and '
+                'activities which support wider social and economic activities.  ')
+
+
 
 map_data = data.copy()
 map_data = map_data.loc[data['year'] == selected_year]
@@ -61,17 +71,18 @@ map_fig = px.scatter_mapbox(
     hover_name='region',
     size_max=(map_data_with_lat_lon['num_employees'].max()) / 6000,
     zoom=fig_zoom,
-    height=700,
+    height=600,
     center=fig_centre,
     color_discrete_map={
-        'Culture & Leisure (native)': 'red',
-        'Culture & Leisure (support)': 'green',
-        'Health & Personal Social Services (native)': 'blue',
-        'Health & Personal Social Services (support)': 'purple',
-        'Culture & Leisure': 'red',
-        'Health & Personal Social Services': 'blue',
-        'All': 'orange'
-    }
+        'Culture & Leisure (native)': '#DC143C',
+        'Culture & Leisure (support)': '#FF7F50',
+        'Health & Personal Social Services (native)': '#6495ED',
+        'Health & Personal Social Services (support)': '#9370DB',
+        'Culture & Leisure': '#DB7093',
+        'Health & Personal Social Services': '#6A5ACD',
+        'All': '#FFF8DC'
+    },
+    labels={'colour_type':'Grouping','num_employees':'Number of employees'}
 )
 map_fig.update_layout(
     mapbox_style='dark',
@@ -87,7 +98,11 @@ map_fig.update_layout(
 
 with right:
     st.plotly_chart(map_fig, use_container_width=True)
+    st.caption( 'Night-time workers are identified through the Labour Force Survey and are people who "usually" work during '
+                'the evening and/or during the night (irrespective of whether they also work during the day).  \n'
+                'Data sources: https://www.ons.gov.uk/businessindustryandtrade/business/activitysizeandlocation/datasets/employeesworkinginnighttimeindustriesuk.')
 
+st.divider()
 
 def get_city_df(data: pd.DataFrame, region_name: str, isin: list) -> pd.DataFrame:
     city_data = data.copy()
@@ -159,7 +174,12 @@ city_config = {
 
 line_data = pd.concat([get_city_df(data, region_name, isin) for region_name, isin in city_config.items()], ignore_index=True)
 
-line_fig_1 = px.line(line_data, x='year', y='num_employees_rate_of_change', color='region', markers=True)
+line_fig_1 = px.line(line_data,
+                     x='year',
+                     y='num_employees_rate_of_change',
+                     color='region',
+                     markers=True,
+                     labels={'region':'Region', 'num_employees_rate_of_change':'Changing Rate','year':'Year'})
 line_fig_1.update_layout(
     legend={
         'orientation': 'h',
@@ -169,7 +189,12 @@ line_fig_1.update_layout(
         'x': 1
     }
 )
-line_fig_2 = px.line(line_data, x='year', y='num_employees_ratio', color='region', markers=True)
+line_fig_2 = px.line(line_data,
+                     x='year',
+                     y='num_employees_ratio',
+                     color='region',
+                     markers=True,
+                     labels={'region':'Region', 'num_employees_ratio':'Ratio','year':'Year'})
 line_fig_2.update_layout(
     legend={
         'orientation': 'h',
@@ -179,8 +204,16 @@ line_fig_2.update_layout(
         'x': 1
     }
 )
+
 bar_data = data.groupby(['year', 'secondary_type'])['num_employees'].sum().reset_index()
-bar_fig = px.bar(bar_data,x='year', y='num_employees', color='secondary_type')
+all_data = data.groupby('year')['num_employees'].sum().reset_index()
+all_data['secondary_type'] = 'Sum of all 4 industry groupings'
+bar_data_1 = pd.concat([bar_data,all_data], ignore_index=True)
+bar_fig = px.bar(bar_data_1,
+                 x='year',
+                 y='num_employees',
+                 color='secondary_type',
+                 labels={'secondary_type':'Industry Groupings','year':'Year','num_employees':'Number of Employees'})
 bar_fig.update_layout(
     legend={
         'orientation': 'h',
@@ -191,13 +224,13 @@ bar_fig.update_layout(
     }
 )
 
-left, right = st.columns(2)
-with left:
-    st.plotly_chart(bar_fig, use_container_width=True)
-with right:
-    tab1, tab2 = st.tabs(["Number of employees rate of change", "Number of employees ratio"])
-    with tab1:
-        st.plotly_chart(line_fig_1, use_container_width=True)
-    with tab2:
-        st.plotly_chart(line_fig_2, use_container_width=True)
+st.subheader('Total Number of Employees by Different Industry Groupings (2012-2022)')
+st.plotly_chart(bar_fig, use_container_width=True)
+
+st.subheader('Changing Rate and Ratio for Number of Employees (2012-2022)')
+tab1, tab2 = st.tabs(["Changing Rate", "Ratio"])
+with tab1:
+    st.plotly_chart(line_fig_1, use_container_width=True)
+with tab2:
+    st.plotly_chart(line_fig_2, use_container_width=True)
 
