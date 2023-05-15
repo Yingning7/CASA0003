@@ -216,7 +216,8 @@ bar_fig = px.bar(bar_data,
                  x='year',
                  y='num_employees',
                  color='secondary_type',
-                 labels={'secondary_type':'Industry Groupings','year':'Year','num_employees':'Number of Employees'})
+                 labels={'secondary_type':'Industry Groupings','year':'Year','num_employees':'Number of Employees'},
+                 text_auto=True)
 bar_fig.update_layout(
     legend={
         'orientation': 'h',
