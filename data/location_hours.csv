@@ -1,0 +1,2662 @@
+number,category,name,lon,lat,open,close
+0,restaurants,La Porchetta Pollo Bar,-0.1303,51.51363,720,0
+1,restaurants,Fuckoffee,-0.08125,51.49938,420,1140
+2,restaurants,Bodean's,-0.13711,51.46208,720,1380
+3,restaurants,Royal China,-0.15525,51.51783,720,1380
+4,restaurants,Princi,-0.13439,51.51386,480,0
+5,restaurants,Sake No Hana,-0.13923,51.50668,1080,1380
+6,restaurants,Pizza Metro Pizza,-0.16619,51.46092,1080,1380
+7,restaurants,Poppies,-0.1439,51.54097,660,0
+8,restaurants,Spuntino,-0.13381,51.51221,720,0
+9,restaurants,Dumplings' Legend,-0.1316,51.51182,690,1410
+10,restaurants,Wahaca,-0.13503,51.51855,720,1380
+11,restaurants,Ye Olde Cheshire Cheese,-0.10732,51.51434,660,1380
+12,restaurants,Portobello Ristorante Pizzeria,-0.19799,51.51016,1080,1380
+13,restaurants,La Fromagerie,-0.15221,51.51986,630,1170
+14,restaurants,Abu Zaad,-0.16448,51.51635,540,1380
+15,restaurants,Arepa & Co,-0.08021,51.53732,600,1350
+16,restaurants,Taberna do Mercado,-0.0747,51.51974,720,1320
+17,restaurants,Friends of Ours,-0.0837,51.52912,480,1020
+18,restaurants,Boqueria,-0.12714,51.45987,1020,1380
+19,restaurants,Satay House,-0.16952,51.51763,1080,1380
+20,restaurants,Hawksmoor Seven Dials,-0.12567,51.5135,1020,1350
+21,restaurants,Cinnamon Kitchen,-0.07852,51.51693,1080,1380
+22,restaurants,Beach Blanket Babylon,-0.19899,51.51432,720,0
+23,restaurants,Bosphorus Kebabs,-0.17623,51.49296,660,1410
+24,restaurants,Dans Le Noir,-0.1062,51.52281,1110,0
+25,restaurants,Riverford at The Duke of Cambridge,-0.09871,51.53459,720,1410
+26,restaurants,Granger & Co,-0.1978,51.51465,420,1380
+27,restaurants,Mem & Laz,-0.10323,51.53769,720,1410
+28,restaurants,Bageriet,-0.12618,51.51192,540,1140
+29,restaurants,Kaffeine,-0.13717,51.51687,450,1080
+30,restaurants,MerazCafe Karahi House,-0.07103,51.52019,660,1380
+31,restaurants,Seashell of Lisson Grove,-0.16598,51.5228,720,1350
+32,restaurants,Zayna,-0.15839,51.51495,1020,1350
+33,restaurants,Tea and Tattle,-0.12682,51.51787,540,1110
+34,restaurants,Wild Food Cafe,-0.12638,51.51457,540,1110
+35,restaurants,Granger & Co,-0.1257,51.53258,420,1380
+36,restaurants,Carluccio's,-0.12575,51.51159,480,1410
+37,restaurants,Mildreds,-0.14459,51.54048,720,1380
+38,restaurants,Honest Burgers,-0.07878,51.51768,690,1380
+39,restaurants,Trader Vic's,-0.15057,51.50546,1020,60
+40,restaurants,Lundenwic,-0.11862,51.5129,420,1080
+41,restaurants,Wagamama,-0.07934,51.50865,720,1260
+42,restaurants,Saporitalia,-0.2057,51.51709,720,1380
+43,restaurants,Admiral Codrington,-0.16592,51.49381,690,1380
+44,restaurants,Royal China,-0.18724,51.5105,720,1380
+45,restaurants,The Roastery Cafe,-0.14781,51.46677,450,930
+46,restaurants,Hoppers,-0.13175,51.51358,1050,1350
+47,restaurants,The Cut,-0.10739,51.50306,480,0
+48,restaurants,Karpo,-0.12383,51.52988,420,1350
+49,restaurants,Cafe 338,-0.06321,51.52651,360,1050
+50,restaurants,Byron,-0.10674,51.50303,690,1410
+51,restaurants,Pilpel,-0.07728,51.51896,600,1260
+52,restaurants,Pachamama,-0.15153,51.51718,1080,0
+53,restaurants,J+A Café,-0.10102,51.52303,480,1080
+54,restaurants,Le Peche Mignon,-0.10791,51.55005,450,1020
+55,restaurants,Wright Brothers Borough Market,-0.09156,51.50549,720,1320
+56,restaurants,Patara,-0.13076,51.5142,1050,1350
+57,restaurants,Homeslice Neal's Yard,-0.12643,51.51444,720,1380
+58,restaurants,Dragon Castle,-0.09857,51.4921,720,1380
+59,restaurants,Flesh & Buns,-0.12624,51.51388,1020,1320
+60,restaurants,Old Fountain,-0.0891,51.52707,660,1380
+61,restaurants,Kettner's,-0.13041,51.51318,720,0
+62,restaurants,The Pig and Butcher,-0.10683,51.53744,1020,1380
+63,restaurants,Mimos Cafe,-0.17401,51.5151,420,1320
+64,restaurants,Rabieng,-0.10279,51.53983,1050,1380
+65,restaurants,Yashin Sushi,-0.19562,51.50076,1080,1380
+66,restaurants,The Gallery,-0.19026,51.54653,720,0
+67,restaurants,Gold Mine,-0.18749,51.5133,720,1380
+68,restaurants,Bistrotheque,-0.05608,51.53412,1110,1350
+69,restaurants,Pierino Pizza Pasta,-0.17408,51.49511,720,1410
+70,restaurants,Arancina,-0.1975,51.50985,450,1350
+71,restaurants,Yoshino,-0.13567,51.50958,720,1320
+72,restaurants,Sagar,-0.12065,51.51256,720,1380
+73,restaurants,Naru,-0.12595,51.51677,1050,1350
+74,restaurants,Savoy Grill,-0.12073,51.51022,720,0
+75,restaurants,Champor-Champor,-0.0854,51.50242,1080,1320
+76,restaurants,Mango Indian,-0.09296,51.50496,720,1380
+77,restaurants,Ichiryu,-0.12773,51.51673,720,1410
+78,restaurants,Hot Stuff,-0.12642,51.47966,720,1410
+79,restaurants,German Gymnasium,-0.12542,51.5324,480,0
+80,restaurants,Bombay Brasserie,-0.18258,51.49394,1110,1410
+81,restaurants,Albion,-0.07624,51.52414,480,1380
+82,restaurants,Daylesford Organic,-0.1534,51.49065,480,1200
+83,restaurants,Cinnamon Coffee Shop,-0.05716,51.50483,420,1080
+84,restaurants,Savoir Faire,-0.12601,51.51719,720,1350
+85,restaurants,Pizza Union,-0.07736,51.51753,660,0
+86,restaurants,Museum Tavern,-0.12597,51.51821,660,1410
+87,restaurants,Four Corners Cafe,-0.11354,51.50037,450,1110
+88,restaurants,Antepliler,-0.09863,51.57806,720,1410
+89,restaurants,Bugis Street Brasserie,-0.18393,51.49366,720,1350
+90,restaurants,Thali,-0.18348,51.49093,1110,1410
+91,restaurants,The Draft House,-0.07695,51.50287,720,1380
+92,restaurants,J Sheekey,-0.12762,51.5109,720,0
+93,restaurants,Ladurée,-0.12313,51.51184,480,1380
+94,restaurants,Sen Viet,-0.11595,51.52909,1020,1380
+95,restaurants,Kêu!,-0.08162,51.52661,480,1200
+96,restaurants,Byron,-0.13376,51.51278,690,1410
+97,restaurants,CASK Pub and Kitchen,-0.13754,51.49135,720,1380
+98,restaurants,Little Bay West Hampstead,-0.19035,51.53879,720,0
+99,restaurants,Bonnington Café,-0.12003,51.48462,1110,1350
+100,restaurants,Grumbles,-0.13889,51.49114,1080,1380
+101,restaurants,Busaba Eathai,-0.15119,51.51473,720,1380
+102,restaurants,Maggie Jones's,-0.19099,51.50286,1080,1380
+103,restaurants,Ethos,-0.1391,51.51638,480,1320
+104,restaurants,The Jolly Butchers,-0.07335,51.56237,960,0
+105,restaurants,Lowlander,-0.12241,51.51462,600,1320
+106,restaurants,Ozone Coffee,-0.08667,51.52468,450,1260
+107,restaurants,Villandry,-0.14314,51.52146,450,1350
+108,restaurants,Haché,-0.08048,51.52665,720,1350
+109,restaurants,Wahaca's Mexican Street Kitchen,-0.11639,51.50702,720,1380
+110,restaurants,The Rainforest Cafe,-0.13363,51.51085,720,1320
+111,restaurants,Chick n Sours,-0.07598,51.54153,720,1320
+112,restaurants,Harrods' Tea Room,-0.16359,51.49923,600,1200
+113,restaurants,Silk Road,-0.08961,51.47397,1020,1350
+114,restaurants,The Castle,-0.207,51.50692,720,1380
+115,restaurants,Alounak,-0.19102,51.51562,720,0
+116,restaurants,Chiltern Firehouse,-0.15485,51.51871,1050,1350
+117,restaurants,Pickle & Rye,-0.26669,51.4683,510,900
+118,restaurants,C & R Cafe & Restaurant,-0.13253,51.51117,720,1380
+119,restaurants,Four Seasons,-0.18735,51.51257,720,1410
+120,restaurants,Ffiona's Restaurant,-0.19278,51.50406,720,1410
+121,restaurants,Best Mangal,-0.20741,51.49123,720,1410
+122,restaurants,Big Easy,-0.12311,51.51067,720,1410
+123,restaurants,The Ivy,-0.12801,51.51281,720,1410
+124,restaurants,Selale,-0.09961,51.58314,480,120
+125,restaurants,Zuma,-0.16315,51.50095,1080,1320
+126,restaurants,Asakusa,-0.13828,51.53392,1080,1410
+127,restaurants,Le Mercury,-0.10272,51.53976,720,60
+128,restaurants,Ganapati,-0.07301,51.46965,720,60
+129,restaurants,Rocca,-0.17656,51.49288,690,1410
+130,restaurants,The Colonel Fawcett,-0.13601,51.5418,720,0
+131,restaurants,Wahaca,-0.12454,51.51034,720,1380
+132,restaurants,Brass Rail Salt Beef Bar,-0.15376,51.51452,570,1260
+133,restaurants,CUT at 45 Park Lane,-0.15161,51.50639,1080,1380
+134,restaurants,Apero Restaurant and Bar,-0.17535,51.49437,390,1350
+135,restaurants,Chai Ki,-0.01786,51.50612,1050,1380
+136,restaurants,St. Moritz Restaurant,-0.13504,51.51453,1080,1410
+137,restaurants,Wong Kei Restaurant,-0.13242,51.51154,720,1410
+138,restaurants,Wafflemeister,-0.1487,51.51443,600,0
+139,restaurants,Nobu Berkeley St,-0.14345,51.50849,720,60
+140,restaurants,Burger and Lobster,-0.09448,51.51367,720,1350
+141,restaurants,The Dairy,-0.13959,51.46187,720,1350
+142,restaurants,Daddy Donkey Mexican Grill,-0.10944,51.52061,660,900
+143,restaurants,The Wilmington,-0.11009,51.52603,660,1380
+144,restaurants,Burger and Shake,-0.12542,51.52501,720,1350
+145,restaurants,ICCo,-0.13605,51.51955,420,1380
+146,restaurants,Hoxton Grill,-0.08273,51.52548,420,0
+147,restaurants,Mike's Café,-0.20565,51.51586,600,1140
+148,restaurants,The Warrington Hotel,-0.18308,51.52726,660,1380
+149,restaurants,Efes,-0.05848,51.51466,600,0
+150,restaurants,Sushi Surprise,-0.08106,51.52337,1020,1260
+151,restaurants,Star Kebab House,-0.19469,51.49326,690,180
+152,restaurants,The English Restaurant,-0.0766,51.51896,480,1380
+153,restaurants,Osteria Basilico,-0.20589,51.51536,1110,1410
+154,restaurants,Wahaca,-0.13377,51.51333,720,1380
+155,restaurants,Wagamama,-0.14195,51.49678,690,1320
+156,restaurants,Eat Tokyo,-0.13033,51.51382,720,1410
+157,restaurants,Masala Zone Soho,-0.13767,51.51342,720,1380
+158,restaurants,The Anchor and Hope,-0.10659,51.50347,1080,1350
+159,restaurants,Greedy Cow Burgers & Steaks,-0.03456,51.52539,720,1350
+160,restaurants,The Veggie Table,-0.09009,51.50509,720,1350
+161,restaurants,Bibimbap,-0.131,51.51451,1080,1380
+162,restaurants,L'Atelier de Joël Robuchon,-0.12844,51.51299,1050,1350
+163,restaurants,Momo,-0.14033,51.51111,1110,1380
+164,restaurants,NOPI,-0.13852,51.51162,1050,1350
+165,restaurants,Electricity Showrooms,-0.0803,51.52747,720,0
+166,restaurants,Mari Vanna,-0.16239,51.50181,540,60
+167,restaurants,Kua 'Aina,-0.13915,51.51366,600,1320
+168,restaurants,Good Earth,-0.16842,51.49685,720,1380
+169,restaurants,The Drunken Monkey,-0.07819,51.52267,720,0
+170,restaurants,Ravi Shankar,-0.13666,51.52708,720,1380
+171,restaurants,Hi Sushi Salsa,-0.14677,51.54001,720,1350
+172,restaurants,Chi Noodle,-0.10537,51.51351,1020,1350
+173,restaurants,Gaucho,-0.17807,51.55742,720,1380
+174,restaurants,Caravan Kings Cross,-0.12537,51.53578,480,1350
+175,restaurants,Yoobi,-0.136,51.5129,690,1260
+176,restaurants,Petek,-0.1096,51.56831,720,1380
+177,restaurants,Ceviche Soho,-0.13149,51.51367,720,1410
+178,restaurants,Rossopomodoro Covent Garden,-0.12727,51.51301,720,1380
+179,restaurants,Monkey & Me,-0.15938,51.51971,1080,1380
+180,restaurants,Caravan,-0.11012,51.52547,480,1350
+181,restaurants,Nobu,-0.15004,51.50505,1080,1320
+182,restaurants,The English Rose Cafe and Tea Shop,-0.14445,51.49806,420,1080
+183,restaurants,Rasa N16,-0.07659,51.56198,1080,1350
+184,restaurants,Pearl Liang,-0.18119,51.51926,720,1380
+185,restaurants,Waxy O'Connor's,-0.13226,51.51073,720,1380
+186,restaurants,Zafferano,-0.15774,51.4991,720,1380
+187,restaurants,Natural Kitchen,-0.15228,51.52097,480,1200
+188,restaurants,Garlic & Shots,-0.13153,51.51385,1020,0
+189,restaurants,Fishworks,-0.15201,51.52016,720,1350
+190,restaurants,Salt 'n Pepper,-0.13008,51.50941,720,1380
+191,restaurants,Malabar Junction,-0.12922,51.51757,1080,1380
+192,restaurants,Pizza Union,-0.11983,51.53105,660,0
+193,restaurants,Social Eating House,-0.13639,51.51367,1080,1350
+194,restaurants,Wagamama,-0.11748,51.50585,660,1380
+195,restaurants,Giraffe,-0.1422,51.49391,480,1380
+196,restaurants,Il Blandford's,-0.15575,51.52032,480,1380
+197,restaurants,Pizzeria Pappagone,-0.11266,51.56941,1080,0
+198,restaurants,Pret A Manger,-0.14946,51.51421,450,1260
+199,restaurants,Clos Maggiore,-0.1247,51.51166,1020,1380
+200,restaurants,The Palomar Restaurant,-0.13272,51.51116,1050,1410
+201,restaurants,Sông Quê,-0.07683,51.53179,1050,1380
+202,restaurants,Hawksmoor Spitalfields,-0.07566,51.52115,1020,1350
+203,restaurants,Oblix At The Shard,-0.08699,51.50525,1080,1380
+204,restaurants,La Trompette,-0.25604,51.49187,1110,1350
+205,restaurants,Al Arez,-0.16529,51.49894,600,1410
+206,restaurants,Maroush Bakehouse,-0.19448,51.49332,420,0
+207,restaurants,Beast,-0.14689,51.51529,420,0
+208,restaurants,Andover Arms,-0.23269,51.49688,720,1410
+209,restaurants,The 10 Cases,-0.12433,51.51454,1020,1380
+210,restaurants,Portland Café,-0.14256,51.51998,360,1080
+211,restaurants,Tibits,-0.13962,51.5113,540,1350
+212,restaurants,Galvin La Chapelle,-0.07829,51.5204,1080,1290
+213,restaurants,Goodman City,-0.09053,51.51431,720,1350
+214,restaurants,The Shed,-0.19342,51.50874,1080,1380
+215,restaurants,Brasserie Zédel,-0.13558,51.5106,690,0
+216,restaurants,Oliveto,-0.15092,51.4935,1140,1380
+217,restaurants,Burger & Lobster,-0.13223,51.51355,720,1350
+218,restaurants,Masala Zone ,-0.12289,51.51336,720,1380
+219,restaurants,Delhi Grill,-0.10926,51.53355,1080,1350
+220,restaurants,Pho,-0.13505,51.51458,720,1380
+221,restaurants,Mala,-0.07028,51.50645,1080,1380
+222,restaurants,Casa Tua,-0.12359,51.52764,540,1350
+223,restaurants,Benito's Hat,-0.13644,51.51913,690,1320
+224,restaurants,Koya Bar,-0.13176,51.51363,510,1350
+225,restaurants,Caxton Grill,-0.13399,51.49879,690,1380
+226,restaurants,The Cinnamon Club,-0.12963,51.49738,1080,1350
+227,restaurants,Pho,-0.10161,51.52185,1080,1320
+228,restaurants,Manna,-0.15761,51.54191,1080,1320
+229,restaurants,Masala Zone - Bayswater,-0.1876,51.51589,1050,1380
+230,restaurants,In Parma by Food Roots,-0.13584,51.51888,1080,1410
+231,restaurants,Bodean's,-0.07912,51.50975,540,1380
+232,restaurants,Le Relais de Venise,-0.08623,51.51471,1080,1320
+233,restaurants,Cafe Pacifico,-0.12519,51.51323,960,1365
+234,restaurants,Pollen Street Social,-0.14229,51.51345,1080,1350
+235,restaurants,Frontline Restaurant,-0.17248,51.51698,1050,1380
+236,restaurants,Diwana Bhel Poori House,-0.13666,51.52708,720,1410
+237,restaurants,Bodean's,-0.13676,51.51448,720,1380
+238,restaurants,Simpson's in the Strand,-0.12073,51.51056,720,1380
+239,restaurants,Laughing Gravy,-0.10439,51.50113,660,1380
+240,restaurants,Fera at Claridge's,-0.14764,51.51243,720,1320
+241,restaurants,Pizza Express,-0.13331,51.51511,660,0
+242,restaurants,The Rum Kitchen,-0.13873,51.51234,660,0
+243,restaurants,Hutong,-0.0864,51.50427,1080,1350
+244,restaurants,Sömine,-0.07541,51.5502,360,360
+245,restaurants,Fortnum and Mason: Diamond Jubilee Tea Salon,-0.13828,51.50871,720,1260
+246,restaurants,Rabot 1745,-0.08996,51.50538,480,1080
+247,restaurants,Talli Joe,-0.12821,51.51378,720,1410
+248,restaurants,Haandi,-0.1661,51.49895,750,1380
+249,restaurants,The Abingdon,-0.19608,51.49763,750,1350
+250,restaurants,Benares Restaurant & Bar,-0.14496,51.50991,1050,1380
+251,restaurants,Toff's of Muswell Hill,-0.14462,51.58946,690,1380
+252,restaurants,Chotto Matte,-0.13147,51.51372,720,0
+253,restaurants,Cecconi's,-0.14088,51.50994,420,1410
+254,restaurants,Benito's Hat,-0.12583,51.51118,690,1320
+255,restaurants,José,-0.08195,51.5005,720,1350
+256,restaurants,Earl of Essex,-0.09969,51.5339,720,1410
+257,restaurants,Milk Bar,-0.13127,51.51416,480,1050
+258,restaurants,Belgo Centraal,-0.12565,51.51378,720,1380
+259,restaurants,The Gallery Café,-0.05445,51.52985,480,1260
+260,restaurants,Mother Clucker Van,-0.07324,51.52106,720,960
+261,restaurants,French House,-0.13176,51.51266,720,1380
+262,restaurants,La Crêperie de Hampstead,-0.17692,51.55568,780,1380
+263,restaurants,Petrus,-0.15652,51.49937,720,1350
+264,restaurants,Hard Rock Cafe London,-0.149,51.50375,690,30
+265,restaurants,Piebury Corner,-0.11039,51.551,690,30
+266,restaurants,All Star Lanes,-0.07184,51.52179,1020,1410
+267,restaurants,Pham Sushi,-0.0933,51.5233,1020,1320
+268,restaurants,Sagar,-0.23226,51.4925,720,1350
+269,restaurants,The Windsor Castle,-0.1986,51.50579,720,1380
+270,restaurants,Ippudo London,-0.12769,51.51598,1020,1350
+271,restaurants,Quilon Restaurant,-0.1375,51.49872,1080,1350
+272,restaurants,Le Sacre Coeur,-0.10403,51.53768,690,1380
+273,restaurants,Vanilla Black,-0.11102,51.51718,1080,1320
+274,restaurants,The Lanesborough,-0.15272,51.50244,960,1080
+275,restaurants,The Princess of Shoreditch,-0.08365,51.52542,720,1380
+276,restaurants,Murano,-0.14728,51.50703,1110,1380
+277,restaurants,Mother Mash,-0.13941,51.51294,510,1320
+278,restaurants,Rasa Sayang,-0.13154,51.51199,720,0
+279,restaurants,Daquise,-0.17362,51.49432,720,1380
+280,restaurants,Angelus Restaurant,-0.17488,51.51291,600,1380
+281,restaurants,Asia de Cuba Restaurant,-0.12658,51.5105,1020,1380
+282,restaurants,Haché,-0.18022,51.48619,720,1350
+283,restaurants,TRADE - Commercial Street,-0.0738,51.51742,450,1020
+284,restaurants,Burger & Lobster,-0.15982,51.50159,720,1350
+285,restaurants,Gallipoli Bistro & Cafe,-0.10296,51.53771,660,1380
+286,restaurants,Ottolenghi,-0.07714,51.51814,480,1350
+287,restaurants,Franco Manca,-0.25367,51.49295,540,1380
+288,restaurants,Yipin China Restaurant,-0.10663,51.53728,720,1380
+289,restaurants,The Breakfast Club,-0.10371,51.5351,480,1320
+290,restaurants,The Bird In Hand,-0.21544,51.49976,720,1380
+291,restaurants,Leon,-0.1222,51.51005,420,1320
+292,restaurants,Ittenbari,-0.13724,51.51076,720,30
+293,restaurants,L'Eto Caffe,-0.13479,51.5143,540,1260
+294,restaurants,Chipotle Mexican Grill,-0.10366,51.53551,540,1260
+295,restaurants,Kikuchi,-0.13173,51.51692,1080,1350
+296,restaurants,Laughing Halibut,-0.13378,51.49665,690,1200
+297,restaurants,Applebee's Grill + Bar,-0.0909,51.50509,720,1380
+298,restaurants,The Phoenix,-0.1424,51.4988,660,1380
+299,restaurants,Burger & Lobster,-0.1014,51.52112,720,1350
+300,restaurants,Christopher's,-0.11978,51.51192,1020,0
+301,restaurants,Egg Break,-0.19802,51.50832,480,1320
+302,restaurants,The Queen's Arms,-0.1808,51.49925,720,1380
+303,restaurants,Cafe Mama Pho,-0.04059,51.48898,1020,1350
+304,restaurants,Kati Roll Company,-0.13722,51.51522,660,1410
+305,restaurants,SUSHISAMBA London,-0.08095,51.51618,690,1410
+306,restaurants,Swan,-0.09709,51.50796,480,1410
+307,restaurants,Chilango,-0.10532,51.53437,690,1320
+308,restaurants,Lantana,-0.08749,51.52427,1080,1290
+309,restaurants,Eat Tokyo,-0.19773,51.50807,1080,1410
+310,restaurants,Mazi,-0.19776,51.50812,1110,1350
+311,restaurants,The Black Penny,-0.12168,51.51526,480,1080
+312,restaurants,Amaya,-0.15722,51.49916,1080,1365
+313,restaurants,The Jones Family Project,-0.08292,51.52582,660,0
+314,restaurants,Draughts,-0.0758,51.53701,660,0
+315,restaurants,Jamie's Italian - Covent Garden,-0.12711,51.51253,690,1350
+316,restaurants,Padella,-0.08995,51.50515,720,1320
+317,restaurants,Ottolenghi,-0.19942,51.51489,480,1200
+318,restaurants,Soho Joe,-0.13279,51.51422,720,1380
+319,restaurants,The Edinboro Castle,-0.14483,51.53606,720,1380
+320,restaurants,Barbecoa St Paul's,-0.09533,51.51335,690,1380
+321,restaurants,The Draft House Westbridge,-0.17012,51.47831,720,1380
+322,restaurants,Jumbo Eats,-0.13553,51.51143,450,1200
+323,restaurants,Golden Union Fish Bar,-0.13769,51.51534,690,1320
+324,restaurants,Barrafina,-0.12193,51.5143,1020,1380
+325,restaurants,H T Harris,-0.14072,51.51835,420,1080
+326,restaurants,NoorJahan II,-0.17151,51.5135,1080,1410
+327,restaurants,The Peasant,-0.10386,51.52577,720,1380
+328,restaurants,The Alchemist,-0.07935,51.51505,480,60
+329,restaurants,26 Grains,-0.12653,51.51449,480,1290
+330,restaurants,49 Cafe,-0.12516,51.52496,450,1140
+331,restaurants,Phoenix Palace,-0.15898,51.52245,720,1410
+332,restaurants,Le Gavroche,-0.15507,51.5113,1110,1380
+333,restaurants,Moro Restaurant,-0.10907,51.52586,720,1350
+334,restaurants,Tamarind,-0.14714,51.50708,1050,1365
+335,restaurants,Bravas Tapas,-0.07124,51.50744,720,1350
+336,restaurants,Roast,-0.09101,51.50561,420,1350
+337,restaurants,Darwin Brasserie,-0.08358,51.51129,420,1380
+338,restaurants,Boundary,-0.07635,51.5244,720,1350
+339,restaurants,Ed's Easy Diner,-0.13005,51.51356,720,1410
+340,restaurants,Goddards at Greenwich,-0.00886,51.48184,600,1140
+341,restaurants,DF/Mexico,-0.07315,51.52039,720,1350
+342,restaurants,Lupita,-0.1242,51.50841,720,1380
+343,restaurants,Barshu,-0.13086,51.51284,720,1380
+344,restaurants,Great Queen Street,-0.12171,51.51523,1050,1350
+345,restaurants,Hunan,-0.15265,51.49049,1110,1380
+346,restaurants,Rasa,-0.14595,51.51432,1080,1350
+347,restaurants,Bar Italia,-0.13124,51.51343,420,300
+348,restaurants,The Red Fort,-0.13294,51.51407,1050,1410
+349,restaurants,Hawksmoor,-0.13616,51.50971,1020,1350
+350,restaurants,Crème de la Crêpe,-0.123,51.512,660,1140
+351,restaurants,Alforno Restaurant,-0.20212,51.41978,1080,1380
+352,restaurants,Pied à Terre,-0.13518,51.51909,1080,1380
+353,restaurants,Nando's,-0.18178,51.49349,690,1410
+354,restaurants,Jack's at the Junction,-0.16666,51.46402,420,1020
+355,restaurants,Ev Restaurant,-0.10622,51.5041,720,1410
+356,restaurants,The Cow,-0.19527,51.51924,720,1380
+357,restaurants,Hubbard & Bell,-0.1223,51.51713,420,120
+358,restaurants,Polo 24 Hour Bar,-0.08027,51.51782,360,360
+359,restaurants,Taste Of Siam,-0.13979,51.53562,720,1380
+360,restaurants,Taylor St Baristas,-0.08007,51.51746,420,1020
+361,restaurants,Il Posto,-0.14185,51.49568,1020,1380
+362,restaurants,Wild Honey,-0.14322,51.51241,720,1380
+363,restaurants,Free State Coffee,-0.12094,51.51828,420,1140
+364,restaurants,Reubens,-0.15662,51.51977,1050,1320
+365,restaurants,Balans Soho Society,-0.19523,51.49995,480,0
+366,restaurants,Ruby,-0.08139,51.52538,720,1080
+367,restaurants,Cây Tre,-0.13206,51.51328,720,1380
+368,restaurants,Kanada-Ya,-0.12759,51.51555,1020,1350
+369,restaurants,Locanda Locatelli,-0.15729,51.51537,1140,1380
+370,restaurants,The Gilbert Scott,-0.12617,51.52946,1050,1290
+371,restaurants,Macellaio RC,-0.17739,51.49269,1080,1380
+372,restaurants,The White Horse,-0.11966,51.45291,720,0
+373,restaurants,Camino,-0.12179,51.53129,720,0
+374,restaurants,The Gun,-0.00774,51.50178,660,0
+375,restaurants,Shaka Zulu,-0.14681,51.54157,720,120
+376,restaurants,St John Bar and Restaurant,-0.10149,51.52048,1080,0
+377,restaurants,Indian Veg Bhelpoori House,-0.11042,51.53326,690,0
+378,restaurants,Big Easy,-0.17442,51.4853,720,1380
+379,restaurants,Govinda's Restaurant,-0.13281,51.51588,720,1260
+380,restaurants,10 Greek Street,-0.13106,51.5145,720,1410
+381,restaurants,Skylon,-0.11761,51.50575,720,60
+382,restaurants,New London Cafe,-0.09838,51.54691,480,1080
+383,restaurants,Tortilla,-0.10645,51.53245,690,1320
+384,restaurants,Bánh Mì Bay,-0.1139,51.52153,600,1320
+385,restaurants,Attendant,-0.14074,51.51925,480,1080
+386,restaurants,Haché,-0.14405,51.53963,720,1350
+387,restaurants,Busaba Bangkok Thai,-0.13242,51.51956,720,1380
+388,restaurants,Tom's Kitchen,-0.16818,51.49043,720,870
+389,restaurants,Abeno Too,-0.128,51.51179,720,1380
+390,restaurants,Simurgh,-0.1266,51.51155,720,1380
+391,restaurants,Randall & Aubin,-0.13421,51.51237,720,1380
+392,restaurants,Caffe Vergnano 1882,-0.12842,51.51239,480,1200
+393,restaurants,Prix Fixe,-0.13217,51.51344,720,1380
+394,restaurants,The Troubadour,-0.1919,51.48882,510,840
+395,restaurants,Rosa's Spitalfields,-0.07382,51.52026,720,1350
+396,restaurants,Bella Italia,-0.1293,51.5107,540,1380
+397,restaurants,Chipotle Mexican Grill,-0.12714,51.51079,690,1320
+398,restaurants,Cah-Chi,-0.18732,51.44094,690,1320
+399,restaurants,Honest Burger,-0.14608,51.54156,690,1380
+400,restaurants,Khan's,-0.18964,51.51557,720,1425
+401,restaurants,Tayyabs,-0.06332,51.51722,720,1410
+402,restaurants,Roti Joupa,-0.13044,51.46504,720,1380
+403,restaurants,Dishoom,-0.12515,51.53632,480,1380
+404,restaurants,222 Veggie Vegan,-0.20325,51.48653,1050,1350
+405,restaurants,B Bar,-0.14377,51.49797,720,1380
+406,restaurants,Meat Mission,-0.08246,51.5273,720,0
+407,restaurants,Continental Stores,-0.12511,51.52577,480,1080
+408,restaurants,Roti Chai,-0.15571,51.51462,720,1350
+409,restaurants,Archipelago,-0.1388,51.52057,1080,1350
+410,restaurants,Gaucho,-0.13604,51.52003,720,1380
+411,restaurants,Banana Tree,-0.1663,51.46064,720,1380
+412,restaurants,Honey & Co,-0.14079,51.52383,480,1350
+413,restaurants,Som Saa,-0.07373,51.51732,1020,0
+414,restaurants,Assenheims 56,-0.0876,51.51643,390,900
+415,restaurants,La Fromagerie,-0.09801,51.55411,630,1140
+416,restaurants,Sunday,-0.11341,51.54264,630,1140
+417,restaurants,Isarn,-0.1027,51.53854,1080,1380
+418,restaurants,Bengal Restaurant,-0.18881,51.51839,1050,1410
+419,restaurants,Buen Ayre,-0.06149,51.53678,1080,1350
+420,restaurants,Shoreditch Grind,-0.08797,51.52584,420,1380
+421,restaurants,Seven Stars,-0.11361,51.51496,660,1380
+422,restaurants,Madison,-0.09613,51.51399,600,1380
+423,restaurants,Bailey's Fish and Chips,-0.20415,51.48037,720,1350
+424,restaurants,Dehesa,-0.13933,51.51278,1020,1380
+425,restaurants,Cafe Du Marche,-0.10072,51.52062,1080,1320
+426,restaurants,Nordic Bakery,-0.13674,51.51143,450,1200
+427,restaurants,Royal Oak,-0.06927,51.52952,1080,1380
+428,restaurants,Alchemy,-0.10264,51.51343,420,1020
+429,restaurants,Shoryu Ramen,-0.13381,51.50849,690,0
+430,restaurants,Greenberry Café,-0.15633,51.54219,540,900
+431,restaurants,La Petite Maison,-0.14624,51.51264,1080,1350
+432,restaurants,The Toucan,-0.13312,51.5151,720,1380
+433,restaurants,Franco Manca,-0.11336,51.46173,720,1020
+434,restaurants,Sri Suwoon,-0.14656,51.49166,1050,1380
+435,restaurants,Made in Italy,-0.17204,51.4861,720,1410
+436,restaurants,maze Grill Mayfair,-0.1513,51.5124,720,0
+437,restaurants,Thai Square,-0.13003,51.50745,1050,1410
+438,restaurants,La Pappardella,-0.1907,51.48914,720,0
+439,restaurants,Coq D'Argent,-0.09088,51.51326,1080,1320
+440,restaurants,Bubbledogs,-0.13656,51.52033,1050,1380
+441,restaurants,The Elk in the Woods,-0.1036,51.53524,540,1380
+442,restaurants,Souk Medina,-0.12658,51.51414,660,30
+443,restaurants,Fig & Olive,-0.10281,51.54024,540,1380
+444,restaurants,Hedone,-0.2676,51.49259,540,1380
+445,restaurants,Côte,-0.1203,51.51236,480,1380
+446,restaurants,Les Deux Salons,-0.12654,51.50961,720,1380
+447,restaurants,Chez Bruce,-0.16566,51.44604,1110,1320
+448,restaurants,Kensington Square Kitchen,-0.18935,51.50051,510,1050
+449,restaurants,Terry's Cafe,-0.09841,51.50069,420,840
+450,restaurants,A. Wong,-0.14067,51.49304,1050,1350
+451,restaurants,Akari,-0.09582,51.54045,1050,1350
+452,restaurants,Cantina Laredo,-0.12709,51.51272,720,1410
+453,restaurants,Frenchie Covent Garden,-0.12405,51.51076,1050,1350
+454,restaurants,The Book Club,-0.08159,51.52454,480,0
+455,restaurants,Franco Manca,-0.17701,51.49247,690,1380
+456,restaurants,Herman Ze German,-0.12397,51.5083,420,1380
+457,restaurants,The Coach & Horses,-0.13021,51.51327,480,1410
+458,restaurants,Beyond Bread Bakery,-0.13627,51.51896,510,1020
+459,restaurants,Siam Eatery,-0.12009,51.51202,690,1200
+460,restaurants,Belsize Kitchen,-0.17191,51.54895,480,900
+461,restaurants,Tokyo Diner,-0.1293,51.51183,720,0
+462,restaurants,Gaucho,-0.13795,51.50968,720,0
+463,restaurants,The George Inn,-0.09029,51.504,660,1380
+464,restaurants,Yalla Yalla,-0.13439,51.51243,540,1380
+465,restaurants,Tukdin,-0.17907,51.51349,720,1350
+466,restaurants,The Breakfast Club,-0.09114,51.50455,450,1380
+467,restaurants,Cambio De Tercio,-0.18362,51.49075,1140,1410
+468,restaurants,The Mayfair Chippy,-0.1534,51.51313,720,1320
+469,restaurants,The Lock Tavern,-0.14829,51.54293,720,0
+470,restaurants,Tonkotsu Bar & Ramen,-0.13232,51.51307,720,1350
+471,restaurants,The Swan,-0.17697,51.51166,600,1380
+472,restaurants,BunBunBun Vietnamese Food,-0.07683,51.53179,720,1380
+473,restaurants,Sartori Restaurant,-0.12811,51.51172,720,1380
+474,restaurants,The Ship,-0.18822,51.46375,660,1380
+475,restaurants,The Spice Of Life,-0.12975,51.51342,600,1380
+476,restaurants,Balthazar,-0.12122,51.51249,450,1410
+477,restaurants,Bea's of Bloomsbury,-0.09551,51.51339,450,1260
+478,restaurants,Heddon Street Kitchen,-0.1393,51.51073,450,720
+479,restaurants,Roti King,-0.13207,51.52915,1020,1320
+480,restaurants,Kensington Creperie,-0.17323,51.4948,510,1410
+481,restaurants,Ottolenghi,-0.10222,51.53975,480,1350
+482,restaurants,Orrery,-0.15114,51.52221,1110,1320
+483,restaurants,Fez Mangal,-0.20904,51.51648,720,1410
+484,restaurants,Zelman Meats - Soho,-0.13426,51.51415,1020,1350
+485,restaurants,Texture,-0.15657,51.51487,1020,1350
+486,restaurants,The Queens Arms,-0.13922,51.49258,720,1380
+487,restaurants,OXO Tower Brasserie,-0.10822,51.50836,720,1380
+488,restaurants,Byron,-0.10404,51.53514,690,1410
+489,restaurants,Seoul Bakery,-0.12957,51.51724,690,1410
+490,restaurants,Cubana,-0.11086,51.50152,720,0
+491,restaurants,Pix,-0.12639,51.51466,720,1350
+492,restaurants,Pompidou Cafe,-0.12155,51.53097,420,1200
+493,restaurants,Wahaca,-0.22194,51.50658,720,1380
+494,restaurants,Jinjuu,-0.13889,51.5124,720,0
+495,restaurants,Villa Bianca,-0.17777,51.55571,1110,1410
+496,restaurants,Soho Grind,-0.13838,51.51215,450,1410
+497,restaurants,Donna Margherita,-0.15956,51.46461,1080,1350
+498,restaurants,Pierre Victoire,-0.13347,51.51542,720,0
+499,restaurants,Mestizo,-0.13876,51.52752,720,1380
+500,restaurants,Hawksmoor,-0.09086,51.5155,1020,1350
+501,restaurants,Lima,-0.13454,51.5177,1050,1350
+502,restaurants,Scalini Restaurant,-0.1649,51.49586,720,180
+503,restaurants,My Old Dutch,-0.19097,51.50251,600,1290
+504,restaurants,Foxlow Clerkenwell,-0.10171,51.52121,720,1380
+505,restaurants,COYA,-0.14797,51.50447,720,60
+506,restaurants,Vapiano,-0.1339,51.51327,660,1380
+507,restaurants,Kahaila Cafe,-0.07158,51.52379,570,1140
+508,restaurants,Patty & Bun,-0.15079,51.51579,570,1140
+509,restaurants,Regency Café,-0.13222,51.49401,930,1140
+510,restaurants,Boisdale of Belgravia,-0.14814,51.49443,720,60
+511,restaurants,Four Seasons,-0.13104,51.51197,720,1410
+512,restaurants,The Eagle,-0.11022,51.52444,720,1380
+513,restaurants,Cafe Japan,-0.19509,51.57113,720,1380
+514,restaurants,Plateau Restaurant,-0.01631,51.50463,1080,1350
+515,restaurants,Jen Cafe,-0.12937,51.51186,660,1380
+516,restaurants,La Patagonia,-0.13934,51.53523,1080,1350
+517,restaurants,Launceston Place,-0.18513,51.49909,1080,1350
+518,restaurants,Powder Keg Diplomacy,-0.17645,51.46031,960,1380
+519,restaurants,The Fat Bear,-0.10138,51.51318,1080,1290
+520,restaurants,The Market Porter,-0.09109,51.50512,660,1380
+521,restaurants,Golden Dragon,-0.13159,51.51143,720,1380
+522,restaurants,The Porterhouse Brew Co,-0.12354,51.5104,720,1380
+523,restaurants,Berners Tavern,-0.13598,51.51675,420,0
+524,restaurants,Pizza East,-0.07624,51.52414,720,0
+525,restaurants,Stax Diner,-0.13875,51.51235,720,1320
+526,restaurants,Wok To Walk,-0.13349,51.5124,690,60
+527,restaurants,Bubblewrap Waffle,-0.13189,51.51127,750,1230
+528,restaurants,Portobello Garden Caffe',-0.20692,51.51802,600,1320
+529,restaurants,Farmacy,-0.19264,51.51545,1080,1320
+530,restaurants,Needoo Grill,-0.06257,51.51705,690,1410
+531,restaurants,Tombo,-0.17393,51.49494,690,1290
+532,restaurants,Gay Hussar,-0.13128,51.51487,1050,1380
+533,restaurants,Said,-0.13674,51.51322,660,1380
+534,restaurants,Abeno,-0.12516,51.51756,720,1320
+535,restaurants,Meat Liquor,-0.14859,51.5155,720,0
+536,restaurants,HotBox,-0.07332,51.51707,720,0
+537,restaurants,Herman Ze German,-0.1356,51.51917,690,1350
+538,restaurants,The Ivy Market Grill,-0.12274,51.51145,480,0
+539,restaurants,The Cookbook Cafe,-0.15043,51.50359,1080,1320
+540,restaurants,Masala Zone Earls Court,-0.19398,51.49308,1050,1380
+541,restaurants,The Thomas Cubitt,-0.1508,51.49374,720,1380
+542,restaurants,Alain Ducasse at The Dorchester,-0.15244,51.50757,720,1380
+543,restaurants,Little Georgia,-0.06545,51.53312,540,1080
+544,restaurants,Mint Leaf,-0.13115,51.50811,720,0
+545,restaurants,Cafe Spice Namaste,-0.07053,51.5116,1110,1350
+546,restaurants,Sushi Bar Atariya,-0.15031,51.51467,660,1200
+547,restaurants,The River Cafe,-0.22428,51.48403,1140,1380
+548,restaurants,The Dove,-0.06185,51.53634,720,1380
+549,restaurants,Señor Ceviche,-0.13875,51.51235,720,0
+550,restaurants,Maroush II,-0.16436,51.49724,720,240
+551,restaurants,Veeraswamy,-0.13796,51.50997,1050,1350
+552,restaurants,Duck & Waffle Local,-0.13275,51.50942,480,1380
+553,restaurants,Bob Bob Ricard,-0.13723,51.51231,1080,0
+554,restaurants,Farm Girl Cafe,-0.20077,51.51207,510,990
+555,restaurants,The Square,-0.14401,51.51068,1110,1320
+556,restaurants,Joy King Lau,-0.13113,51.5111,720,1410
+557,restaurants,Fernandez & Wells,-0.13643,51.51299,660,1380
+558,restaurants,Honest Burgers,-0.11782,51.53087,690,1380
+559,restaurants,Saigon Saigon,-0.24088,51.49334,1080,1320
+560,restaurants,The Gate,-0.22541,51.49026,360,1320
+561,restaurants,Café Kick,-0.10918,51.5261,720,1380
+562,restaurants,The Breakfast Club,-0.08113,51.52699,480,1380
+563,restaurants,Daylesford Organic,-0.20046,51.51453,480,1140
+564,restaurants,Builders Arms,-0.1883,51.49943,660,1380
+565,restaurants,The Orange,-0.15232,51.49057,480,1410
+566,restaurants,Restaurant Gordon Ramsay,-0.16197,51.48583,1110,1335
+567,restaurants,The Ledbury,-0.20011,51.51682,1110,1350
+568,restaurants,The Grazing Goat,-0.15824,51.51538,450,1410
+569,restaurants,The Blue Legume,-0.10317,51.54137,510,1380
+570,restaurants,Koshari Street,-0.12683,51.51094,690,1380
+571,restaurants,The Marquis Cornwallis,-0.12503,51.52457,600,1380
+572,restaurants,MASH,-0.13628,51.51105,720,60
+573,restaurants,Mildreds,-0.13648,51.51302,720,1380
+574,restaurants,Vapiano,-0.09764,51.50559,660,1380
+575,restaurants,PAUL Covent Garden Le Restaurant de Paul,-0.12478,51.51115,420,1320
+576,restaurants,Curious Yellow Kafé,-0.08381,51.52955,480,960
+577,restaurants,Mien Tay,-0.07708,51.53052,720,1380
+578,restaurants,Tapas Brindisa,-0.09053,51.50506,600,1410
+579,restaurants,The Old School Yard,-0.08805,51.50035,600,1410
+580,restaurants,Hook,-0.14539,51.53709,1050,1320
+581,restaurants,Sticks'n'Sushi,-0.12362,51.51105,720,1380
+582,restaurants,Shoryu Ramen,-0.13437,51.51075,690,0
+583,restaurants,Roka,-0.1354,51.51897,1050,1410
+584,restaurants,Bread Street Kitchen,-0.09473,51.51348,420,0
+585,restaurants,Original Lahore Kebab House,-0.06309,51.51461,690,60
+586,restaurants,Sandwich Shop,-0.18393,51.49802,330,1140
+587,restaurants,The Riding House Café,-0.14066,51.51836,480,1320
+588,restaurants,Patara,-0.14159,51.51337,1050,1350
+589,restaurants,Siam Central,-0.13443,51.51846,720,1380
+590,restaurants,Levant,-0.15067,51.51622,720,30
+591,restaurants,Okan,-0.11158,51.46266,720,30
+592,restaurants,Le Relais de Venise L'Entrecôte,-0.15112,51.51826,1080,1350
+593,restaurants,Tsujiri,-0.13354,51.51193,720,1320
+594,restaurants,Restaurant Story,-0.07776,51.50278,720,1320
+595,restaurants,Phoenix Cinema,-0.16374,51.58851,660,1380
+596,restaurants,My Old Dutch,-0.12195,51.51755,660,1350
+597,restaurants,The Owl & Pussycat,-0.07556,51.52423,660,1380
+598,restaurants,Hakkasan Mayfair,-0.14494,51.51032,1080,30
+599,restaurants,Elliot's,-0.09167,51.50566,1080,1320
+600,restaurants,Sushi Tetsu,-0.10399,51.52328,1080,1320
+601,restaurants,Tas Pide,-0.09621,51.50779,0,1410
+602,restaurants,Trinity Restaurant,-0.14146,51.46349,1110,1320
+603,restaurants,Kitchen Table,-0.13649,51.52042,1110,1320
+604,restaurants,Café 1001,-0.07216,51.52094,360,0
+605,restaurants,Café Boheme,-0.13065,51.51332,450,180
+606,restaurants,Bleecker,-0.07593,51.51918,690,1260
+607,restaurants,Hix - Soho,-0.13646,51.51113,720,1410
+608,restaurants,The Blackbird,-0.19229,51.49192,480,1410
+609,restaurants,Zaika of Kensington,-0.18717,51.50217,1050,1350
+610,restaurants,Fishcotheque,-0.11176,51.50409,660,1380
+611,restaurants,Orjowan Lebanese Cuisine,-0.19337,51.49283,720,1380
+612,restaurants,Cafe Helen,-0.16471,51.5161,960,360
+613,restaurants,Efes,-0.06966,51.51611,480,60
+614,restaurants,The Wolseley,-0.14101,51.50762,420,0
+615,restaurants,Bibendum,-0.16883,51.49331,690,1320
+616,restaurants,Lotus,-0.0162,51.49703,690,1320
+617,restaurants,Fish Bone,-0.1405,51.52209,690,1320
+618,restaurants,Bocca Di Lupo,-0.13395,51.51168,1020,1380
+619,restaurants,Zizzi,-0.14065,51.49752,720,1380
+620,restaurants,Roadhouse Restaurant,-0.11526,51.5132,1050,180
+621,restaurants,Jakobs,-0.18382,51.49906,480,1380
+622,restaurants,Goodman,-0.14233,51.51313,720,1380
+623,restaurants,Crate Brewery,-0.02236,51.54268,720,1380
+624,restaurants,The Wet Fish Café & Brasserie,-0.19145,51.55132,720,1380
+625,restaurants,Patogh,-0.1662,51.51782,750,1380
+626,restaurants,Meat People,-0.10169,51.53639,720,1380
+627,restaurants,Black Cat,-0.05569,51.5514,540,1260
+628,restaurants,Franzè & Evans,-0.07262,51.5248,480,1170
+629,restaurants,Clutch,-0.07105,51.52975,1080,1320
+630,restaurants,Steak & Co.,-0.12862,51.50978,660,0
+631,restaurants,The Bridge,-0.07823,51.52841,720,60
+632,restaurants,Ping Pong,-0.1157,51.50575,660,0
+633,restaurants,Benito's Hat,-0.14163,51.51614,690,1320
+634,restaurants,Baltic Bar and Restaurant,-0.10487,51.50347,1050,1380
+635,restaurants,Morito,-0.10886,51.52587,1020,1380
+636,restaurants,Pret A Manger,-0.12472,51.52338,330,1380
+637,restaurants,Vapiano,-0.1412,51.51638,660,1380
+638,restaurants,York & Albany,-0.14617,51.53621,420,0
+639,restaurants,Le Pain Quotidien,-0.13916,51.51444,450,1320
+640,restaurants,Burgers & Cocktails by Giraffe,-0.15084,51.51542,660,1350
+641,restaurants,Hare & Tortoise,-0.12289,51.52386,720,1380
+642,restaurants,Shot Espresso,-0.19823,51.48069,360,1350
+643,restaurants,Leon,-0.07669,51.51979,480,1320
+644,restaurants,The Ship,-0.13426,51.51404,720,1380
+645,restaurants,Gauthier Soho,-0.13145,51.51275,720,870
+646,restaurants,Brawn,-0.07026,51.52893,1080,1380
+647,restaurants,The Barbary,-0.12624,51.51445,1080,1380
+648,restaurants,Kennedy's Of Goswell Road,-0.09973,51.52619,660,1320
+649,restaurants,Aqua Shard,-0.08651,51.50445,1080,1350
+650,restaurants,Mosob Restaurant,-0.20093,51.52389,1080,0
+651,restaurants,Kanada-Ya,-0.13195,51.50928,1020,1350
+652,restaurants,The Bull & Last,-0.14874,51.55896,720,1380
+653,restaurants,Indian Zing,-0.23708,51.49335,1080,1380
+654,restaurants,Hush,-0.14563,51.51271,480,1380
+655,restaurants,Hakkasan,-0.13181,51.51715,1050,0
+656,restaurants,The Good Life Eatery,-0.16534,51.49195,450,1200
+657,restaurants,The Churchill Arms,-0.19478,51.50683,660,1380
+658,restaurants,Ace Café London,-0.27782,51.54129,420,1380
+659,restaurants,Duck & Waffle,-0.08094,51.51618,0,0
+660,restaurants,Paolina's Thai Cafe,-0.11846,51.53047,720,1320
+661,restaurants,St Stephen's Tavern,-0.12552,51.5011,600,1410
+662,restaurants,The Duck and Rice,-0.13508,51.51349,720,1410
+663,restaurants,Princess Garden Of Mayfair,-0.15308,51.51277,1080,0
+664,restaurants,Bottega Prelibato,-0.08146,51.52612,480,1380
+665,restaurants,Yumchaa Camden Parkway,-0.14423,51.53818,480,1200
+666,restaurants,Misato,-0.13188,51.51092,720,1350
+667,restaurants,The Clove Club,-0.07912,51.52705,1080,1320
+668,restaurants,Roast To Go,-0.09101,51.50561,1080,1320
+669,restaurants,Vasco & Piero's Pavilion Restaurant,-0.13693,51.51478,1050,1350
+670,restaurants,fish!,-0.09028,51.50576,690,1380
+671,restaurants,Scooter Caffè,-0.11382,51.50034,510,1380
+672,restaurants,Hare and Tortoise,-0.10389,51.51318,690,1350
+673,restaurants,Five Guys,-0.12695,51.51181,660,1410
+674,restaurants,Jackson + Rye,-0.13323,51.51261,480,1380
+675,restaurants,Pieminister,-0.11038,51.5081,600,1050
+676,restaurants,Red Dog Saloon,-0.08064,51.52739,720,30
+677,restaurants,Blacklock,-0.13476,51.51169,1020,1410
+678,restaurants,Gallipoli Again,-0.1027,51.53913,660,1380
+679,restaurants,Nando's,-0.19387,51.49259,690,1410
+680,restaurants,Côte,-0.13437,51.51423,480,1380
+681,restaurants,The Culpeper,-0.07304,51.51691,660,0
+682,restaurants,Taquería,-0.19609,51.51483,720,1380
+683,restaurants,Katzenjammers,-0.09103,51.50483,720,1380
+684,restaurants,Il Portico,-0.2,51.49858,1080,1380
+685,restaurants,Dinings,-0.16476,51.51983,1080,1350
+686,restaurants,Imperial China,-0.13005,51.51175,720,0
+687,restaurants,Chicken Shop,-0.14433,51.55445,720,0
+688,restaurants,Nando's,-0.13173,51.51413,690,1350
+689,restaurants,Navarro's Restaurant,-0.13655,51.5199,1080,1320
+690,restaurants,Pimlico Fresh,-0.14022,51.49239,450,900
+691,restaurants,Le Boudin Blanc,-0.14721,51.50649,1080,1380
+692,restaurants,Smack Lobster Roll,-0.13204,51.51264,720,1200
+693,restaurants,The Oak,-0.19772,51.51871,1110,1350
+694,restaurants,Makan Café,-0.2072,51.51904,540,1290
+695,restaurants,The Delaunay,-0.11823,51.51308,420,0
+696,restaurants,Pizza Pilgrims,-0.1391,51.51244,720,1380
+697,restaurants,The Counting House,-0.08501,51.5133,660,1380
+698,restaurants,Cirilo's Noodle Bar & Grill,-0.06813,51.51072,1020,1380
+699,restaurants,Gourmet Burger Kitchen,-0.1916,51.51554,660,1380
+700,restaurants,Belgo Noord,-0.15098,51.54347,720,1380
+701,restaurants,Papaya,-0.13432,51.51414,1080,1380
+702,restaurants,Fish Central,-0.09708,51.52754,1020,1350
+703,restaurants,Cocoro,-0.1508,51.51672,1080,1380
+704,restaurants,Rock & Sole Plaice,-0.12515,51.51485,690,1410
+705,restaurants,Towpath Café,-0.08122,51.53719,690,1410
+706,restaurants,Fire & Stone,-0.12369,51.51076,720,1380
+707,restaurants,Hawksmoor,-0.16687,51.49746,1020,1350
+708,restaurants,The Harrison,-0.1206,51.52753,660,1380
+709,restaurants,Punjab,-0.12596,51.51499,720,1380
+710,restaurants,Scott's,-0.15092,51.50985,720,1350
+711,restaurants,Medlar,-0.17739,51.4834,1110,1350
+712,restaurants,The Chandos,-0.12679,51.50959,660,1380
+713,restaurants,Addie's Thai Cafe,-0.19468,51.49382,1080,1380
+714,restaurants,Indian City,-0.10452,51.51379,1050,0
+715,restaurants,Ping Pong,-0.15089,51.51531,660,1350
+716,restaurants,Dotori,-0.10502,51.56461,660,1350
+717,restaurants,Bizzarro,-0.17723,51.51485,1020,1410
+718,restaurants,The Blues Kitchen,-0.08022,51.52652,720,0
+719,restaurants,Chop Shop,-0.13203,51.50858,720,0
+720,restaurants,MEATmarket,-0.12188,51.51156,720,1380
+721,restaurants,Lemonia,-0.15704,51.54165,1080,1380
+722,restaurants,Le Pain Quotidien,-0.12615,51.53144,330,1320
+723,restaurants,Happy Days,-0.07496,51.51652,660,1260
+724,restaurants,Baiwei,-0.12917,51.51179,720,1350
+725,restaurants,Milk,-0.15103,51.44465,480,1020
+726,restaurants,Waterloo Bar & Kitchen,-0.10926,51.50181,720,1380
+727,restaurants,Dishoom,-0.13973,51.51299,480,1380
+728,restaurants,The Borough Barista,-0.16091,51.51446,450,990
+729,restaurants,Dinner by Heston Blumenthal,-0.15997,51.50216,1080,1350
+730,restaurants,Busaba,-0.13414,51.51381,720,1380
+731,restaurants,Mr Fogg's Tavern,-0.12684,51.51102,720,1410
+732,restaurants,Rules Restaurant,-0.12325,51.51082,720,1410
+733,restaurants,Orsini,-0.16993,51.49618,480,1380
+734,restaurants,Black Roe,-0.14218,51.51231,1080,1365
+735,restaurants,Tramshed,-0.08162,51.52601,690,1380
+736,restaurants,Gourmet Burger Kitchen,-0.19362,51.49276,660,1410
+737,restaurants,Crumbs and Doilies,-0.13875,51.51235,660,1140
+738,restaurants,The Barge House,-0.08087,51.5373,660,1140
+739,restaurants,Candy Café,-0.13147,51.51187,720,1410
+740,restaurants,Lobos Meat and Tapas,-0.08915,51.50563,1050,1380
+741,restaurants,Roka - Mayfair,-0.15358,51.51283,720,1410
+742,restaurants,Oversea Chinese Restaurant,-0.13056,51.51214,720,0
+743,restaurants,Shackfuyu,-0.1302,51.51378,1050,1320
+744,restaurants,Il Bordello,-0.05965,51.50322,1080,1380
+745,restaurants,Fairuz,-0.15193,51.51821,720,1410
+746,restaurants,The Garrison,-0.08164,51.50078,480,1380
+747,restaurants,Kimchee,-0.11638,51.5181,1020,1350
+748,restaurants,Corner Room,-0.05558,51.53067,720,1320
+749,restaurants,The Faltering Fullback,-0.10821,51.56853,720,1380
+750,restaurants,Royal China,-0.028,51.50558,720,1380
+751,restaurants,Byron,-0.18249,51.49477,690,1410
+752,restaurants,Afghan Kitchen,-0.10304,51.53579,690,1410
+753,restaurants,Look Mum No Hands!,-0.09694,51.52401,450,1320
+754,restaurants,The Harwood Arms,-0.19647,51.48291,1050,1380
+755,restaurants,34 Mayfair,-0.15262,51.51056,1020,1350
+756,restaurants,Nando's,-0.12454,51.51034,690,1350
+757,restaurants,Galvin at Windows,-0.15031,51.50551,660,60
+758,restaurants,Thai Metro,-0.13533,51.51929,720,1020
+759,restaurants,Donostia,-0.16096,51.51473,1080,1380
+760,restaurants,Dishoom,-0.12696,51.51245,480,1380
+761,restaurants,Shimogamo,-0.14571,51.53743,480,1380
+762,restaurants,Mamuśka!,-0.10023,51.49295,540,1380
+763,restaurants,The Golden Hind,-0.15103,51.518,1080,1320
+764,restaurants,San Carlo Cicchetti,-0.13509,51.5095,480,1410
+765,restaurants,Opera Tavern,-0.12045,51.51247,1020,1410
+766,restaurants,Noura,-0.14786,51.49812,600,1410
+767,restaurants,The Orange Buffalo,-0.07157,51.51911,720,1200
+768,restaurants,Gourmet Burger Kitchen,-0.12305,51.51059,690,1380
+769,restaurants,Burger & Lobster,-0.14552,51.50702,720,1350
+770,restaurants,Marcus,-0.1557,51.50166,1080,1350
+771,restaurants,Smiths Of Smithfield,-0.10283,51.51947,420,1410
+772,restaurants,Balans Soho Society,-0.13257,51.51278,450,360
+773,restaurants,Itsu,-0.1398,51.50782,480,1320
+774,restaurants,Eat Tokyo,-0.11751,51.51992,1080,1410
+775,restaurants,Sourced Market,-0.12615,51.53144,420,1260
+776,restaurants,The Mango Tree,-0.14777,51.49852,720,1380
+777,restaurants,Boro Bistro,-0.0888,51.50612,780,1260
+778,restaurants,Cereal Killer Cafe,-0.07175,51.5241,570,1140
+779,restaurants,Spaghetti House,-0.15962,51.51401,720,1380
+780,restaurants,Lucky Voice Karaoke,-0.10317,51.54137,1020,0
+781,restaurants,The Five Fields,-0.16119,51.49166,1110,1320
+782,restaurants,Lanzhou Noodle Bar,-0.12783,51.5116,600,120
+783,restaurants,Muhib Indian Cuisine,-0.07207,51.52001,1050,0
+784,restaurants,Byron,-0.08394,51.52976,690,1350
+785,restaurants,Trishna,-0.15305,51.51829,1080,1380
+786,restaurants,The Tiroler Hut Restaurant,-0.18955,51.51552,1080,1380
+787,restaurants,Hélène Darroze,-0.14972,51.51031,1110,1320
+788,restaurants,Cyprus Mangal,-0.1406,51.49213,720,0
+789,restaurants,The Breakfast Club,-0.16292,51.46094,480,1380
+790,restaurants,Mohsen,-0.20302,51.49518,720,1380
+791,restaurants,Annie's,-0.27789,51.48478,720,1320
+792,restaurants,Poppies,-0.07408,51.52026,660,1380
+793,restaurants,MAMIE'S,-0.12048,51.51248,600,1290
+794,restaurants,Le Pain Quotidien,-0.19655,51.50884,420,1320
+795,restaurants,Simply Indian,-0.09149,51.50059,1080,0
+796,restaurants,Woody Grill,-0.1419,51.53969,660,60
+797,restaurants,Electric Diner,-0.20489,51.51557,480,0
+798,restaurants,Cafe Loren,-0.14603,51.54183,510,1140
+799,restaurants,The Pineapple,-0.13955,51.55298,720,1380
+800,restaurants,Chutney Mary,-0.1389,51.50566,1080,1350
+801,restaurants,Flat Iron,-0.1384,51.51212,720,1380
+802,restaurants,Nipa,-0.17534,51.5122,1110,1350
+803,restaurants,E&O,-0.20585,51.51584,1080,1380
+804,restaurants,Fumo,-0.12691,51.50995,480,1410
+805,restaurants,Ya Hala,-0.17439,51.51576,660,0
+806,restaurants,Prima Sapori Italia,-0.1224,51.51138,600,1320
+807,restaurants,Al Arez,-0.16485,51.51653,540,60
+808,restaurants,North Sea Fish Restaurant,-0.12505,51.52647,1020,1320
+809,restaurants,My Old Place,-0.07701,51.51673,1020,1380
+810,restaurants,Ping Pong Soho,-0.13854,51.51444,660,0
+811,restaurants,The Table Cafe,-0.09967,51.5056,450,1320
+812,restaurants,Santa Maria del Sur,-0.14974,51.47013,1080,0
+813,restaurants,Jamie Oliver's Fifteen,-0.09029,51.52859,1080,1320
+814,restaurants,The Somers Town Coffee House,-0.13007,51.52985,480,1410
+815,restaurants,The Dovetail,-0.10392,51.52324,720,1380
+816,restaurants,Two Point,-0.16077,51.51967,720,1380
+817,restaurants,Kinkao,-0.0715,51.52255,1050,1380
+818,restaurants,Montparnasse Cafe,-0.18853,51.50052,480,1020
+819,restaurants,Beijing Dumpling,-0.13013,51.51167,720,1410
+820,restaurants,Cafe East,-0.04154,51.49629,1050,1350
+821,restaurants,Taro Restaurants,-0.13561,51.51133,720,1320
+822,restaurants,The Easton,-0.1114,51.52632,720,1380
+823,restaurants,Icebar London,-0.13973,51.51125,885,1290
+824,restaurants,Big Apple Hot Dogs,-0.11649,51.53617,720,840
+825,restaurants,The Dickens Inn,-0.0702,51.50683,660,1380
+826,restaurants,Jin Kichi,-0.17847,51.5573,660,1380
+827,restaurants,Hummus Bros,-0.13385,51.51341,510,1320
+828,restaurants,Halepi,-0.1831,51.51133,720,0
+829,restaurants,Byron,-0.12064,51.51198,690,1410
+830,restaurants,Coppa Club Tower Bridge,-0.0797,51.50811,450,1380
+831,restaurants,Yauatcha,-0.13513,51.51371,720,1320
+832,restaurants,Bill's,-0.13533,51.51182,480,1380
+833,restaurants,Gigs,-0.13529,51.521,600,1320
+834,restaurants,Umu,-0.14443,51.51142,1080,1380
+835,restaurants,Quaglino's,-0.13859,51.50723,1050,1380
+836,restaurants,Maison D'être,-0.10205,51.5458,450,1080
+837,restaurants,The Rajdoot,-0.15343,51.5206,720,0
+838,restaurants,BAO,-0.13367,51.51908,1050,1320
+839,restaurants,Temple of Seitan,-0.05415,51.54587,1050,1320
+840,restaurants,Viet Grill,-0.07764,51.52901,660,1380
+841,restaurants,Home House,-0.15665,51.51615,420,0
+842,restaurants,Inamo,-0.1346,51.51442,1020,1410
+843,restaurants,The Windmill,-0.1422,51.51257,660,1380
+844,restaurants,Portrait Restaurant,-0.12827,51.5091,600,1200
+845,restaurants,Smith and Wollensky,-0.12226,51.50942,720,1350
+846,restaurants,The Kings Arms,-0.14614,51.50635,720,1380
+847,restaurants,Hotel Café Royal,-0.13596,51.51017,0,0
+848,restaurants,Bloomsbury Coffee House,-0.12639,51.52525,480,990
+849,restaurants,On The Bab,-0.08153,51.52677,690,1350
+850,restaurants,The Jugged Hare,-0.09094,51.52079,420,1410
+851,restaurants,The Breakfast Club,-0.13541,51.51473,480,1320
+852,restaurants,Tapas Brindisa Soho,-0.13665,51.51347,720,1380
+853,restaurants,E. Mono,-0.14116,51.54906,660,1410
+854,restaurants,The Victoria,-0.1712,51.5135,660,1380
+855,restaurants,Kokeb Ethiopian Cuisine,-0.1153,51.54628,660,1380
+856,restaurants,Kintan Japanese BBQ,-0.11352,51.51838,720,1380
+857,restaurants,Chettinad Restaurant,-0.13279,51.51841,720,1380
+858,restaurants,Flat Iron,-0.12965,51.51508,720,0
+859,restaurants,Grand Imperial London,-0.14551,51.49576,720,1380
+860,restaurants,Itadaki Zen,-0.11601,51.52967,1080,1320
+861,restaurants,Woodlands,-0.15117,51.51806,1080,1380
+862,restaurants,Bone Daddies,-0.13384,51.51276,720,1320
+863,restaurants,KIN,-0.10988,51.52145,1050,1350
+864,restaurants,Franco Manca,-0.12291,51.51095,720,1380
+865,restaurants,Daphne's,-0.16787,51.49372,1050,1410
+866,restaurants,The Greenwich Union,-0.00958,51.47653,720,1380
+867,restaurants,Bentley's,-0.13785,51.50953,690,1380
+868,restaurants,ROKA Canary Wharf,-0.01897,51.5049,1050,1380
+869,restaurants,JW Steakhouse,-0.15522,51.50986,390,1350
+870,restaurants,Mama Thai,-0.07464,51.51812,690,1020
+871,restaurants,The Temple Brew House,-0.11279,51.51276,720,1380
+872,restaurants,Andina,-0.07713,51.52432,480,1380
+873,restaurants,Wright Brothers - Soho,-0.13875,51.51235,720,1380
+874,restaurants,Tap Coffee,-0.13582,51.51547,480,1140
+875,restaurants,Dishoom,-0.07659,51.52453,480,1380
+876,restaurants,Shake Shack,-0.12265,51.51178,660,1320
+877,restaurants,Kazan,-0.14079,51.49265,1050,1320
+878,restaurants,The Champion- Notting Hill,-0.19227,51.51003,720,1380
+879,restaurants,Flat Iron,-0.1241,51.51083,720,1380
+880,restaurants,Pizza Pilgrims,-0.13322,51.51495,720,1350
+881,restaurants,Negril,-0.12108,51.45284,1020,1350
+882,restaurants,Typing Room,-0.05575,51.53049,1020,1350
+883,restaurants,Haymarket Hotel,-0.1312,51.50835,0,0
+884,restaurants,The Breakfast Club,-0.07832,51.51835,450,1380
+885,restaurants,Gaucho - Tower Bridge,-0.08014,51.5048,720,1380
+886,restaurants,Hummus Bros,-0.1218,51.51928,510,1260
+887,restaurants,Freebird Burritos,-0.13368,51.51225,690,900
+888,restaurants,Caffe Forum,-0.18237,51.4936,420,0
+889,restaurants,Muriel's Kitchen,-0.17447,51.49412,480,1380
+890,restaurants,Chipotle Mexican Grill,-0.1296,51.51461,690,1320
+891,restaurants,E Pellicci,-0.06356,51.52652,420,960
+892,restaurants,Salaam Namaste,-0.11793,51.52364,1050,1410
+893,restaurants,Leon,-0.13939,51.51417,420,1320
+894,restaurants,Gymkhana,-0.14166,51.50842,1050,1350
+895,restaurants,The Narrow,-0.03788,51.50967,720,1380
+896,restaurants,Pizarro,-0.08133,51.49843,720,1350
+897,restaurants,The Gate,-0.1054,51.53043,720,1320
+898,restaurants,Baozi Inn,-0.12924,51.51182,720,1350
+899,restaurants,Byward Kitchen And Bar,-0.07896,51.50929,480,960
+900,restaurants,Seven at Brixton,-0.11316,51.46201,540,1080
+901,restaurants,Sagar,-0.13277,51.5185,720,1350
+902,restaurants,BAO - Soho,-0.13653,51.51322,1050,1320
+903,restaurants,Yorica!,-0.13451,51.51435,780,1320
+904,restaurants,Kerbisher & Malt,-0.22268,51.49746,780,1320
+905,restaurants,Lantana Cafe,-0.13596,51.51897,480,1080
+906,restaurants,Burger & Lobster,-0.14099,51.51738,720,1350
+907,restaurants,Kipferl,-0.10339,51.53525,720,1350
+908,restaurants,Sichuan Folk,-0.07243,51.52018,720,1380
+909,restaurants,Kitchen W8,-0.19694,51.49923,1080,1350
+910,restaurants,Barrafina,-0.12582,51.50938,1020,1380
+911,restaurants,Candid Café,-0.10509,51.53223,720,1320
+912,restaurants,The Monocle Cafe,-0.15467,51.51881,420,1140
+913,restaurants,OXO Tower Restaurant,-0.10813,51.50806,1080,1380
+914,restaurants,The White Hart,-0.11069,51.50479,720,1380
+915,restaurants,Bumpkin South Kensington,-0.17903,51.49189,660,1380
+916,restaurants,Chutneys,-0.13759,51.52689,720,1380
+917,restaurants,The Marquis of Westminster,-0.14052,51.4919,660,1410
+918,restaurants,Tommi's Burger Joint,-0.15129,51.51767,690,1350
+919,restaurants,Holly Bush,-0.17933,51.55791,720,1380
+920,restaurants,Bill's,-0.12621,51.51286,480,1380
+921,restaurants,Bea's of Bloomsbury,-0.11604,51.52102,450,1080
+922,restaurants,About Thyme,-0.13998,51.4925,1050,1320
+923,restaurants,My Village Café,-0.14829,51.54293,540,1230
+924,restaurants,Thai Taste,-0.18679,51.49484,1080,1380
+925,restaurants,Phat Phuc Noodle Bar,-0.1691,51.48762,660,1080
+926,restaurants,The Pavilion Cafe,-0.04277,51.53275,480,990
+927,restaurants,Sketch,-0.14159,51.51276,480,120
+928,restaurants,Cây Tre,-0.08164,51.52689,660,1380
+929,restaurants,The Modern Pantry,-0.10358,51.52303,480,1380
+930,restaurants,Beany Green,-0.18005,51.51987,420,1080
+931,restaurants,Honest Burgers,-0.13294,51.51339,690,1380
+932,restaurants,Hereford Road,-0.19369,51.51385,1080,1350
+933,restaurants,Mangal Ocakbasi,-0.07422,51.55198,720,0
+934,restaurants,Beigel Shop,-0.07181,51.5244,0,0
+935,restaurants,Bar Boulud,-0.16025,51.50203,720,60
+936,pubs,The Enterprise,-0.15296,51.54411,720,1380
+937,pubs,Red Lion & Sun,-0.15014,51.57306,720,0
+938,pubs,The Marquis,-0.12581,51.50975,720,1410
+939,pubs,The Scarsdale Tavern,-0.19898,51.49697,720,1380
+940,pubs,The Hansom Cab,-0.19717,51.4964,690,1380
+941,pubs,Prince William Henry,-0.10414,51.50534,660,1380
+942,pubs,The Coal Hole,-0.12124,51.51036,600,1380
+943,pubs,The Landor,-0.12557,51.46576,720,1380
+944,pubs,Red Lion,-0.13649,51.50824,690,1380
+945,pubs,Lamb & Flag,-0.12573,51.5117,660,1380
+946,pubs,Queen's Head,-0.03878,51.51385,720,1380
+947,pubs,The Pommelers Rest,-0.07725,51.50239,480,0
+948,pubs,The Grafton Kentish Town,-0.14443,51.54677,720,1380
+949,pubs,The Beer Shop,-0.0578,51.46566,720,1380
+950,pubs,The Old Dairy,-0.11537,51.57059,720,1380
+951,pubs,Sun Inn,-0.24739,51.47357,660,1380
+952,pubs,Bar Polski,-0.11904,51.51741,960,1380
+953,pubs,The Big Chill Bar,-0.07268,51.5211,720,0
+954,pubs,The Gladstone Arms,-0.09512,51.50096,720,1380
+955,pubs,The Three Greyhounds,-0.13031,51.51346,660,1410
+956,pubs,The Angel Inn,-0.1477,51.57064,720,1380
+957,pubs,The Albion,-0.06473,51.53342,720,1380
+958,pubs,The Old Ivy House,-0.09964,51.52585,600,60
+959,pubs,The Coach & Horses,-0.13732,51.51492,660,1380
+960,pubs,Shakespeares Head,-0.11962,51.51673,420,0
+961,pubs,Carpenters Arms,-0.13643,51.52179,720,1380
+962,pubs,The Telegraph,-0.2268,51.44883,720,1410
+963,pubs,Stags Head,-0.08022,51.53626,720,1380
+964,pubs,The Camel,-0.05184,51.52872,720,1380
+965,pubs,Pillars Of Hercules,-0.1311,51.5146,660,1380
+966,pubs,Cittie of Yorke,-0.11285,51.51857,690,1380
+967,pubs,The Red Lion,-0.13763,51.50542,660,1380
+968,pubs,The Snooty Fox,-0.09132,51.54917,960,1380
+969,pubs,The Harp,-0.12593,51.50966,630,1410
+970,pubs,The Phoenix,-0.14357,51.51615,720,0
+971,pubs,Well and Bucket,-0.07102,51.52533,720,0
+972,pubs,The Alwyne Castle,-0.09794,51.5469,720,0
+973,pubs,The Calf,-0.14105,51.46558,720,0
+974,pubs,The Pig's Ear,-0.17235,51.48425,720,1380
+975,pubs,The Alexandra,-0.208,51.42195,600,1380
+976,pubs,The Coach and Horses,-0.1314,51.45974,720,30
+977,pubs,The Globe,-0.15704,51.52193,600,1380
+978,pubs,King Edward VII,0.00256,51.54097,720,1380
+979,pubs,White Hart,-0.12421,51.51626,660,0
+980,pubs,Walkers Of Whitehall,-0.12716,51.50703,720,1410
+981,pubs,Bollo House,-0.27006,51.49562,720,1410
+982,pubs,The Swan,-0.26524,51.49805,1020,1380
+983,pubs,The Bell Pub,-0.01714,51.5902,720,1380
+984,pubs,The Minories,-0.07468,51.51096,480,1380
+985,pubs,Ship Tavern,-0.11907,51.51725,660,1380
+986,pubs,Bunch Of Grapes,-0.08916,51.50502,540,1380
+987,pubs,The Spurstowe Arms,-0.06324,51.54534,1020,0
+988,pubs,The Bricklayer's Arms,-0.21681,51.46609,720,1380
+989,pubs,The Wenlock Arms,-0.09413,51.53146,900,1380
+990,pubs,Princess of Wales,-0.15376,51.54028,540,0
+991,pubs,The Speaker,-0.13323,51.49676,720,1380
+992,pubs,Hand & Flower,-0.20813,51.49584,420,1380
+993,pubs,The Duke's Head,-0.14619,51.57053,720,0
+994,pubs,The Clerk and Well,-0.11091,51.5222,720,1380
+995,pubs,The Coborn,-0.03011,51.52698,660,1380
+996,pubs,Jerusalem Tavern,-0.10412,51.52176,660,1380
+997,pubs,George & Dragon,-0.14196,51.52303,660,660
+998,pubs,The Sanctuary House,-0.13186,51.49957,420,1320
+999,pubs,The Old Red Lion,-0.1054,51.48935,960,1380
+1000,pubs,Old China Hand,-0.10899,51.52675,690,120
+1001,pubs,Zefi,-0.1676,51.49409,420,60
+1002,pubs,The Earl Derby,-0.19663,51.5406,540,1380
+1003,pubs,Royal Sovereign,-0.06323,51.56271,840,1380
+1004,pubs,Calthorpe Arms,-0.11606,51.52471,660,1380
+1005,pubs,Be At One,-0.15223,51.44481,1020,0
+1006,pubs,Lamb Tavern,-0.08341,51.51269,1050,1260
+1007,pubs,The Camden Eye,-0.14222,51.53947,720,0
+1008,pubs,Bunch Of Grapes,-0.16852,51.49713,600,0
+1009,pubs,Three Crowns,-0.08773,51.52779,480,1380
+1010,pubs,The Ape & Bird,-0.12873,51.51343,720,1410
+1011,pubs,The Daniel Defoe,-0.07895,51.56226,780,90
+1012,pubs,The Anglesea Arms,-0.17684,51.49018,660,1380
+1013,pubs,Ye Olde Swiss Cottage,-0.17452,51.54246,690,1380
+1014,pubs,The Colonies,-0.13955,51.49862,660,1380
+1015,pubs,The White Swan,-0.12572,51.51103,600,1380
+1016,pubs,Devonshire Arms,-0.19253,51.49681,720,1410
+1017,pubs,The Gunmakers,-0.11052,51.52301,720,1380
+1018,pubs,The Drayton Arms,-0.18322,51.49067,720,1380
+1019,pubs,The Boot pub,-0.12414,51.52755,540,1080
+1020,pubs,Bank,-0.16621,51.4597,660,1380
+1021,pubs,Viaduct Tavern,-0.10179,51.5163,600,1380
+1022,pubs,Duke Of York,-0.17136,51.53426,660,1380
+1023,pubs,The Bucks Head,-0.14361,51.54019,720,1380
+1024,pubs,Admiral Duncan,-0.13229,51.51291,720,1380
+1025,pubs,The Mitre,-0.20349,51.50798,720,0
+1026,pubs,Westminster Arms,-0.13012,51.50063,660,1380
+1027,pubs,Duke Of Wellington,-0.13303,51.51231,720,1380
+1028,pubs,The Gate Clock,-0.01111,51.48153,480,0
+1029,pubs,The George IV,-0.25711,51.49224,690,1380
+1030,pubs,Prince George,-0.0682,51.54505,1020,1410
+1031,pubs,The Duke,-0.02008,51.48104,720,0
+1032,pubs,BrewDog Shepherd's Bush,-0.22383,51.50287,720,0
+1033,pubs,Paxtons Head,-0.16254,51.5016,660,1380
+1034,pubs,Nellie Dean,-0.13348,51.51486,660,1380
+1035,pubs,The Admiralty,-0.12852,51.50724,540,1380
+1036,pubs,St John's Tavern,-0.13569,51.56296,1020,1380
+1037,pubs,Stormbird,-0.0903,51.47405,720,0
+1038,pubs,Black Prince,-0.11206,51.4896,720,0
+1039,pubs,The Stonemasons Arms,-0.23018,51.49434,660,1380
+1040,pubs,The Actress,-0.07128,51.45754,720,0
+1041,pubs,Windsor Castle,-0.16227,51.5264,1050,1320
+1042,pubs,Assembly House,-0.14069,51.5511,720,1380
+1043,pubs,The Dog House,-0.11087,51.48914,720,0
+1044,pubs,Fulham Mitre,-0.20262,51.47997,660,1380
+1045,pubs,The Union Tavern,-0.19894,51.52285,720,1380
+1046,pubs,Rose Pub and Kitchen,-0.03967,51.47491,690,1380
+1047,pubs,Tudor Rose,-0.15375,51.51858,660,1380
+1048,pubs,Farr's School of Dancing,-0.07374,51.54639,960,0
+1049,pubs,Drapers Arms,-0.10851,51.54053,660,1380
+1050,pubs,George and Dragon,-0.27181,51.50725,990,1380
+1051,pubs,Shakespeare's Head,-0.13961,51.51383,660,1380
+1052,pubs,The Star,-0.14255,51.56345,720,1380
+1053,pubs,Steam Passage Tavern,-0.10463,51.53506,660,1380
+1054,pubs,Duke Of Clarence,-0.18253,51.49095,660,1380
+1055,pubs,The Flask,-0.15094,51.56988,720,1380
+1056,pubs,The Cambria,-0.09747,51.46464,960,0
+1057,pubs,Hare & Hounds,-0.26455,51.46503,660,1380
+1058,pubs,Sun & 13 Cantons,-0.13659,51.51265,720,1380
+1059,pubs,Tap East,-0.00872,51.54398,660,1380
+1060,pubs,Latymers,-0.21781,51.49294,660,1380
+1061,pubs,The Duke,-0.11637,51.52271,660,1380
+1062,pubs,The Charles Dickens,-0.10039,51.50388,720,1380
+1063,pubs,The Glassblower,-0.13705,51.5106,660,1380
+1064,pubs,Slug & Lettuce,-0.11674,51.50256,630,1380
+1065,pubs,The New Cross House,-0.03689,51.47551,720,0
+1066,pubs,The Old Bull & Bush,-0.18256,51.56747,660,1380
+1067,pubs,Star Tavern,-0.15575,51.4983,660,1380
+1068,pubs,The Effra Hall Tavern,-0.11311,51.45995,960,1380
+1069,pubs,The Larrik,-0.16487,51.5188,720,1380
+1070,pubs,Tollington The Public House,-0.11269,51.55726,720,0
+1071,pubs,Queen Adelaide,-0.23737,51.50658,720,1380
+1072,pubs,Blind Beggar,-0.05719,51.51981,660,1410
+1073,pubs,Simon The Tanner,-0.08387,51.49852,960,1380
+1074,pubs,The Hop Pole,-0.19832,51.45926,720,1380
+1075,pubs,Spread Eagle,-0.1449,51.53765,660,1380
+1076,pubs,The Kenton,-0.04455,51.54413,960,1410
+1077,pubs,The Mason's Arms,-0.1474,51.47658,720,1380
+1078,pubs,The Chamberlayne Pub & Steakhouse,-0.21878,51.53409,1020,1380
+1079,pubs,Dog & Truck,-0.06688,51.51275,660,1380
+1080,pubs,The Antelope,-0.15582,51.4942,720,1380
+1081,pubs,Hack & Hop,-0.10729,51.51377,690,1380
+1082,pubs,The Dog & Bell,-0.02584,51.48336,720,1380
+1083,pubs,The Horse and Stables,-0.11268,51.49917,720,1380
+1084,pubs,The Marquess Tavern,-0.09539,51.54317,1020,1380
+1085,pubs,Marlborough Head,-0.1538,51.51337,660,1380
+1086,pubs,The Duke of Wellington,-0.08057,51.54632,960,0
+1087,pubs,The Garden Gate,-0.1656,51.55467,720,1380
+1088,pubs,The Alma,-0.08767,51.54877,720,0
+1089,pubs,Kings Arms,-0.06578,51.52582,720,1410
+1090,pubs,The Charles Lamb Pub,-0.10196,51.53205,960,1380
+1091,pubs,The Magpie,-0.0792,51.51716,660,1380
+1092,pubs,The Montagu Pyke,-0.12975,51.51399,600,1380
+1093,pubs,Hung Drawn & Quartered,-0.08075,51.50955,660,1380
+1094,pubs,The Curtains Up,-0.20941,51.48933,720,1380
+1095,pubs,The Shakespeare,-0.08178,51.55551,1020,1380
+1096,pubs,Bavarian Beerhouse,-0.09058,51.52776,1020,1380
+1097,pubs,The Cross Keys,-0.17032,51.48337,720,0
+1098,pubs,The Sun Inn,-0.05851,51.52728,780,0
+1099,pubs,The Salutation,-0.23282,51.49282,660,1380
+1100,pubs,Prospect Of Whitby,-0.05112,51.50712,720,1380
+1101,pubs,The Griffin,-0.08197,51.52476,660,0
+1102,pubs,Kings Arms,-0.00842,51.4808,660,1380
+1103,pubs,The Pride Of Paddington,-0.17649,51.51494,480,1410
+1104,pubs,The Clapham North,-0.12932,51.46546,660,1380
+1105,pubs,Prince Of Wales,-0.19089,51.50233,660,1380
+1106,pubs,The Magic Garden,-0.15084,51.47538,630,0
+1107,pubs,The White Horse,-0.13359,51.51189,660,1350
+1108,pubs,The Sands End,-0.18715,51.4712,720,0
+1109,pubs,Princess Victoria,-0.19801,51.49829,720,0
+1110,pubs,The Argyll Arms,-0.14124,51.51507,660,1410
+1111,pubs,Ye Olde Rose & Crown Theatre Pub,-0.02073,51.58784,600,1380
+1112,pubs,BrewDog - Clerkenwell,-0.10379,51.52247,720,1380
+1113,pubs,The Betjeman Arms,-0.12478,51.53013,450,1380
+1114,pubs,The Swan,-0.12273,51.52119,600,1380
+1115,pubs,The Gun,-0.07617,51.51893,660,1380
+1116,pubs,The World's End,-0.14222,51.53947,660,1380
+1117,pubs,The New Inn,-0.16607,51.53545,660,1380
+1118,pubs,The Old Bell Tavern,-0.10543,51.51404,600,1410
+1119,pubs,The Commercial,-0.10265,51.45303,720,0
+1120,pubs,The Half Moon,-0.04528,51.52217,540,0
+1121,pubs,The Albert Arms,-0.10392,51.49741,720,1380
+1122,pubs,The Fence,-0.10379,51.52002,720,1380
+1123,pubs,The Rochester Castle,-0.07409,51.56106,480,0
+1124,pubs,The Shaftesbury Tavern,-0.12363,51.56977,720,1380
+1125,pubs,The Station Hotel,-0.00015,51.45308,720,1380
+1126,pubs,Red Lion,-0.23899,51.47551,660,1380
+1127,pubs,The Hawley Arms,-0.14519,51.54205,720,0
+1128,pubs,The Macbeth,-0.08004,51.53017,1020,60
+1129,pubs,The Commercial Tavern,-0.0757,51.52163,720,1380
+1130,pubs,The Jugged Hare,-0.13822,51.49301,660,1380
+1131,pubs,Prince Edward,-0.19365,51.51319,600,1380
+1132,pubs,The Nags Head,-0.10588,51.53375,540,0
+1133,pubs,The Guinea Grill,-0.14501,51.51109,660,1380
+1134,pubs,The Prince,-0.0784,51.56006,720,1380
+1135,pubs,The Britannia,-0.0872,51.50123,660,1380
+1136,pubs,Wenlock and Essex,-0.10128,51.53671,720,1410
+1137,pubs,The Grenadier,-0.155,51.50146,720,1380
+1138,pubs,The Green,-0.10627,51.52278,720,0
+1139,pubs,Old Thameside Inn,-0.0918,51.50685,600,1410
+1140,pubs,Morpeth Arms,-0.12863,51.48937,660,1380
+1141,pubs,The Bull,-0.1509,51.5755,720,1380
+1142,pubs,The Merchant,-0.16345,51.46086,720,1410
+1143,pubs,The Famous Cock,-0.10352,51.54557,660,1410
+1144,pubs,Silver Cross,-0.12703,51.5065,660,1380
+1145,pubs,Priory Tavern,-0.19125,51.53835,960,1380
+1146,pubs,The Eagle,-0.23959,51.50087,720,1380
+1147,pubs,The Cock & Bottle,-0.19758,51.51541,660,1380
+1148,pubs,The Cock Tavern,-0.14141,51.51672,690,1380
+1149,pubs,Paradise by Way of Kensal Green,-0.21623,51.52885,960,0
+1150,pubs,The Blue Posts,-0.1356,51.51695,720,1410
+1151,pubs,Yates's,-0.12932,51.51012,540,60
+1152,pubs,The Oxford,-0.14065,51.54977,720,1410
+1153,pubs,Crown & Anchor,-0.13713,51.52686,660,1380
+1154,pubs,The Victoria,-0.14633,51.49562,660,1380
+1155,pubs,Dog & Duck,-0.13189,51.51403,600,1380
+1156,pubs,The Wellington,-0.11149,51.50369,600,1380
+1157,pubs,The Green Man,-0.17029,51.52034,600,1380
+1158,pubs,The Charles Holden,-0.17914,51.41759,720,1380
+1159,pubs,Gowlett Arms,-0.07044,51.46389,720,0
+1160,pubs,The Bedford,-0.14921,51.44267,645,0
+1161,pubs,The Washington,-0.16285,51.54567,720,1380
+1162,pubs,Royal Oak,-0.13245,51.49424,600,1380
+1163,pubs,Ale & Pie,-0.10973,51.51784,480,1380
+1164,pubs,Pub On The Park,-0.05818,51.54207,720,0
+1165,pubs,The Albert,-0.13552,51.4977,600,1380
+1166,pubs,The Durell Arms,-0.20725,51.47428,720,1380
+1167,pubs,The Heron,-0.16729,51.51666,1080,1350
+1168,pubs,The New Rose,-0.09845,51.53885,720,1380
+1169,pubs,The Old Shoreditch Station,-0.07812,51.52727,480,1380
+1170,pubs,Old White Lion,-0.16442,51.5866,720,1380
+1171,pubs,King's Head Pub and Theatre,-0.10255,51.53844,660,60
+1172,pubs,The Moon Under Water,-0.12937,51.51033,540,1410
+1173,pubs,The Salisbury Hotel,-0.09978,51.58211,1020,720
+1174,pubs,The Stanhope Arms,-0.18209,51.4941,600,1410
+1175,pubs,William IV,-0.09261,51.5304,720,1380
+1176,pubs,Maple Leaf,-0.12271,51.51097,660,1380
+1177,pubs,Walrus & Carpenter,-0.08419,51.50956,660,1380
+1178,pubs,Shepherds Tavern,-0.1478,51.50615,660,1380
+1179,pubs,The Eagle,-0.09169,51.52859,720,1380
+1180,pubs,Red Lion,-0.08038,51.52784,720,1380
+1181,pubs,The Pear Tree,-0.21572,51.48682,960,1380
+1182,pubs,The Monarch,-0.14847,51.54297,720,30
+1183,pubs,Hoop & Toy,-0.17432,51.49474,660,0
+1184,pubs,The Blacksmith's Arms,-0.03399,51.5046,720,1380
+1185,pubs,The Audley,-0.15159,51.50972,660,1380
+1186,pubs,Duke Of York,-0.13589,51.51873,720,1380
+1187,pubs,Betsey Trotwood,-0.10798,51.52332,720,1380
+1188,pubs,Sebright Arms,-0.06313,51.53206,1020,1380
+1189,pubs,The Vine,-0.14469,51.55468,720,1380
+1190,pubs,Duke's Head,-0.21675,51.46722,720,0
+1191,pubs,The Telegraph,-0.0891,51.51579,660,1380
+1192,pubs,The Wrestlers,-0.14979,51.57494,990,0
+1193,pubs,The Grove,-0.15109,51.44833,720,0
+1194,pubs,The Crown & Anchor,-0.1128,51.47135,990,0
+1195,pubs,White Hart,-0.0744,51.55909,720,1380
+1196,pubs,The Lord Clyde,-0.09005,51.54369,720,1380
+1197,pubs,The Constitution,-0.13913,51.49146,660,1380
+1198,pubs,The Lighthouse,-0.16291,51.47259,720,1380
+1199,pubs,Lord Wargrave,-0.1657,51.51811,660,1380
+1200,pubs,Chequers Tavern,-0.13745,51.50712,690,1380
+1201,pubs,Cutty Sark Tavern,-0.00046,51.48643,660,1380
+1202,pubs,The Crobar,-0.13034,51.51487,960,180
+1203,pubs,Tapping The Admiral,-0.14611,51.54528,720,1380
+1204,pubs,The Spaniards Inn,-0.17402,51.56976,720,1380
+1205,pubs,Camden Town Brewery,-0.14687,51.54683,720,1380
+1206,pubs,The Clarence,-0.12681,51.50608,720,1380
+1207,pubs,The Woodman,-0.14643,51.57751,705,0
+1208,pubs,The Doric Arch,-0.13201,51.5279,720,1380
+1209,pubs,Three Tuns,-0.15614,51.51445,660,1380
+1210,pubs,The Red Lion Pub,-0.12566,51.50208,600,1380
+1211,pubs,London Stone,-0.0897,51.51175,660,1320
+1212,pubs,Old Bank of England,-0.1115,51.51397,660,1380
+1213,pubs,The Sun,-0.12311,51.51511,720,1410
+1214,pubs,The Florist Arms,-0.05133,51.52834,660,1380
+1215,pubs,The Lansdowne,-0.15341,51.54146,720,1380
+1216,pubs,Golden Eagle,-0.1508,51.51765,660,1380
+1217,pubs,The Maynard Arms,-0.12627,51.58173,720,1380
+1218,pubs,The Lamb,-0.11915,51.5233,720,1380
+1219,pubs,The Haggerston,-0.07601,51.54233,900,60
+1220,pubs,People's Park Tavern,-0.03785,51.54156,720,0
+1221,pubs,The George,-0.16724,51.55237,660,1380
+1222,pubs,Earl Of Lonsdale,-0.20285,51.51349,720,1380
+1223,pubs,The Oak & Pastor,-0.13647,51.56255,720,1410
+1224,pubs,The Victoria,-0.03829,51.52928,420,1380
+1225,pubs,The George,-0.11321,51.51323,660,0
+1226,pubs,The Black Lion,-0.19177,51.5512,720,1380
+1227,pubs,Indo,-0.0655,51.51789,720,60
+1228,pubs,Craft Beer Co.,-0.11103,51.53274,720,1380
+1229,pubs,North Nineteen,-0.12176,51.56464,960,0
+1230,pubs,Camberwell Arms,-0.08837,51.47372,1020,1380
+1231,pubs,The World's End,-0.10825,51.56697,720,1380
+1232,pubs,The Royal Albert,-0.02865,51.47516,960,0
+1233,pubs,Jack Horner,-0.13223,51.51869,540,1380
+1234,pubs,The Old Eagle Pub,-0.13938,51.54278,720,1410
+1235,pubs,The Blackfriar,-0.10373,51.51213,600,1380
+1236,pubs,Dean Swift,-0.07516,51.50294,720,1380
+1237,pubs,The Two Brewers,-0.09277,51.52249,660,1380
+1238,pubs,The Cat and Mutton,-0.06097,51.53753,720,1380
+1239,pubs,The Bear,-0.09419,51.47429,1020,0
+1240,pubs,Barrowboy & Banker,-0.08867,51.50617,660,1380
+1241,pubs,Southwark Tavern,-0.09075,51.50486,600,0
+1242,pubs,The Horatia,-0.10881,51.55012,960,1380
+1243,pubs,The Euston Flyer,-0.1267,51.52872,600,1380
+1244,pubs,The White Swan,-0.1093,51.51628,660,0
+1245,pubs,Rosemary Branch Theatre,-0.08688,51.53752,720,1380
+1246,pubs,The Monkey Puzzle,-0.16992,51.51656,660,1380
+1247,pubs,The Cellars,-0.08651,51.55061,960,1380
+1248,pubs,The Rocket,-0.12881,51.52821,690,0
+1249,pubs,Royal Star,-0.0924,51.52825,660,0
+1250,pubs,The Tattershall Castle,-0.12222,51.50567,660,1380
+1251,pubs,The Green Man,-0.1395,51.51898,600,1380
+1252,pubs,The Island,-0.22648,51.53527,720,1380
+1253,pubs,The Thirsty Bear,-0.10822,51.50707,420,0
+1254,pubs,Bald Faced Stag,-0.16414,51.58935,720,1380
+1255,pubs,Aragon House,-0.20028,51.47254,660,1380
+1256,pubs,Flight Club,-0.08653,51.52206,720,0
+1257,pubs,O'Neill's,-0.13226,51.51133,600,120
+1258,pubs,The Blacksmith & The Toffeemaker,-0.10464,51.52818,720,0
+1259,pubs,The Ship & Shovell,-0.12478,51.50771,660,1380
+1260,pubs,The Hat and Tun,-0.10817,51.52183,720,1410
+1261,pubs,The Red Lion,0.011,51.56791,720,1380
+1262,pubs,Westow House,-0.07936,51.4199,720,0
+1263,pubs,Town Of Ramsgate,-0.06204,51.50346,720,1380
+1264,pubs,Fitzrovia Belle,-0.13592,51.52255,450,0
+1265,pubs,The Marylebone,-0.15191,51.51989,720,1410
+1266,pubs,Union,-0.15609,51.51741,600,0
+1267,pubs,The Liberty Bounds,-0.07847,51.50978,480,1380
+1268,pubs,The Crown and Anchor,-0.12492,51.51401,660,1380
+1269,pubs,The Ice Wharf,-0.14565,51.54105,540,0
+1270,pubs,The Nag's Head,-0.1571,51.50134,660,1380
+1271,pubs,Bleeding Heart Tavern,-0.10692,51.51946,720,1350
+1272,pubs,The Lord Moon Of Mall,-0.12754,51.50647,480,1410
+1273,pubs,The Star of Kings,-0.12204,51.53635,690,0
+1274,pubs,The Pride of Spitalfields,-0.07102,51.51881,600,60
+1275,pubs,Coach & Horses,-0.07355,51.56156,720,0
+1276,pubs,Punch & Judy,-0.12296,51.51121,600,1380
+1277,pubs,Bill's,-0.12,51.51171,480,1380
+1278,pubs,The Shakespeare,-0.14486,51.49626,600,1380
+1279,pubs,The Kings Head,-0.1243,51.5782,720,0
+1280,pubs,The Green,-0.22474,51.50529,660,0
+1281,pubs,The Talbot,-0.02338,51.46759,720,1380
+1282,pubs,The Princess of Wales,-0.12384,51.50823,600,0
+1283,pubs,The Yorkshire Grey,-0.14149,51.51889,720,1380
+1284,pubs,The Sun,-0.14089,51.46391,660,1380
+1285,pubs,The Devonshire,-0.14904,51.44684,720,0
+1286,pubs,St James Tavern,-0.13422,51.51094,690,1410
+1287,pubs,The Craft Beer Co,-0.11395,51.46345,720,0
+1288,pubs,Leinster Arms,-0.1829,51.51173,720,1380
+1289,pubs,Trafalgar Tavern,-0.00362,51.48351,720,1380
+1290,pubs,Friend At Hand,-0.12458,51.52287,600,1380
+1291,pubs,The Crown,-0.12635,51.51681,720,1380
+1292,pubs,Geronimo Inns,-0.18566,51.45864,720,1380
+1293,pubs,The Lexington,-0.11187,51.53172,720,120
+1294,pubs,Janet's Bar,-0.17525,51.49371,780,90
+1295,pubs,The Roebuck,-0.09056,51.49809,720,0
+1296,pubs,Newman Arms,-0.13516,51.51816,1080,1320
+1297,pubs,The Crown,-0.1096,51.53726,720,1380
+1298,pubs,Marquess Of Anglesey,-0.12127,51.51282,660,1410
+1299,pubs,Brewers Inn,-0.18942,51.45674,420,1410
+1300,pubs,The Leconfield,-0.08864,51.5538,960,1380
+1301,pubs,The Grapes,-0.03395,51.50888,1050,1380
+1302,pubs,The Craft Beer Co,-0.12579,51.51575,720,0
+1303,pubs,The Hen & Chickens Theatre Bar,-0.10202,51.54605,960,0
+1304,pubs,The Pembroke,-0.19164,51.48869,720,0
+1305,pubs,Prince Albert,-0.16578,51.47964,720,1380
+1306,pubs,Northcote Records,-0.16703,51.46045,720,1380
+1307,pubs,The Coach Makers,-0.15056,51.51721,720,1410
+1308,pubs,The Camel & Artichoke,-0.11342,51.50069,720,1380
+1309,pubs,The Warwick,-0.13978,51.49241,660,1380
+1310,pubs,The Trafalgar,-0.16684,51.4884,720,1380
+1311,pubs,The Globe,-0.08992,51.50557,660,1380
+1312,pubs,Balham Bowls Club,-0.15266,51.44529,960,1410
+1313,pubs,The Four Sisters,-0.10278,51.54314,960,0
+1314,pubs,The Stags Head,-0.14316,51.51996,660,1380
+1315,pubs,The Barley Mow,-0.0804,51.52614,720,1410
+1316,pubs,The King & Co,-0.13414,51.45951,960,1380
+1317,pubs,Duke Of Sussex,-0.11016,51.50112,720,1380
+1318,pubs,Tom Cribb,-0.13181,51.5096,720,1380
+1319,pubs,The Distillers,-0.22319,51.48929,720,0
+1320,pubs,The Castle,-0.10429,51.52029,720,1380
+1321,pubs,Masons Arms,-0.22641,51.53011,720,1380
+1322,pubs,The Bear & Staff,-0.12855,51.51088,540,1380
+1323,pubs,The Old Ship Inn,-0.05601,51.54603,720,1380
+1324,pubs,Prince Regent,-0.15209,51.52153,720,1380
+1325,pubs,The Brown Dog,-0.25157,51.46893,720,1410
+1326,pubs,Montague Arms,-0.05173,51.47349,1170,0
+1327,pubs,The Clarence,-0.14143,51.50787,600,1410
+1328,pubs,East Dulwich Tavern,-0.07469,51.45981,720,0
+1329,pubs,Sherlock Holmes,-0.12522,51.50738,660,1380
+1330,pubs,Penderel's Oak,-0.11545,51.51787,540,1380
+1331,pubs,The Kings Head,-0.14117,51.50872,600,1410
+1332,pubs,The Champion,-0.13731,51.51684,720,1380
+1333,pubs,The Dev,-0.14236,51.54041,720,0
+1334,pubs,The Reliance,-0.0817,51.52671,720,1380
+1335,pubs,The White Horse,-0.20056,51.47428,570,1410
+1336,pubs,The Old Blue Last,-0.08022,51.5244,720,0
+1337,pubs,Old Coffee House,-0.1373,51.51255,660,1380
+1338,pubs,The Grove,-0.22745,51.49737,540,0
+1339,pubs,Lord Nelson,-0.10226,51.50349,720,1380
+1340,pubs,The Dove,-0.23483,51.49055,660,1380
+1341,pubs,White Hart,-0.07076,51.51575,660,1380
+1342,pubs,The Knights Templar,-0.112,51.51538,540,1380
+1343,pubs,Hoxton Square Bar & Kitchen,-0.08173,51.52746,660,0
+1344,pubs,Market Tavern,-0.14686,51.50615,720,1380
+1345,pubs,The Shakespeare,-0.09727,51.52178,1080,1320
+1346,pubs,The Old Frizzle,-0.20285,51.42001,660,1380
+1347,pubs,The Phene,-0.16756,51.48521,720,1320
+1348,pubs,The Old Brewery,-0.00781,51.48341,600,1350
+1349,pubs,Marksman Public House,-0.06943,51.5309,660,0
+1350,pubs,The Golden Lion,-0.13791,51.5061,660,1380
+1351,pubs,The York,-0.10547,51.5331,660,1380
+1352,pubs,The Maid Of Muswell,-0.13868,51.59874,720,1380
+1353,pubs,Big Red,-0.11936,51.5575,540,1380
+1354,pubs,Gunmakers,-0.15327,51.51924,600,1380
+1355,pubs,The William Morris,-0.22568,51.49309,480,0
+1356,pubs,The Florence,-0.10301,51.45266,660,1380
+1357,pubs,Hamilton Hall,-0.08266,51.51747,420,1410
+1358,pubs,The King William lV,-0.01136,51.57457,660,0
+1359,pubs,Dublin Castle,-0.14557,51.53744,720,60
+1360,pubs,The Telegraph At the Earl of Derby,-0.05044,51.47035,1020,1410
+1361,pubs,Exmouth Arms,-0.10965,51.52576,660,0
+1362,pubs,Catch,-0.07792,51.52792,720,0
+1363,pubs,Egg London,-0.12531,51.54184,720,0
+1364,pubs,The Stag,-0.16163,51.55336,720,1380
+1365,pubs,Camden Head,-0.10278,51.53562,720,1380
+1366,pubs,The Trading House,-0.09166,51.51524,720,0
+1367,pubs,Bag O' Nails,-0.14411,51.49808,660,1380
+1368,pubs,The Railway,-0.19096,51.5461,660,1380
+1369,pubs,Holborn Whippet,-0.12157,51.519,720,1410
+1370,pubs,The Fox,-0.07637,51.54065,960,0
+1371,pubs,The Vintry,-0.08855,51.51186,720,1380
+1372,pubs,The Auld Shillelagh,-0.07963,51.562,660,1380
+1373,pubs,The Exhibit,-0.15077,51.44298,660,1380
+1374,pubs,White Horse & Bower,-0.13082,51.49495,660,1380
+1375,pubs,Sir Richard Steele,-0.1592,51.54702,660,0
+1376,pubs,Warwick Arms,-0.20422,51.49609,720,0
+1377,pubs,Dirty Dicks,-0.07973,51.51799,600,0
+1378,pubs,Old George,-0.06081,51.52702,960,1380
+1379,pubs,Franklins,-0.076,51.45596,720,1380
+1380,pubs,The Square Pig,-0.1193,51.51875,720,1380
+1381,pubs,Pitcher & Piano,-0.11904,51.51586,660,1380
+1382,pubs,Elephants Head,-0.14394,51.54075,540,90
+1383,pubs,Lockside Lounge,-0.14584,51.54149,720,60
+1384,pubs,Stage Door,-0.10758,51.50134,660,1380
+1385,pubs,The Forest Tavern,0.02449,51.54986,960,1380
+1386,pubs,The Horseshoe,-0.17859,51.55602,660,1380
+1387,pubs,The Angelic,-0.10728,51.53484,720,0
+1388,pubs,The Craft Beer Co.,-0.10971,51.52125,720,1380
+1389,pubs,The Black Dog,-0.12092,51.48872,480,1380
+1390,pubs,The Windmill on the Common,-0.14576,51.45676,660,1380
+1391,pubs,The Slaughtered Lamb,-0.10118,51.52331,720,0
+1392,pubs,Prince Albert,-0.19738,51.50933,720,0
+1393,pubs,Coach & Horses,-0.14376,51.51079,690,1380
+1394,pubs,Doggetts Coat & Badge,-0.10484,51.50852,540,1410
+1395,pubs,Bricklayer's Arms,-0.0811,51.52614,660,1380
+1396,pubs,Duke of Edinburgh,-0.12071,51.46304,900,0
+1397,pubs,The Palm Tree,-0.04048,51.52913,750,1380
+1398,pubs,The Rake,-0.09117,51.50619,720,1380
+1399,pubs,Princess of Wales,0.01047,51.46939,660,1380
+1400,pubs,The Fitzroy Tavern,-0.13474,51.51856,660,1380
+1401,pubs,The Stonhouse,-0.13695,51.46443,1080,1380
+1402,pubs,Fox and Anchor,-0.1006,51.52038,420,1305
+1403,pubs,The Woodman,-0.17388,51.47358,720,1410
+1404,pubs,The Woolpack,-0.08194,51.50076,660,1380
+1405,pubs,Grange Pub,-0.29618,51.50828,660,1380
+1406,pubs,The Pembroke,-0.15489,51.54242,630,1410
+1407,pubs,The Crown,-0.13634,51.51122,600,1410
+1408,pubs,The Phoenix,-0.08963,51.46802,660,1380
+1409,pubs,The Malt House,-0.19827,51.48137,660,1380
+1410,pubs,The Banker,-0.09176,51.50966,660,1380
+1411,pubs,The Hemingway,-0.04892,51.53723,720,0
+1412,pubs,The Falcon,-0.12912,51.46432,720,0
+1413,pubs,The Mall Tavern,-0.19392,51.50836,720,0
+1414,pubs,The Phoenix,-0.16261,51.48863,660,1380
+1415,pubs,The Ivy House,-0.05212,51.45836,960,1380
+1416,pubs,Fire Stables,-0.21709,51.42623,720,1380
+1417,pubs,The Pilot,0.01025,51.49621,660,1380
+1418,pubs,The Crosse Keys,-0.08476,51.51273,540,1380
+1419,pubs,The Toll Gate,-0.10591,51.58989,540,1410
+1420,pubs,Princess of Wales,-0.04578,51.56187,660,1380
+1421,pubs,The Priory Arms,-0.12825,51.47482,1020,1380
+1422,pubs,The Aeronaut,-0.27506,51.5085,720,0
+1423,pubs,The Angel,-0.12787,51.51549,540,0
+1424,pubs,Red Lion,-0.13912,51.51263,660,240
+1425,pubs,Coopers Arms,-0.16517,51.4862,720,1380
+1426,pubs,Iron Duke,-0.14598,51.51268,720,1380
+1427,pubs,Brook Green Hotel,-0.22288,51.49737,420,1380
+1428,pubs,The Horse & Groom,-0.08036,51.52299,690,0
+1429,pubs,The Hour Glass,-0.1685,51.4944,720,1380
+1430,pubs,The Blue Posts,-0.14052,51.50693,660,1380
+1431,pubs,Golden Fleece,-0.09255,51.51326,540,1380
+1432,pubs,Approach Tavern,-0.05167,51.53152,660,1380
+1433,pubs,Jolly Gardeners Pub,-0.2185,51.46461,720,1380
+1434,pubs,The Windsor Castle,-0.13796,51.4952,720,1380
+1435,pubs,King Charles I,-0.11972,51.53243,720,1380
+1436,pubs,The Walrus Bar and Hostel,-0.11444,51.49996,720,1380
+1437,pubs,Metropolitan,-0.20058,51.52064,720,1410
+1438,pubs,The Earl of Camden,-0.14451,51.53784,720,0
+1439,pubs,Golden Heart,-0.07438,51.52019,660,1380
+1440,pubs,The Rose,-0.12263,51.48981,660,1380
+1441,pubs,The Charlotte Despard,-0.1366,51.56836,1020,60
+1442,pubs,The Swimmer At The Grafton Arms,-0.11951,51.55952,1020,1380
+1443,pubs,Earl's Court Tavern,-0.19462,51.49368,660,1380
+1444,pubs,Myddleton Arms,-0.09764,51.54176,720,0
+1445,pubs,The Sun in Splendour,-0.19778,51.51116,720,1380
+1446,pubs,Henry Addington,-0.0228,51.5035,600,1410
+1447,pubs,Nag's Head,-0.0113,51.58412,720,1380
+1448,pubs,The Spread Eagle,-0.1922,51.4566,660,1380
+1449,pubs,Fountains Abbey,-0.17288,51.517,660,1380
+1450,pubs,The Jolly Gardeners,-0.18955,51.447,720,1380
+1451,pubs,The Print House,-0.00863,51.53243,600,0
+1452,pubs,The Westbourne,-0.19481,51.51938,1020,1380
+1453,pubs,Black Lion,-0.18639,51.51056,600,1410
+1454,pubs,The Anchor,-0.09288,51.50732,660,1380
+1455,pubs,The Star of Bethnal Green,-0.06225,51.52686,690,0
+1456,pubs,The Enterprise,-0.11737,51.5202,720,1380
+1457,pubs,Eight Bells,-0.21015,51.46801,600,1410
+1458,pubs,The Pembury Tavern,-0.05926,51.54938,720,1380
+1459,pubs,The Defectors Weld,-0.22442,51.50526,720,0
+1460,pubs,Bull & Gate,-0.14118,51.5506,660,1380
+1461,pubs,The Salisbury,-0.12736,51.51125,660,1380
+1462,pubs,The Island Queen,-0.09843,51.53317,720,1410
+1463,pubs,The Raven,-0.24466,51.49511,660,1410
+1464,pubs,Ye Olde Mitre Inn,-0.10742,51.51844,660,1380
+1465,pubs,King William IV,-0.17678,51.55569,660,1380
+1466,pubs,The William Blake,-0.0901,51.52524,600,1380
+1467,pubs,Queens Larder,-0.12241,51.52125,600,1380
+1468,pubs,The Castle,-0.20573,51.51664,720,1380
+1469,pubs,The Cock Tavern,-0.05538,51.54628,720,1380
+1470,pubs,Hollywood Arms,-0.184,51.48594,720,1410
+1471,pubs,The Ledger Building,-0.02495,51.50754,540,0
+1472,pubs,The Ten Bells,-0.07433,51.51934,720,0
+1473,pubs,The Narrow Boat,-0.09684,51.53309,660,0
+1474,pubs,The Winchester,-0.10161,51.53636,660,0
+1475,pubs,Spread Eagle,-0.07782,51.5276,1020,1380
+1476,pubs,Retro Bar,-0.12361,51.50911,900,1380
+1477,pubs,Shaws Booksellers,-0.10146,51.51235,720,1380
+1478,pubs,The Amersham Arms,-0.03257,51.47575,720,0
+1479,pubs,The Albany,-0.14392,51.52333,720,0
+1480,pubs,Duke of Argyll,-0.13474,51.51181,720,1380
+1481,pubs,White Horse,-0.13868,51.51336,600,1410
+1482,pubs,The Antelope,-0.16586,51.42608,960,1380
+1483,pubs,Smugglers Tavern,-0.14106,51.52373,600,1380
+1484,pubs,Flying Horse,-0.08497,51.52049,660,0
+1485,pubs,Leyton Technical,-0.00751,51.55879,960,1380
+1486,pubs,Mother Kelly's,-0.05617,51.52839,960,1380
+1487,pubs,The Dolphin,-0.04841,51.42596,720,1410
+1488,pubs,Shillibeers Bar and Grill,-0.12166,51.54892,660,1380
+1489,pubs,The Bricklayers Arms,-0.13377,51.51772,660,1380
+1490,pubs,The Britannia,-0.19538,51.4987,660,0
+1491,pubs,Oxford Arms,-0.14418,51.54049,600,60
+1492,pubs,The Salt House,-0.18415,51.53735,720,1380
+1493,pubs,The Boathouse,-0.21131,51.46478,720,1380
+1494,pubs,The Miller,-0.0875,51.50214,720,1380
+1495,pubs,The Talbot,-0.07921,51.54275,1020,1350
+1496,pubs,The Bull,-0.10305,51.53747,720,0
+1497,pubs,Lyttelton Arms,-0.13931,51.53499,720,0
+1498,pubs,Crown Tavern,-0.10522,51.52326,720,1380
+1499,pubs,Kings Arms,-0.13738,51.51536,720,1380
+1500,pubs,Tufnell Park Tavern,-0.13214,51.55752,480,1380
+1501,pubs,Cock Tavern,-0.19954,51.48117,660,1380
+1502,pubs,The Bull,-0.21906,51.50605,600,1380
+1503,pubs,Hare & Billet,-0.00129,51.46809,720,1380
+1504,pubs,White Swan,-0.13152,51.48983,660,1380
+1505,pubs,The Goldsmith Pub & Dining Room,-0.09816,51.50191,720,1380
+1506,pubs,The Bell,-0.0755,51.51582,660,1380
+1507,pubs,O'Neill's,-0.12621,51.52887,600,0
+1508,pubs,The Claddagh Ring,-0.22599,51.59009,570,1380
+1509,pubs,The Royal George,-0.13021,51.51513,720,1410
+1510,pubs,Plumbers Arms,-0.14808,51.49683,660,1380
+1511,pubs,George & Vulture,-0.08368,51.52786,720,0
+1512,pubs,The Railway Tavern,-0.13202,51.46441,720,0
+1513,pubs,Elk Bar,-0.19733,51.4803,720,0
+1514,pubs,Bridge House,-0.18472,51.52043,720,1380
+1515,pubs,Union Bar & Grill,-0.18047,51.51929,600,1380
+1516,pubs,The Artillery Arms,-0.09008,51.52326,720,1380
+1517,pubs,Glasshouse Stores,-0.13535,51.51144,720,1380
+1518,pubs,The Rye,-0.06542,51.46465,600,0
+1519,pubs,Belushi's Public House,-0.13945,51.5358,420,1380
+1520,pubs,Buckingham Arms,-0.13684,51.49913,660,1380
+1521,pubs,Carpenters Arms,-0.16107,51.51477,660,1380
+1522,pubs,Nelsons Head,-0.0697,51.53013,1020,1320
+1523,pubs,The Porchester,-0.18772,51.51628,720,1380
+1524,pubs,The Grafton Arms,-0.13878,51.52331,720,1380
+1525,pubs,The Cockpit,-0.10133,51.51302,660,1380
+1526,pubs,BrewDog Shoreditch,-0.07291,51.52439,720,0
+1527,pubs,The Clapton Hart,-0.05606,51.55673,960,1380
+1528,pubs,Trinity Pub,-0.09371,51.50109,720,1380
+1529,pubs,The Royal Oak,-0.09167,51.50049,660,1380
+1530,pubs,Coach & Horses,-0.10922,51.52309,660,1380
+1531,pubs,Slug & Lettuce,-0.09075,51.50441,600,1380
+1532,pubs,Lord Raglan,-0.09657,51.51656,660,1380
+1533,pubs,The Flask,-0.17744,51.55645,660,1380
+1534,pubs,The Barley Mow,-0.15554,51.51965,660,1380
+1535,pubs,The White Hart,-0.05626,51.5202,540,0
+1536,pubs,Hermits Cave,-0.09078,51.47383,660,0
+1537,pubs,The Cornershop,-0.07829,51.52643,660,60
+1538,pubs,Pavilion End,-0.09392,51.51301,660,1380
+1539,pubs,The Prince Arthur,-0.06561,51.54415,960,1380
+1540,pubs,The Crabtree,-0.2233,51.48211,720,1380
+1541,pubs,Bread & Roses,-0.13647,51.46588,960,1410
+1542,pubs,The Nags Head,-0.12369,51.51291,600,1380
+1543,pubs,The Draft House,-0.07958,51.5105,720,1380
+1544,pubs,Tamesis Dock,-0.12484,51.48858,690,0
+1545,pubs,The Clachan,-0.1404,51.51351,600,1380
+1546,pubs,The Queen's Head,-0.13536,51.51085,660,1410
+1547,pubs,Catford Constitutional Club,-0.02266,51.44515,960,1380
+1548,pubs,The Hope,-0.16532,51.44633,720,1380
+1549,pubs,The Mitre,-0.17844,51.51233,720,1380
+1550,pubs,The Vauxhall Griffin,-0.12562,51.48165,720,1380
+1551,pubs,The Angel,-0.12787,51.51549,720,1380
+1552,pubs,The Taproom,-0.10305,51.54072,960,1380
+1553,pubs,Be At One,-0.16756,51.4607,1020,0
+1554,pubs,The Castle,-0.10916,51.53196,660,0
+1555,pubs,Rose & Crown,-0.14907,51.50419,660,1380
+1556,pubs,The Rugby Tavern,-0.11727,51.52198,660,1380
+1557,pubs,Princess Louise,-0.12157,51.51729,720,1380
+1558,pubs,DUCHESS,-0.14306,51.47886,660,1380
+1559,pubs,The Regent,-0.10698,51.539,660,1380
+1560,pubs,Leicester Arms,-0.13756,51.51056,660,1380
+1561,pubs,The Ship,-0.11066,51.49326,720,0
+1562,pubs,Three Crowns,-0.07407,51.56211,960,1380
+1563,pubs,The Wellington,-0.11949,51.51138,600,1380
+1564,pubs,The Alexandra,-0.13854,51.46146,0,1380
+1565,pubs,Sussex,-0.1269,51.51237,660,1380
+1566,pubs,The Dickens Tavern,-0.17432,51.51572,720,1380
+1567,pubs,The Gloucester Arms,-0.1839,51.4987,660,1380
+1568,pubs,Gorringe Park,-0.16153,51.41949,600,1380
+1569,pubs,The Two Brewers,-0.12718,51.51338,720,1380
+1570,pubs,The Crown and Anchor,-0.2623,51.49275,720,1380
+1571,pubs,The Engineer,-0.15082,51.54004,540,1410
+1572,pubs,The Chapel,-0.1668,51.51969,0,1380
+1573,pubs,The Four Thieves,-0.16256,51.46406,720,0
+1574,pubs,The Clock House,-0.06661,51.45971,540,1380
+1575,pubs,Founders Arms,-0.10155,51.50856,600,1380
+1576,pubs,The Sir Michael Balcon,-0.29839,51.51345,540,1410
+1577,pubs,Stapleton Tavern,-0.1153,51.57081,1080,1320
+1578,pubs,Lucas Arms,-0.11949,51.52841,660,1380
+1579,pubs,The Abbey Tavern,-0.14155,51.54619,720,0
+1580,pubs,Bird's Nest Bar and Hostel,-0.02267,51.47606,780,1380
+1581,pubs,Portobello Gold,-0.20263,51.5129,540,0
+1582,pubs,The Lyceum,-0.11993,51.51124,690,1380
+1583,pubs,The Dolphin,-0.05613,51.53984,960,60
+1584,pubs,The Portman,-0.16137,51.51525,450,1380
+1585,pubs,The Oliver Conquest,-0.07019,51.513,960,1380
+1586,pubs,The Albion,-0.10964,51.53937,660,1380
+1587,pubs,The Punchbowl,-0.14945,51.50907,720,1380
+1588,pubs,The Queen's Head,-0.22039,51.49591,660,1380
+1589,pubs,Blue Posts,-0.13943,51.51289,660,1380
+1590,pubs,The Hampshire Hog,-0.23558,51.49283,480,1380
+1591,pubs,The Bolingbroke,-0.16407,51.45392,720,1380
+1592,pubs,The Birdcage,-0.07107,51.52832,720,60
+1593,pubs,The Abbeville Pub,-0.13955,51.45492,660,1380
+1594,pubs,The Heritage Inn,-0.21916,51.55981,780,60
+1595,pubs,The Prince Of Teck,-0.19367,51.49279,510,0
+1596,pubs,Hand In Hand,-0.22829,51.4213,660,1380
+1597,pubs,The Gipsy Moth,-0.00978,51.48227,600,1380
+1598,pubs,Coach and Horses,-0.24998,51.47353,660,1380
+1599,pubs,The Feathers,-0.13314,51.4992,600,1380
+1600,pubs,The Queens,-0.12248,51.58052,720,1380
+1601,pubs,Hootananny,-0.11334,51.45533,1020,0
+1602,pubs,Jack's Bar,-0.10608,51.50421,720,1380
+1603,pubs,The St George's Tavern,-0.1448,51.49326,600,1380
+1604,pubs,The Tiger,-0.09259,51.47384,960,0
+1605,pubs,Bulls Head,-0.27808,51.48453,660,1380
+1606,pubs,The Water Poet,-0.07798,51.52113,660,1380
+1607,pubs,The Prince of Wales,-0.11482,51.46152,540,1380
+1608,pubs,Kings Arms,-0.10981,51.50458,660,1380
+1609,pubs,The Cuckfield,0.0243,51.5797,720,1380
+1610,pubs,John Snow,-0.13661,51.51331,720,1380
+1611,pubs,The Bree Louise,-0.13548,51.5271,690,1380
+1612,pubs,The Plough Bar & Kitchen,-0.17383,51.46128,600,1380
+1613,pubs,Hope & Anchor,-0.12662,51.45956,720,0
+1614,pubs,The Running Horse,-0.14848,51.51318,450,0
+1615,pubs,The Hemingford Arms,-0.11318,51.54307,660,1380
+1616,pubs,Old Red Lion Theatre Pub,-0.10591,51.53142,720,0
+1617,pubs,The Bobbin,-0.14292,51.46634,1020,1380
+1618,pubs,The Fellow,-0.12247,51.53175,720,0
+1619,pubs,Horniman At Hays,-0.08293,51.50612,660,1380
+1620,pubs,Dartmouth Castle,-0.22748,51.49446,720,1380
+1621,pubs,The Mudlark,-0.08895,51.50645,660,1380
+1622,pubs,The Hand & Shears,-0.09871,51.51928,660,1380
+1623,pubs,Zetland Arms,-0.17591,51.49334,660,0
+1624,pubs,The Court,-0.13703,51.52299,420,0
+1625,pubs,The Black Heart,-0.14175,51.53874,690,0
+1626,pubs,Draft House,-0.16599,51.45746,720,1380
+1627,pubs,The Pilot,-0.27789,51.49029,720,1380
+1628,pubs,The Wandle,-0.1892,51.44284,720,1380
+1629,pubs,Cross Keys,-0.12482,51.51453,660,1380
+1630,pubs,The Coronet,-0.11554,51.55565,480,0
+1631,pubs,Friendly Society,-0.13322,51.5124,960,1380
+1632,pubs,Pepper Saint Ontiod,-0.01958,51.49592,960,1380
+1633,pubs,The Junction Tavern,-0.13993,51.55507,1020,1380
+1634,pubs,Trinity Arms,-0.1193,51.46176,660,1380
+1635,pubs,Blessing's,-0.07423,51.51859,660,1380
+1636,pubs,The Volunteer,-0.15863,51.52368,720,0
+1637,pubs,Dion,-0.10027,51.51367,720,1380
+1638,pubs,The Willow Walk,-0.14246,51.49535,420,0
+1639,pubs,Anchor Tap,-0.07602,51.50355,720,1380
+1640,pubs,The Hunter S Pub,-0.08337,51.54592,960,0
+1641,pubs,The Masque Haunt,-0.0905,51.52504,480,1380
+1642,pubs,St Barts Brewery,-0.10056,51.51888,690,0
+1643,pubs,The Boogaloo,-0.14385,51.57631,1020,0
+1644,pubs,Duke of Hamilton,-0.17753,51.55883,720,1380
+1645,pubs,The Mad Bishop & Bear,-0.17669,51.5159,480,1380
+1646,pubs,Ye Olde Rose & Crown ,-0.00793,51.47944,600,1380
+1647,pubs,Mabel's Tavern,-0.12753,51.52777,660,1380
+1648,pubs,De Hems Dutch Cafe Bar,-0.13122,51.51206,660,0
+1649,pubs,The Castle - Fuller's,-0.25869,51.52248,660,1380
+1650,pubs,The Angel,-0.05907,51.50067,720,1380
+1651,pubs,Angel In The Fields,-0.15143,51.51811,660,1380
+1652,pubs,Ye Grapes,-0.14634,51.50667,660,1380
+1653,pubs,Rose & Crown,-0.08369,51.56104,720,0
+1654,pubs,Prince Arthur,-0.08527,51.52762,720,0
+1655,pubs,The Old Queens Head,-0.10052,51.53728,720,0
+1656,pubs,Walmer Castle,-0.19922,51.51509,720,1380
+1657,pubs,The Cat's Back,-0.19945,51.46179,720,1320
+1658,pubs,Hope & Anchor,-0.10344,51.54329,540,0
+1659,pubs,The Roundhouse,-0.12548,51.51128,660,1410
+1660,pubs,The White Lion,-0.12386,51.5128,600,1410
+1661,pubs,The Perseverence,-0.1188,51.5221,720,1380
+1662,pubs,The Lord Stanley,-0.12954,51.54714,720,1380
+1663,pubs,Prince Albert,-0.13698,51.53993,720,1380
+1664,pubs,Mitre Hotel,-0.00982,51.48021,720,1380
+1665,pubs,The Good Mixer,-0.14459,51.53946,720,60
+1666,pubs,The Rising Sun,-0.09984,51.51911,720,1380
+1667,pubs,The Avalon,-0.14795,51.45045,720,1380
+1668,pubs,Duke Of Kendal,-0.16623,51.51459,660,1380
+1669,pubs,Chelsea Ram,-0.18254,51.47918,660,1380
+1670,pubs,Fuller's,-0.1318,51.49957,660,1380
+1671,pubs,The Greyhound,-0.18984,51.50104,720,1380
+1672,pubs,Howl At the Moon,-0.07991,51.53317,720,1380
+1673,pubs,The Old Red Cow,-0.09924,51.51949,720,1380
+1674,pubs,The Elgin,-0.18584,51.53025,480,1410
+1675,pubs,Coat & Badge,-0.21663,51.46451,660,1380
+1676,pubs,The Warwick Castle,-0.18377,51.52211,720,1380
+1677,pubs,Queen Adelaide,-0.19927,51.45986,720,0
+1678,pubs,The Good Ship,-0.20056,51.54368,1020,120
+1679,pubs,The Belle Vue,-0.13754,51.46181,720,1380
+1680,pubs,Prince Bonaparte,-0.19566,51.51741,720,1380
+1681,pubs,The Old Crown,-0.12521,51.51698,600,1410
+1682,pubs,The Goose On The Broadway,0.00282,51.54237,540,1410
+1683,pubs,Prince Of Wales,-0.14177,51.46416,960,0
+1684,pubs,The Resting Hare,-0.12932,51.52651,720,1380
+1685,pubs,The Hoop and Grapes,-0.07418,51.51425,660,1380
+1686,pubs,Crown & Two Chairmen,-0.1325,51.51383,720,1410
+1687,pubs,The Shipwright Arms,-0.08351,51.50464,660,0
+1688,pubs,Cavendish Arms,-0.12767,51.47647,1020,0
+1689,pubs,The Lion,-0.08056,51.56209,960,0
+1690,pubs,Bradley's Spanish Bar,-0.13273,51.5164,720,1410
+1691,pubs,The Mayflower,-0.05359,51.50178,660,1380
+1692,pubs,The Old Kings Head,-0.08995,51.50476,660,0
+1693,pubs,Mulberry Bush,-0.11029,51.50719,540,1410
+1694,pubs,The Cask & Glass,-0.14032,51.4985,660,1380
+1695,pubs,The Plough,-0.07431,51.44942,720,1380
+1696,pubs,Old Ship,-0.23986,51.49035,660,1380
+1697,pubs,Ye Old White Horse,-0.1172,51.51473,660,1380
+1698,pubs,Prince Alfred,-0.18749,51.5133,660,1410
+1699,pubs,Kings Stores,-0.07778,51.51802,720,1380
+1700,pubs,Exmouth Arms,-0.13665,51.52788,540,1380
+1701,pubs,The Plough,-0.12579,51.51775,660,1380
+1702,pubs,Two Brewers,-0.13484,51.46308,1080,120
+1703,pubs,Hereford Arms,-0.18131,51.49287,660,1380
+1704,pubs,The Libertine Pub,-0.09715,51.50053,720,1380
+1705,pubs,The Coach & Horses,-0.00887,51.4816,660,1380
+1706,pubs,Prince Of Wales,-0.21273,51.46001,720,1380
+1707,pubs,The Lord Tredegar,-0.03348,51.52838,720,1380
+1708,pubs,The Roebuck,-0.25286,51.49297,660,1380
+1709,pubs,Hole in the Wall,-0.11318,51.50393,660,1380
+1710,pubs,Smith & Whistle,-0.14708,51.50456,960,1410
+1711,pubs,The Falcon,-0.16835,51.46383,660,1380
+1712,pubs,The Rose Pub,-0.18986,51.47671,720,1410
+1713,pubs,The Manor Arms,-0.13228,51.42817,540,1380
+1714,pubs,The Morgan Arms,-0.03085,51.52784,720,1380
+1715,pubs,The Rose and Crown,-0.14129,51.46375,660,1380
+1716,pubs,The Crown & Greyhound,-0.08494,51.44941,720,1380
+1717,pubs,Queens Head,-0.1185,51.52842,720,1380
+1718,cocktailbars,Boondocks,-0.09106,51.52826,720,1320
+1719,cocktailbars,Metro Garden Restaurant and Bar,-0.13783,51.46156,720,1320
+1720,cocktailbars,Nanashi,-0.08251,51.52603,720,1320
+1721,cocktailbars,The Escapologist,-0.12636,51.51397,1020,0
+1722,cocktailbars,Royal Exchange Grind,-0.0877,51.5137,390,1140
+1723,cocktailbars,Blue Bar,-0.15609,51.50217,960,60
+1724,cocktailbars,Fancy Funkin Chicken,-0.11417,51.46142,750,1380
+1725,cocktailbars,Smollensky's,-0.01948,51.50436,720,1320
+1726,cocktailbars,Palm Beach Bar & Kitchen,-0.14436,51.5082,690,60
+1727,cocktailbars,The Passage,-0.07296,51.54631,690,60
+1728,cocktailbars,Reverend JW Simpson,-0.13526,51.51967,690,60
+1729,cocktailbars,La Casita Mexicana London,-0.07169,51.51963,660,0
+1730,cocktailbars,Tony's Restaurant and Bar,-0.11313,51.45518,660,1380
+1731,cocktailbars,108 Bar & Grill,-0.15057,51.51796,480,1350
+1732,cocktailbars,Archer Street,-0.13398,51.51145,960,60
+1733,cocktailbars,Three Eight Four,-0.11225,51.46185,1020,0
+1734,cocktailbars,Beltane & Pop,-0.11684,51.50578,600,0
+1735,cocktailbars,The Mulwray,-0.1326,51.51115,1020,1410
+1736,cocktailbars,Smoke & Salt,-0.11235,51.46351,1080,1320
+1737,cocktailbars,Martello Hall,-0.05704,51.53867,480,0
+1738,cocktailbars,Oriole,-0.10276,51.51888,1050,1380
+1739,cocktailbars,Ten,-0.1263,51.58682,1080,1320
+1740,cocktailbars,LWS,-0.08266,51.41849,1080,1320
+1741,cocktailbars,Be At One,-0.22402,51.49361,990,0
+1742,cocktailbars,Planet Hollywood,-0.13247,51.50916,690,60
+1743,cocktailbars,Hoxley & Porter,-0.10286,51.54023,720,1380
+1744,cocktailbars,City of London Distillery,-0.10503,51.51393,540,1380
+1745,cocktailbars,The Society Club,-0.13579,51.51312,660,1080
+1746,cocktailbars,Peg And Patriot,-0.05607,51.53037,660,1080
+1747,cocktailbars,Be At One,-0.07832,51.51882,990,0
+1748,cocktailbars,Kaifeng Kosher Oriental Restaurant,-0.2242,51.58996,1050,1350
+1749,cocktailbars,Cartel Battersea,-0.16628,51.47186,1020,1380
+1750,cocktailbars,White Lion,-0.12964,51.43066,720,0
+1751,cocktailbars,TT Liquor,-0.0781,51.52868,660,1380
+1752,cocktailbars,Patch,-0.10193,51.51343,990,0
+1753,cocktailbars,Salon,-0.11328,51.46177,990,0
+1754,cocktailbars,Cellar N1,-0.12134,51.53163,1020,90
+1755,cocktailbars,Three Sheets,-0.07586,51.5439,510,30
+1756,cocktailbars,Mr Fogg's,-0.14405,51.50973,1020,60
+1757,cocktailbars,Wahaca,-0.10399,51.536,720,1380
+1758,cocktailbars,Sugar Cane Bar,-0.16311,51.46421,1020,0
+1759,cocktailbars,Freud Café,-0.12679,51.51517,720,1380
+1760,cocktailbars,The Natural Philosopher,-0.05881,51.53248,1080,1380
+1761,cocktailbars,BallieBallerson,-0.08057,51.52557,1080,1380
+1762,cocktailbars,Simmons Liverpool Street,-0.0784,51.51811,900,1410
+1763,cocktailbars,Kiss the Sky,-0.12442,51.58069,1020,0
+1764,cocktailbars,Goat,-0.18036,51.48618,720,60
+1765,cocktailbars,The Gibson,-0.09645,51.52393,1020,60
+1766,cocktailbars,Clerkenwell & Social,-0.10302,51.52223,720,1410
+1767,cocktailbars,Icon Balcony Bar,-0.13036,51.51089,1080,120
+1768,cocktailbars,Canvas Chelsea,-0.15732,51.4942,1080,120
+1769,cocktailbars,Dirty Martini,-0.09486,51.51454,900,60
+1770,cocktailbars,Flamingo LGBT Cocktail Bar,-0.11316,51.51829,960,60
+1771,cocktailbars,City Zebrano,-0.07733,51.51443,720,0
+1772,cocktailbars,Mortons,-0.14656,51.51038,1140,1380
+1773,cocktailbars,Be At One,-0.12066,51.53217,1020,0
+1774,cocktailbars,Mews Cocktail & Lounge Bar,-0.14516,51.51296,1080,60
+1775,cocktailbars,SkyLounge,-0.07822,51.51083,660,120
+1776,cocktailbars,Hector & Noble,-0.04394,51.53832,720,1380
+1777,cocktailbars,Sager + Wilde - Paradise Row,-0.05613,51.52816,720,1380
+1778,cocktailbars,Dado54,-0.10514,51.51711,720,1380
+1779,cocktailbars,Tonight Josephine,-0.11008,51.50273,1020,0
+1780,cocktailbars,Hawksmoor,-0.07566,51.52115,1050,1380
+1781,cocktailbars,Charlotte's Bistro,-0.25514,51.49314,720,0
+1782,cocktailbars,No 32 The Old Town,-0.14062,51.46304,540,1410
+1783,cocktailbars,The Cocktail Trading Company,-0.07239,51.52444,1020,1410
+1784,cocktailbars,Buddha-Bar London,-0.16241,51.50157,1020,0
+1785,cocktailbars,City Social,-0.08569,51.5147,1080,1350
+1786,cocktailbars,Dirty Bones,-0.07433,51.5242,720,1380
+1787,cocktailbars,Burlock,-0.15161,51.51513,1020,60
+1788,cocktailbars,Monmouth Kitchen,-0.12717,51.51423,1020,1350
+1789,cocktailbars,The Frog,-0.07332,51.52065,1020,1350
+1790,cocktailbars,Voltaire,-0.10434,51.51251,720,60
+1791,cocktailbars,Coin Laundry,-0.10794,51.52639,480,0
+1792,cocktailbars,Victor Wynd Museum of Curiosities,-0.05753,51.53484,480,0
+1793,cocktailbars,Punch Room,-0.13623,51.51648,1020,60
+1794,cocktailbars,Harrild and Sons,-0.10467,51.5158,720,0
+1795,cocktailbars,Burger & Lobster,-0.15035,51.51389,720,1350
+1796,cocktailbars,Ponte Nuovo,-0.07999,51.41963,720,1350
+1797,cocktailbars,B-SOHO Cocktail Bar & Pizzeria,-0.13746,51.51495,720,0
+1798,cocktailbars,The Light Lounge,-0.12954,51.51183,1020,1410
+1799,cocktailbars,Lmnh Kitchen,-0.06726,51.51263,450,1020
+1800,cocktailbars,Caravan City,-0.09149,51.5121,420,1350
+1801,cocktailbars,Las Iguanas,-0.07574,51.51929,600,1380
+1802,cocktailbars,Oui Monsieur!,-0.07422,51.55631,600,1380
+1803,cocktailbars,The Other Room,-0.08295,51.49574,960,0
+1804,cocktailbars,The Brook,-0.05597,51.54004,1080,1380
+1805,cocktailbars,Heights Restaurant,-0.14059,51.51316,420,1320
+1806,cocktailbars,Basement Sate,-0.13491,51.51407,1080,0
+1807,cocktailbars,Barts,-0.167,51.49263,1080,0
+1808,cocktailbars,Marco Pierre White Wheeler's Oyster Bar and Grill Room,-0.0848,51.51421,1050,1320
+1809,cocktailbars,The Botanist,-0.15689,51.49291,480,1410
+1810,cocktailbars,PimpShuei,-0.11263,51.52277,480,1410
+1811,cocktailbars,Pickled Fred,-0.07079,51.52044,480,1410
+1812,cocktailbars,Underdog,-0.07355,51.52419,480,1410
+1813,cocktailbars,Pergola On The Roof,-0.2254,51.50703,480,1410
+1814,cocktailbars,Adventure Bar,-0.1678,51.46062,1020,0
+1815,cocktailbars,Red Bar,-0.15512,51.50989,1020,120
+1816,cocktailbars,Bermondsey Arts  Club,-0.08138,51.49675,1020,120
+1817,cocktailbars,Exit Bar,-0.07145,51.52268,1020,120
+1818,cocktailbars,Apples & Pears,-0.06995,51.51699,1020,120
+1819,cocktailbars,Duke & Duchess,-0.10132,51.51331,690,1380
+1820,cocktailbars,Quo Vadis,-0.13262,51.51409,1050,1350
+1821,cocktailbars,Jimmys Pop Up Secret Garden,-0.12932,51.46547,1020,0
+1822,cocktailbars,Bar Termini Centrale,-0.15165,51.51514,540,1410
+1823,cocktailbars,Timmy Green,-0.14386,51.49803,450,1380
+1824,cocktailbars,Passo Restaurant,-0.08785,51.52489,720,0
+1825,cocktailbars,Translate,-0.07777,51.52788,450,120
+1826,cocktailbars,Palm Club,-0.07647,51.54852,1110,0
+1827,cocktailbars,The London Cocktail Club,-0.13657,51.5189,990,1410
+1828,cocktailbars,Evans and Peel Pharmacy,-0.25544,51.49137,990,1410
+1829,cocktailbars,The Covent Garden Cocktail Club,-0.12756,51.51195,990,1410
+1830,cocktailbars,Shikumen Shepherd's Bush,-0.22461,51.50401,720,1380
+1831,cocktailbars,Pop Art Sushi,-0.12653,51.48515,1020,1320
+1832,cocktailbars,Shaker & Company,-0.139,51.528,1020,0
+1833,cocktailbars,Victorian Bath House,-0.08289,51.51668,1020,0
+1834,cocktailbars,Lokhandwala,-0.13717,51.52055,720,1410
+1835,cocktailbars,Bone Daddies Bermondsey,-0.07096,51.49741,720,1410
+1836,cocktailbars,Scarfes Bar,-0.11795,51.5172,720,0
+1837,cocktailbars,Soho House,-0.13286,51.51384,450,780
+1838,cocktailbars,Cafe Rouge - Kingsway,-0.11963,51.51605,480,1380
+1839,cocktailbars,Bar Titania,-0.12958,51.51176,480,1380
+1840,cocktailbars,Looking Glass Cocktail Club,-0.07613,51.52815,1020,0
+1841,cocktailbars,The Bloomsbury Club,-0.12908,51.51714,1020,60
+1842,cocktailbars,Be at One,-0.13081,51.51402,990,180
+1843,cocktailbars,The Beast of Brixton,-0.12482,51.45953,990,180
+1844,cocktailbars,Las Iguanas,-0.11765,51.50559,600,1380
+1845,cocktailbars,Suito,-0.07162,51.51942,750,0
+1846,cocktailbars,Bronté,-0.12656,51.50782,450,0
+1847,cocktailbars,GŎNG,-0.08672,51.50429,1020,120
+1848,cocktailbars,Autumn Yard,-0.06762,51.55464,540,1350
+1849,cocktailbars,The Jam Tree,-0.18719,51.47927,720,1380
+1850,cocktailbars,Blind Spot Bar,-0.12638,51.51052,1020,90
+1851,cocktailbars,Doctor Kluger's,-0.04711,51.47518,720,1380
+1852,cocktailbars,Bull In a China Shop,-0.07805,51.52665,480,1410
+1853,cocktailbars,65 & King,-0.19133,51.51538,1020,1410
+1854,cocktailbars,Florentine Restaurant and Bar,-0.11318,51.49786,690,1350
+1855,cocktailbars,The Schoolhouse,-0.17582,51.46044,540,0
+1856,cocktailbars,Be At One,-0.10271,51.53991,990,0
+1857,cocktailbars,Boys'N'Berry,-0.20625,51.47489,480,1080
+1858,cocktailbars,Dirty Martini,-0.13348,51.46326,960,0
+1859,cocktailbars,The Shrub & Shutter,-0.10854,51.4629,960,0
+1860,cocktailbars,Seymour's Parlour,-0.15868,51.51485,420,1320
+1861,cocktailbars,The Luggage Room,-0.15076,51.51246,1020,120
+1862,cocktailbars,Discount Suit Company,-0.07607,51.51656,1020,1380
+1863,cocktailbars,214 Bermondsey,-0.0815,51.49809,1020,1380
+1864,cocktailbars,The Chelsea Pensioner,-0.18758,51.48169,720,30
+1865,cocktailbars,The Lampery,-0.07932,51.51046,1020,1350
+1866,cocktailbars,Sama Bankside,-0.10383,51.50662,600,1380
+1867,cocktailbars,Be at one,-0.13991,51.53584,990,60
+1868,cocktailbars,Mezcal Cantina,-0.07448,51.56219,900,1380
+1869,cocktailbars,Dandelyan Bar,-0.10694,51.50842,990,1410
+1870,cocktailbars,Acciuga London,-0.20306,51.49744,990,1410
+1871,cocktailbars,Helgi's,-0.05586,51.54014,1020,1380
+1872,cocktailbars,JuJu,-0.17395,51.4857,1020,1380
+1873,cocktailbars,Be At One,-0.12086,51.51306,270,180
+1874,cocktailbars,Ruby's,-0.07468,51.55273,270,180
+1875,cocktailbars,Hai Cenato,-0.14363,51.49722,480,1350
+1876,cocktailbars,Bill's,-0.15755,51.52164,480,1380
+1877,cocktailbars,Map Maison,-0.07702,51.53868,480,1380
+1878,cocktailbars,Galante,-0.16694,51.49265,1020,0
+1879,cocktailbars,Ember,-0.08561,51.51061,660,0
+1880,cocktailbars,MNKY HSE,-0.14186,51.50813,1020,0
+1881,cocktailbars,Knowhere Special,-0.14048,51.55106,1020,0
+1882,cocktailbars,Happiness Forgets,-0.08165,51.5277,1020,1380
+1883,cocktailbars,The Nines,-0.06653,51.46986,1020,1380
+1884,cocktailbars,Rustiko,-0.13171,51.51286,720,30
+1885,cocktailbars,Original Sin,-0.07396,51.5606,1080,0
+1886,cocktailbars,Exmouth Market Grind,-0.1105,51.5253,480,660
+1887,cocktailbars,Zenna Bar,-0.13296,51.51411,480,660
+1888,cocktailbars,Noir W1,-0.15158,51.51506,1020,90
+1889,cocktailbars,Hunter 486,-0.15981,51.51597,390,0
+1890,cocktailbars,El Patron,-0.2161,51.46047,390,0
+1891,cocktailbars,Tonic & Remedy,-0.08882,51.52756,720,1320
+1892,cocktailbars,Graffiti Bar,-0.18664,51.44064,1020,0
+1893,cocktailbars,Trailer Happiness,-0.20458,51.51506,1020,0
+1894,cocktailbars,Joyeux Bordel,-0.08062,51.52666,1080,120
+1895,cocktailbars,Dirty Martini Islington,-0.10374,51.53629,960,0
+1896,cocktailbars,The Radio Bar,-0.11865,51.51179,720,60
+1897,cocktailbars,Kiru,-0.16611,51.49085,1080,1320
+1898,cocktailbars,The Alice House - West Hampstead,-0.19174,51.55096,570,1410
+1899,cocktailbars,Ella Canta,-0.15042,51.50387,690,60
+1900,cocktailbars,Communion,-0.0896,51.47406,690,60
+1901,cocktailbars,Graveney & Meadow,-0.16679,51.42684,600,1020
+1902,cocktailbars,Ladies & Gents,-0.14129,51.55202,1020,1410
+1903,cocktailbars,The Churchill Bar & Terrace,-0.15696,51.51544,540,120
+1904,cocktailbars,Rullo's,-0.13915,51.54199,720,1380
+1905,cocktailbars,Plate,-0.0889,51.52766,420,1320
+1906,cocktailbars,Notch,-0.1575,51.51347,600,1320
+1907,cocktailbars,STK London,-0.11871,51.51209,1020,0
+1908,cocktailbars,Be At One,-0.1005,51.52024,990,0
+1909,cocktailbars,The Blind Pig,-0.13673,51.51383,720,1410
+1910,cocktailbars,Casita2,-0.06239,51.53574,1020,1380
+1911,cocktailbars,Bassoon,-0.12497,51.5061,960,60
+1912,cocktailbars,Platform,-0.05798,51.5374,510,1200
+1913,cocktailbars,London Cocktail Club,-0.07344,51.52374,1020,0
+1914,cocktailbars,The London Cocktail Club,-0.14079,51.51587,990,1410
+1915,cocktailbars,Nam Long Le Shaker,-0.18359,51.49065,420,120
+1916,cocktailbars,Little Bird,-0.2675,51.48155,1020,1380
+1917,cocktailbars,The Queen's Head,-0.11698,51.52077,720,1380
+1918,cocktailbars,Bedroom Bar,-0.08003,51.52604,960,60
+1919,cocktailbars,Clarendon Cocktail Cellar,-0.14494,51.49054,1020,1380
+1920,cocktailbars,The London Gin Club,-0.13437,51.51548,1020,1380
+1921,cocktailbars,Foxlow,-0.1365,51.51131,480,0
+1922,cocktailbars,The Distillery,-0.20492,51.51601,960,60
+1923,cocktailbars,Meatup,-0.18097,51.48587,960,60
+1924,cocktailbars,The Gin Palace,-0.12068,51.51107,720,120
+1925,cocktailbars,The Botanist,-0.08359,51.51892,660,0
+1926,cocktailbars,The Lucky Pig,-0.19945,51.48127,660,0
+1927,cocktailbars,Southsider Cocktail Club,-0.16569,51.46087,660,0
+1928,cocktailbars,All Bar One,-0.11928,51.51635,480,1380
+1929,cocktailbars,Comensal,-0.13988,51.45418,1080,1380
+1930,cocktailbars,Julie's Restaurant and Bar,-0.21055,51.51013,1140,1380
+1931,cocktailbars,Cartizze Bar,-0.14562,51.5127,1020,1380
+1932,cocktailbars,La Cabina,-0.07678,51.53557,1020,1380
+1933,cocktailbars,The Rum Kitchen,-0.20337,51.5176,1020,1380
+1934,cocktailbars,Loves Company,-0.08838,51.5263,1020,1380
+1935,cocktailbars,Frederick's,-0.10419,51.53447,1080,1380
+1936,cocktailbars,Grand Union,-0.08805,51.47201,720,1380
+1937,cocktailbars,5CC,-0.10452,51.51562,720,1380
+1938,cocktailbars,The Factory House,-0.08277,51.51237,450,1380
+1939,cocktailbars,The London Cocktail Club,-0.12596,51.51652,990,1410
+1940,cocktailbars,Smiths Cocktail Bar,-0.22287,51.49719,600,1320
+1941,cocktailbars,Nightjar,-0.08771,51.52654,1080,60
+1942,cocktailbars,Satan's Whiskers,-0.05601,51.52956,1020,0
+1943,cocktailbars,Piebury Corner - Kings Cross,-0.12112,51.53116,660,1320
+1944,cocktailbars,The Imperial Durbar,-0.1605,51.43634,420,30
+1945,cocktailbars,Cottons,-0.0802,51.52638,720,1320
+1946,cocktailbars,Scenario,-0.07502,51.55443,1080,0
+1947,cocktailbars,Ekcovision,-0.11393,51.4631,330,0
+1948,cocktailbars,ABQ London,-0.06046,51.53236,330,0
+1949,cocktailbars,The Toy Shop,-0.2147,51.4652,1020,1380
+1950,cocktailbars,Aviary,-0.08561,51.52188,420,0
+1951,cocktailbars,Ping Pong,-0.07416,51.50799,660,1380
+1952,cocktailbars,100 Hoxton,-0.08018,51.53104,660,1380
+1953,cocktailbars,May Fair Bar,-0.14388,51.50817,480,1380
+1954,cocktailbars,Merchant House,-0.09327,51.51328,720,0
+1955,cocktailbars,Cha Chaan Teng,-0.11904,51.51588,420,0
+1956,cocktailbars,Forro Do Galpao,-0.07363,51.52037,420,0
+1957,cocktailbars,Dirty Bones - Carnaby Street,-0.13875,51.51235,720,0
+1958,cocktailbars,American Bar,-0.1206,51.51024,690,0
+1959,cocktailbars,Lost & Found,-0.15104,51.4448,1020,0
+1960,cocktailbars,Cosy Kettle,-0.13007,51.52994,1020,0
+1961,cocktailbars,Esca,-0.13691,51.46243,720,1380
+1962,cocktailbars,Call Me Mr Lucky,-0.09107,51.50467,1020,0
+1963,cocktailbars,Bala Baya,-0.10208,51.5035,720,1410
+1964,cocktailbars,The Advisory,-0.05593,51.5399,540,1380
+1965,cocktailbars,Earlham Street Clubhouse,-0.12626,51.5139,540,1380
+1966,cocktailbars,Be At One,-0.12008,51.51182,990,1410
+1967,cocktailbars,Be At One,-0.08079,51.5268,1020,0
+1968,cocktailbars,The Hide Bar,-0.0821,51.50186,1020,0
+1969,cocktailbars,Palm Court Brasserie,-0.12427,51.51188,720,1380
+1970,cocktailbars,Mason's Cafe Bar,-0.12319,51.51117,720,1380
+1971,cocktailbars,Merchant House,-0.10485,51.51381,660,60
+1972,cocktailbars,Slug and Lettuce - Wood Street,-0.09367,51.51612,480,1380
+1973,cocktailbars,The Little Yellow Door,-0.19603,51.50931,480,1380
+1974,cocktailbars,Little Bat,-0.10361,51.54299,1080,0
+1975,cocktailbars,Behind This Wall,-0.05527,51.54922,1080,0
+1976,cocktailbars,Salvador and Amanda,-0.12163,51.51886,660,60
+1977,cocktailbars,Ritorno,-0.17813,51.48299,660,60
+1978,cocktailbars,Galvin,-0.14791,51.50485,660,60
+1979,cocktailbars,Simmons,-0.13934,51.53503,900,0
+1980,cocktailbars,The Little Viet Kitchen,-0.11081,51.53354,900,0
+1981,cocktailbars,House of Tippler,-0.0753,51.45715,900,0
+1982,cocktailbars,Ninth Ward,-0.10766,51.52253,720,1410
+1983,cocktailbars,Mr Fogg's Gin Parlour,-0.1268,51.51088,1020,0
+1984,cocktailbars,Golden Bee,-0.08487,51.52562,1020,0
+1985,cocktailbars,Demon Wise & Partners,-0.08613,51.51509,1020,0
+1986,cocktailbars,Lotus Bar,-0.13366,51.4636,1020,0
+1987,cocktailbars,Broadway House,-0.19571,51.48017,720,60
+1988,cocktailbars,The Rum Kitchen,-0.1138,51.46148,1020,1410
+1989,cocktailbars,Maverick,-0.14552,51.49562,690,1350
+1990,cocktailbars,The Craft Cocktail Co,-0.06672,51.52697,690,1350
+1991,cocktailbars,Circus,-0.12479,51.51451,690,1350
+1992,cocktailbars,Ninetyeight Bar & Lounge,-0.07996,51.52501,690,1350
+1993,cocktailbars,Oven and Hearth,-0.11227,51.56934,690,1350
+1994,cocktailbars,Threadneedle Bar,-0.08615,51.51381,660,1380
+1995,cocktailbars,EDG Bar & Lounge,-0.17062,51.51954,480,120
+1996,cocktailbars,Little Nan's Bar,-0.02693,51.47872,660,1380
+1997,cocktailbars,Be At One,-0.13437,51.51155,990,1410
+1998,cocktailbars,Lydia Cafe,-0.08049,51.5619,480,720
+1999,cocktailbars,Over Easy,-0.15161,51.51513,480,1260
+2000,cocktailbars,Bar 366 Earlsfield,-0.1876,51.4416,1020,1380
+2001,cocktailbars,Carriage 34,-0.11185,51.50105,960,0
+2002,cocktailbars,Graveney Gin,-0.1659,51.42882,960,0
+2003,cocktailbars,Barsmith,-0.10162,51.52029,660,0
+2004,cocktailbars,The Bach,-0.08015,51.53092,420,1080
+2005,cocktailbars,Cocktail Embassy,-0.07903,51.41975,1020,0
+2006,cocktailbars,Browns,-0.14383,51.51237,540,1380
+2007,cocktailbars,Grand Union Farringdon,-0.10374,51.51927,720,0
+2008,cocktailbars,Flavour Garden,-0.07961,51.51109,420,1320
+2009,cocktailbars,Savini At Criterion,-0.13405,51.50978,480,0
+2010,cocktailbars,Viva Tapas Bar,-0.07483,51.55099,1080,1380
+2011,cocktailbars,Maxwell's Bar & Grill,-0.12363,51.51273,690,0
+2012,cocktailbars,109 Bar + Kitchen,-0.15963,51.50164,480,1260
+2013,cocktailbars,The Game Bird,-0.14044,51.50577,720,1320
+2014,cocktailbars,BYOC Camden,-0.13934,51.53503,720,1320
+2015,cocktailbars,Beaufort House,-0.17599,51.48453,480,30
+2016,cocktailbars,Ping Pong,-0.21926,51.50599,660,1380
+2017,cocktailbars,Bittersweet,-0.13827,51.51234,660,1380
+2018,cocktailbars,Opium,-0.13146,51.51179,1020,60
+2019,cocktailbars,First Aid Box,-0.10349,51.45287,1020,60
+2020,cocktailbars,London Cocktail Club,-0.09779,51.53928,1020,0
+2021,cocktailbars,Tuyo,-0.06272,51.53541,630,1320
+2022,cocktailbars,Every Cloud,-0.05366,51.54567,1080,0
+2023,cocktailbars,Bun & Bar,-0.09997,51.58266,720,0
+2024,cocktailbars,Evans & Peel Detective Agency,-0.19123,51.4903,720,0
+2025,cocktailbars,Jack Solomons Club,-0.13434,51.51109,720,0
+2026,cocktailbars,Moo Cantina - Pimlico,-0.13522,51.49108,660,1380
+2027,cocktailbars,Callooh Callay,-0.08014,51.5263,1080,60
+2028,cocktailbars,CUB,-0.08034,51.53124,1080,60
+2029,cocktailbars,Bar Gansa,-0.1436,51.5398,540,0
+2030,cocktailbars,The Confession Box,-0.0669,51.46795,540,0
+2031,cocktailbars,Hopscotch,-0.07143,51.52431,540,0
+2032,cocktailbars,Made In Brasil Boteco,-0.1487,51.54298,1020,30
+2033,cocktailbars,The Elgin,-0.20891,51.5162,660,1380
+2034,cocktailbars,Tina We Salute You,-0.0129,51.54642,600,1080
+2035,cocktailbars,El Camion Mexicano,-0.13436,51.51203,720,180
+2036,cocktailbars,Minnow,-0.1399,51.46213,720,180
+2037,cocktailbars,Mr Bao,-0.06579,51.46576,720,180
+2038,cocktailbars,La Ventana,-0.07388,51.54554,600,1380
+2039,cocktailbars,All Bar One,-0.12482,51.50837,540,1410
+2040,cocktailbars,Zumbura,-0.14176,51.46415,360,1320
+2041,cocktailbars,The Racketeer,-0.11576,51.52847,960,60
+2042,cocktailbars,Bush Hall Dining Rooms,-0.23156,51.50635,960,1320
+2043,cocktailbars,Lobster London,-0.12591,51.49198,960,1320
+2044,cocktailbars,Hatch,-0.0427,51.54734,480,1350
+2045,cocktailbars,Most Café Bar,-0.07659,51.50339,480,1410
+2046,cocktailbars,The Bar With No Name,-0.10136,51.53639,1020,0
+2047,cocktailbars,Bobby Fitzpatrick,-0.19154,51.55061,960,1410
+2048,cocktailbars,Pamela,-0.07591,51.54209,960,1410
+2049,cocktailbars,Rocket,-0.11908,51.51593,420,1380
+2050,cocktailbars,Lockhouse,-0.17213,51.51891,480,1410
+2051,cocktailbars,Simmons,-0.13894,51.52217,960,0
+2052,cocktailbars,Mother's Ruin Gin Palace,-0.00386,51.58111,960,0
+2053,cocktailbars,Old Mary's,-0.17837,51.51241,960,0
+2054,cocktailbars,Megaro Bar,-0.12392,51.5299,960,0
+2055,cocktailbars,Zelman Meats - St Paul's,-0.10258,51.51444,720,1350
+2056,cocktailbars,Barrio - North,-0.10074,51.53738,1020,0
+2057,cocktailbars,Zelman Meats - Knightsbridge,-0.15982,51.50159,720,1350
+2058,cocktailbars,Untitled Bar,-0.0758,51.54468,720,1350
+2059,cocktailbars,By Appointment Only,-0.08289,51.51668,720,1350
+2060,cocktailbars,Dalloway Terrace,-0.1291,51.51723,480,1380
+2061,cocktailbars,Grand Union Paddington,-0.17071,51.51841,720,1410
+2062,cocktailbars,Duddell's,-0.08847,51.50502,1080,1410
+2063,cocktailbars,Cubana,-0.10348,51.5193,480,1380
+2064,cocktailbars,Ham Yard Bar and Restaurant,-0.13474,51.5112,420,1380
+2065,wine_bars,Steak & Co.,-0.12734,51.5116,720,1380
+2066,wine_bars,Yield N16,-0.0858,51.55175,720,1260
+2067,wine_bars,Le Caprice,-0.14061,51.50675,720,1410
+2068,wine_bars,Mark's Bar at Hix,-0.1365,51.51117,720,60
+2069,wine_bars,Harry Gordon's Bar & Kitchen,-0.15285,51.5146,570,1260
+2070,wine_bars,All Bar One,-0.08752,51.52041,480,1380
+2071,wine_bars,161 Food + Drink,-0.05958,51.43119,480,1380
+2072,wine_bars,Lardo,-0.05725,51.54358,660,1380
+2073,wine_bars,Vini Italiani,-0.17709,51.49284,720,1380
+2074,wine_bars,Bar 48,-0.11199,51.47949,1080,0
+2075,wine_bars,Boyds Grill & Wine Bar,-0.12599,51.50704,420,1320
+2076,wine_bars,The Fulham Wine Rooms,-0.20693,51.47402,960,0
+2077,wine_bars,Casa Manolo,-0.12058,51.51045,960,0
+2078,wine_bars,Unwined in Tooting,-0.16631,51.42894,660,1080
+2079,wine_bars,Le Vieux Comptoir,-0.1533,51.5198,660,1080
+2080,wine_bars,All Bar One,-0.12405,51.51076,540,1380
+2081,wine_bars,Petite Terre,-0.19332,51.47577,540,1380
+2082,wine_bars,Chinese Cricket Club,-0.10465,51.51225,1080,1350
+2083,wine_bars,Daly's Wine Bar,-0.11305,51.51292,660,1380
+2084,wine_bars,Browns Victoria,-0.14132,51.49725,480,1350
+2085,wine_bars,Shepherd Market Wine House,-0.14688,51.50634,540,1380
+2086,wine_bars,All Bar One,-0.07912,51.50975,660,1380
+2087,wine_bars,Wine Rooms,-0.19486,51.50729,720,0
+2088,wine_bars,Sager + Wilde - Hackney Road,-0.07214,51.53099,1020,0
+2089,wine_bars,La Pizzica,-0.21009,51.47237,1020,1380
+2090,wine_bars,The Northall,-0.12432,51.50668,1050,1380
+2091,wine_bars,Enoteca Pomaio,-0.07147,51.52479,1050,1380
+2092,wine_bars,Tuscanic,-0.13294,51.51268,720,1410
+2093,wine_bars,Rochester's Wine Bar,-0.13663,51.49427,660,1380
+2094,wine_bars,Amuse Bouche,-0.13715,51.51508,960,1410
+2095,wine_bars,Davy's Wine Vaults,-0.01472,51.47745,720,1380
+2096,wine_bars,40 Maltby Street,-0.07649,51.49979,720,1380
+2097,wine_bars,First Edition Wine Bar,-0.0238,51.50522,540,0
+2098,wine_bars,Mas Q Menos,-0.07991,51.5112,660,1410
+2099,wine_bars,Jamies,-0.07556,51.51147,660,1380
+2100,wine_bars,Bangers Bar and Grill,-0.08599,51.5188,660,1260
+2101,wine_bars,Sardinia Corner,-0.11803,51.52019,420,1380
+2102,wine_bars,Tamarind Kitchen,-0.13509,51.51466,1020,1350
+2103,wine_bars,Browns Covent Garden,-0.12728,51.51132,480,1380
+2104,wine_bars,Irvin Bar Grill,-0.12216,51.58113,720,1380
+2105,wine_bars,The Bunghole Cellars,-0.11524,51.51827,540,1380
+2106,wine_bars,Diciannove,-0.10415,51.51251,1020,1350
+2107,wine_bars,Cafe Below,-0.09354,51.5137,450,870
+2108,wine_bars,English Wine & Spirits Company,-0.0802,51.51681,630,1290
+2109,wine_bars,Davys At Canary Wharf,-0.02271,51.506,540,1380
+2110,wine_bars,Spaghetti House,-0.14778,51.51426,720,1380
+2111,wine_bars,Le Bouchon Wine Bar,0.00718,51.46707,900,1380
+2112,wine_bars,Firezza,-0.1327,51.51425,600,0
+2113,wine_bars,All Bar One,-0.10165,51.51408,480,1380
+2114,wine_bars,View 94,-0.1998,51.46251,660,1380
+2115,wine_bars,Le Pain Quotidien ,-0.13408,51.52054,420,1260
+2116,wine_bars,Bar Du Marché,-0.13486,51.51374,660,1380
+2117,wine_bars,Côte,-0.18893,51.50198,480,1380
+2118,wine_bars,Cotto,-0.11272,51.49888,1080,1380
+2119,wine_bars,Vinoteca Kings Cross,-0.12499,51.53274,420,1380
+2120,wine_bars,Slug & Lettuce,-0.07867,51.51289,600,1380
+2121,wine_bars,Bariba',-0.16828,51.47144,600,1380
+2122,wine_bars,Shane's on Chatsworth,-0.04489,51.55428,1080,1380
+2123,wine_bars,Les 110 de Taillevent,-0.14588,51.51708,930,1350
+2124,wine_bars,All Bar One,-0.14265,51.5165,480,1380
+2125,wine_bars,The New Zealand Cellar,-0.11233,51.46352,960,1260
+2126,wine_bars,Wagamama,-0.12473,51.51077,660,1380
+2127,wine_bars,Soif,-0.16349,51.46077,1080,1410
+2128,wine_bars,Balls Brothers,-0.10654,51.51613,540,0
+2129,wine_bars,The Other Naughty Piglet,-0.14223,51.4988,1050,1260
+2130,wine_bars,Jamie's Pavilion,-0.08552,51.5177,660,1380
+2131,wine_bars,Clarette,-0.15376,51.51857,660,1380
+2132,wine_bars,Cellar Sw4,-0.13125,51.46462,1020,1380
+2133,wine_bars,L'Angolo,-0.22638,51.5358,540,1110
+2134,wine_bars,Vale Victoria,-0.14473,51.49722,390,1200
+2135,wine_bars,il pampeto,-0.17952,51.51858,1080,1350
+2136,wine_bars,The Globe,-0.08882,51.51768,600,1320
+2137,wine_bars,Buenos Aires Argentine Steakhouse - Wimbledon,-0.20948,51.42262,720,1320
+2138,wine_bars,The Bok Bar,-0.1548,51.51841,660,1380
+2139,wine_bars,Berties Bar,-0.20608,51.42081,1020,0
+2140,wine_bars,Noble Rot Wine Bar,-0.1187,51.52188,720,1380
+2141,wine_bars,Buenos Aires Argentine Steakhouse - Chiswick,-0.25508,51.49346,720,1320
+2142,wine_bars,New Street Grill,-0.07979,51.51712,1050,1350
+2143,wine_bars,Salt Yard,-0.13657,51.51918,720,1380
+2144,wine_bars,Planet of the Grapes -  Sicilian Avenue,-0.12135,51.51838,600,1320
+2145,wine_bars,Theo's Pizzeria,-0.09051,51.47366,720,1350
+2146,wine_bars,1707 Wine Bar,-0.13426,51.51714,720,1230
+2147,wine_bars,The Brockley deli,-0.03612,51.46575,420,1200
+2148,wine_bars,Chairs and Coffee,-0.19898,51.47977,480,1080
+2149,wine_bars,Corney & Barrow,-0.09018,51.51892,450,1380
+2150,wine_bars,Smithy's,-0.11949,51.52984,660,0
+2151,wine_bars,Hawksmoor,-0.09132,51.50623,1020,1350
+2152,wine_bars,Tbilisi,-0.10718,51.54767,1110,1380
+2153,wine_bars,Davys City Boot,-0.09056,51.51859,600,1260
+2154,wine_bars,28-50,-0.1098,51.51463,660,1380
+2155,wine_bars,Bon Gusto,-0.13785,51.4992,420,1320
+2156,wine_bars,Vagabond Wines,-0.13526,51.51863,660,1380
+2157,wine_bars,Rucoletta,-0.09625,51.51514,1050,1320
+2158,wine_bars,Farley Macallan,-0.04909,51.54684,1050,1320
+2159,wine_bars,Enoteca Da Luca,-0.09399,51.51305,720,1320
+2160,wine_bars,Orford Saloon Tapas Bar,-0.01317,51.58256,1080,1350
+2161,wine_bars,Bandol,-0.18444,51.48594,720,1380
+2162,wine_bars,Macellaio RC,-0.16549,51.45615,1080,1380
+2163,wine_bars,Hoxton Fish House,-0.08373,51.52906,720,1380
+2164,wine_bars,Lahpet,-0.05871,51.5393,720,1380
+2165,wine_bars,Negozio Classica,-0.20311,51.51345,930,0
+2166,wine_bars,Village East,-0.08082,51.49904,720,900
+2167,wine_bars,The Ivy City Garden,-0.08212,51.5168,450,0
+2168,wine_bars,The Pizza Room,-0.03499,51.52587,720,1320
+2169,wine_bars,Troyganic Cafe,-0.07723,51.53059,450,1380
+2170,wine_bars,Davys Woolgate Bar & Brasserie,-0.09084,51.51619,450,1380
+2171,wine_bars,St. John Maltby,-0.07572,51.49938,450,1380
+2172,wine_bars,Brazilian Gourmet,-0.14022,51.52186,420,1350
+2173,wine_bars,Momento Lounge & Bar,-0.07799,51.52242,720,0
+2174,wine_bars,Le Beaujolais,-0.12853,51.51276,720,1380
+2175,wine_bars,Enoteca Rabezzana,-0.09997,51.5192,690,1350
+2176,wine_bars,Pho,-0.1226,51.51397,690,1380
+2177,wine_bars,Vivat Bacchus,-0.08692,51.50584,720,1410
+2178,wine_bars,Queenswood,-0.1748,51.47498,540,1380
+2179,wine_bars,Mimino,-0.19621,51.49978,1080,1380
+2180,wine_bars,Jamies,-0.09345,51.51762,1080,1380
+2181,wine_bars,Cork & Bottle,-0.12897,51.51108,720,1410
+2182,wine_bars,The Sampler,-0.10328,51.54259,690,1260
+2183,wine_bars,Vinoteca,-0.16143,51.51487,720,1380
+2184,wine_bars,Planet of the Grapes,-0.09363,51.5126,600,1350
+2185,wine_bars,Fox & Grapes,-0.22988,51.42644,720,1380
+2186,wine_bars,The French House,-0.07516,51.45885,540,1380
+2187,wine_bars,Little Italy,-0.13129,51.51354,720,240
+2188,wine_bars,Truckles,-0.12409,51.51857,660,1320
+2189,wine_bars,Bar Américain,-0.13558,51.5106,780,0
+2190,wine_bars,Gordon's Wine Bar,-0.12338,51.50794,660,1380
+2191,wine_bars,Le QuecumBar & Brasserie,-0.17388,51.47358,1080,0
+2192,wine_bars,Nottingdale,-0.21873,51.51054,480,990
+2193,wine_bars,Drake's Tabanco,-0.1343,51.51851,720,1380
+2194,wine_bars,Cafe Murano ,-0.12003,51.51223,720,1380
+2195,wine_bars,Goodman,-0.01836,51.50132,720,1350
+2196,wine_bars,Roxie Steak and Wine Cafe,-0.18664,51.43954,1080,1380
+2197,wine_bars,Fiume,-0.1458,51.48305,1080,1380
+2198,wine_bars,Espelette,-0.15415,51.51237,420,1320
+2199,wine_bars,Arches Wine Bar,-0.18075,51.54193,660,1380
+2200,wine_bars,Tapas Brindisa Shoreditch,-0.08015,51.52689,720,0
+2201,wine_bars,Enoteca Da Luca,-0.14466,51.50874,660,1410
+2202,wine_bars,Paladar,-0.10427,51.49813,705,1350
+2203,wine_bars,G & Tea,-0.02133,51.50712,390,120
+2204,wine_bars,Spaghetti House,-0.1512,51.5134,720,1380
+2205,wine_bars,Brokers Wine Bars,-0.0837,51.51301,660,0
+2206,wine_bars,Lucky Chip,-0.07365,51.54832,1020,1380
+2207,wine_bars,Coco Momo,-0.1521,51.52086,540,1380
+2208,wine_bars,Carpenter's Arms,-0.06731,51.52396,960,1410
+2209,wine_bars,Enoteca Turi,-0.15406,51.49015,1110,1350
+2210,wine_bars,Portland,-0.14274,51.51969,1080,1380
+2211,wine_bars,Antidote,-0.13894,51.51366,720,1350
+2212,wine_bars,Ciao Ciao,-0.20213,51.5457,480,120
+2213,wine_bars,La Compagnie Delicatessen,-0.1264,51.51433,480,120
+2214,wine_bars,The Green Room,-0.11377,51.50607,660,1380
+2215,wine_bars,Polpetto,-0.13463,51.51336,720,1380
+2216,wine_bars,Wildwood Kitchen,-0.24699,51.47245,690,1320
+2217,wine_bars,Davy's at St James's,-0.13791,51.5061,660,1380
+2218,wine_bars,Edwin's Wine Bar,-0.08152,51.52402,1020,1350
+2219,wine_bars,The Olde Wine Shades,-0.08813,51.51051,510,1260
+2220,wine_bars,The Brackenbury Wine Rooms,-0.22769,51.49797,960,0
+2221,wine_bars,Olivocarne,-0.15101,51.49358,1140,1380
+2222,wine_bars,Kibele,-0.14368,51.5219,720,1380
+2223,wine_bars,Champagne Charlies,-0.12411,51.50808,660,1380
+2224,wine_bars,YUU Kitchen,-0.0733,51.51635,1050,1320
+2225,wine_bars,Vinoteca,-0.10192,51.52012,720,1380
+2226,wine_bars,Shampers,-0.13865,51.51233,660,1380
+2227,wine_bars,Vicolo Romano,-0.035,51.53187,960,1350
+2228,wine_bars,Wined Up Here,-0.28817,51.41215,660,1140
+2229,wine_bars,Hardy's Brasserie & Wine Bar,-0.15481,51.51958,1050,1350
+2230,wine_bars,Grapeshots Wine Bars,-0.07741,51.5181,600,1260
+2231,wine_bars,Ellory,-0.05832,51.53757,600,1260
+2232,wine_bars,Westland Coffee & Wine,-0.09053,51.52827,420,1080
+2233,wine_bars,La Barrique Wine Bar & Restaurant,0.02567,51.50889,495,1380
+2234,wine_bars,Santi Restaurant Pizzeria,-0.00121,51.5409,1080,1380
+2235,wine_bars,The Wells,-0.17365,51.55865,720,1380
+2236,wine_bars,Balls Bros,-0.08039,51.51725,660,1380
+2237,wine_bars,Crusting Pipe,-0.12259,51.51198,660,1380
+2238,wine_bars,Vivat Bacchus,-0.10575,51.51785,720,1410
+2239,wine_bars,Camino,-0.09945,51.50589,720,1380
+2240,wine_bars,Whelans,-0.04756,51.49281,660,1380
+2241,wine_bars,Notes Kings Cross,-0.12496,51.53286,450,1260
+2242,wine_bars,The Hive of Vyner St,-0.05724,51.53417,480,1320
+2243,wine_bars,Moot,-0.27548,51.49487,480,1380
+2244,wine_bars,Waitrose Wine Bar,-0.01587,51.50452,420,1320
+2245,wine_bars,Vinarius Wine Shop and Bar,-0.03045,51.53282,720,1380
+2246,wine_bars,Chez Elles,-0.07128,51.51817,720,1380
+2247,wine_bars,The Footman,-0.14613,51.50849,660,1380
+2248,wine_bars,All Bar One - Butlers Wharf,-0.07245,51.50315,540,1380
+2249,wine_bars,Troia,-0.11763,51.50226,720,1410
+2250,wine_bars,Living Room,-0.13902,51.5108,600,60
+2251,wine_bars,Notes Moorgate,-0.08918,51.51973,420,1320
+2252,wine_bars,Roma,-0.0794,51.51125,720,1380
+2253,wine_bars,Heeltap,-0.09026,51.50438,600,1380
+2254,wine_bars,Humble Grape,-0.1629,51.4612,660,1320
+2255,wine_bars,Pall Mall Fine Wine,-0.13222,51.50784,660,1230
+2256,wine_bars,The Corner House,-0.22236,51.49943,450,1320
+2257,wine_bars,Fino's Wine Cellar,-0.14823,51.51008,0,1380
+2258,wine_bars,The Chelsea Cellar,-0.18001,51.486,1020,0
+2259,wine_bars,Notes,-0.12672,51.50955,450,1260
+2260,wine_bars,The Popeseye,-0.1391,51.56793,1080,1410
+2261,wine_bars,Venus Bar and Brasserie,-0.17789,51.4178,720,660
+2262,wine_bars,Chicken Shop,-0.15346,51.44366,720,1380
+2263,wine_bars,Capote y Toros,-0.18367,51.49072,720,1380
+2264,wine_bars,Gazette Brasserie,-0.18228,51.46575,480,1380
+2265,wine_bars,Davys At Plantation Place,-0.08168,51.51074,480,1380
+2266,wine_bars,Elys Restaurant,-0.20829,51.42173,570,1110
+2267,wine_bars,il Pampero,-0.15628,51.49758,1080,1350
+2268,wine_bars,Spaghetti House,-0.13204,51.50861,720,1380
+2269,wine_bars,Mordens Wine Bar,0.00848,51.46669,510,0
+2270,wine_bars,The Port House,-0.12328,51.51005,720,1380
+2271,wine_bars,Casa Mia,-0.23331,51.49253,660,1380
+2272,wine_bars,Uno Organic,-0.1129,51.45392,660,1380
+2273,wine_bars,The Fine Cheese Co. Belgravia,-0.15752,51.49957,480,1170
+2274,wine_bars,Compagnie des Vins Surnaturels,-0.12652,51.51447,720,0
+2275,wine_bars,Ibérica,-0.10518,51.52108,690,1380
+2276,wine_bars,Atrium Bar & Cafe,-0.12426,51.52183,600,1380
+2277,wine_bars,Spaghetti House,-0.12762,51.51179,720,1380
+2278,wine_bars,Peckham Refreshment Rooms,-0.06924,51.46969,480,1350
+2279,wine_bars,Aster,-0.1434,51.49674,690,1350
+2280,wine_bars,The Kitty Hawk,-0.08697,51.51896,450,1380
+2281,wine_bars,Le Petit Sud,-0.18425,51.50143,960,0
+2282,wine_bars,The Folly,-0.08598,51.51122,450,1380
+2283,wine_bars,Bedales of Borough Market,-0.08983,51.50541,600,1380
+2284,wine_bars,140 Portobello Wine & Art,-0.20416,51.51463,600,1380
+2285,wine_bars,Tannin and Oak,-0.19192,51.55201,720,1380
+2286,wine_bars,Cinnamon Culture,0.01966,51.41428,720,1380
+2287,wine_bars,Luna Nuova,-0.20393,51.47647,1080,1380
+2288,wine_bars,Olivo,-0.14835,51.49452,1140,1380
+2289,wine_bars,Carvosso's At 210,-0.25678,51.49275,660,1380
+2290,wine_bars,Est. India,-0.09503,51.50384,1050,1380
+2291,wine_bars,Spaghetti House,-0.12125,51.51886,720,1380
+2292,wine_bars,Jamies,-0.08777,51.50516,450,1380
+2293,wine_bars,Wine Library,-0.07671,51.5104,660,1080
+2294,wine_bars,POLPO Smithfield,-0.10215,51.52007,720,1380
+2295,wine_bars,Greenwich Kitchen,0.00554,51.50086,480,0
+2296,wine_bars,Michiko Sushino,-0.20662,51.53688,720,960
+2297,wine_bars,Bedales at Spitalfields Market,-0.07535,51.51964,600,1380
+2298,wine_bars,The Verge Bar,-0.07177,51.52477,720,0
+2299,wine_bars,Trade Union,-0.06738,51.50825,480,90
+2300,wine_bars,Sacred,-0.13892,51.51295,450,1200
+2301,wine_bars,Ain't Nothin' But...,-0.13962,51.51296,1020,60
+2302,wine_bars,The Bridge Wine Bar,-0.13203,51.46484,960,720
+2303,wine_bars,Lorne,-0.14009,51.49258,1080,1290
+2304,wine_bars,Spaghetti House,-0.13436,51.51977,720,1380
+2305,wine_bars,Thai Pot,-0.12558,51.50988,1020,1350
+2306,wine_bars,Jamie's,-0.08045,51.51862,450,1380
+2307,wine_bars,Honey & Smoke,-0.14347,51.5226,450,1380
+2308,wine_bars,Avenue,-0.13883,51.5059,1050,1320
+2309,wine_bars,Tinto,-0.10362,51.53748,1050,1320
+2310,wine_bars,Turie,-0.16557,51.52242,420,1080
+2311,wine_bars,Bow Wine Vaults,-0.09351,51.51355,660,1380
+2312,wine_bars,Otto's,-0.11424,51.52288,660,1380
+2313,wine_bars,Planet Of The Grapes,-0.08359,51.5129,600,1380
+2314,wine_bars,Spaghetti House,-0.18797,51.50225,540,1380
+2315,wine_bars,Quality Chop House,-0.11004,51.52482,1080,1380
+2316,wine_bars,The Artisan Bistro,-0.1847,51.4861,1080,1380
+2317,wine_bars,Platform1,-0.0748,51.45844,1080,1380
+2318,wine_bars,Levante Bar,-0.02293,51.50745,720,1380
+2319,wine_bars,The Refinery,-0.10009,51.5059,540,1380
+2320,wine_bars,Safari,-0.1311,51.42728,720,1410
+2321,wine_bars,Iberica,-0.14394,51.52248,690,1380
+2322,wine_bars,Cellar Gascon,-0.10374,51.51927,720,0
+2323,wine_bars,Louie Louie,-0.0941,51.48601,480,1020
+2324,wine_bars,Corney & Barrow Bars,-0.09867,51.5145,450,1380
+2325,wine_bars,Vini Italiani,-0.12298,51.51207,540,1260
+2326,wine_bars,The Laughing Heart,-0.0679,51.53122,540,1260
+2327,wine_bars,Victualler,-0.05425,51.50591,840,1365
+2328,wine_bars,The Remedy,-0.14203,51.52326,960,0
+2329,wine_bars,Pennethorne's Cafe Bar,-0.11822,51.51088,480,1320
+2330,wine_bars,Iran Restaurant,-0.14702,51.50642,720,0
+2331,wine_bars,The Ten Ten Kitchen,-0.05591,51.55665,720,0
+2332,wine_bars,Vindinista,-0.26845,51.50852,720,0
+2333,wine_bars,All Bar One,-0.0897,51.51175,480,1380
+2334,wine_bars,POLPO,-0.12264,51.51075,720,1410
+2335,wine_bars,Notes,-0.01951,51.50359,390,1140
+2336,wine_bars,Boot and Flogger,-0.09365,51.50419,660,1320
+2337,wine_bars,Kaia,-0.08956,51.51394,720,1380
+2338,wine_bars,Trattoria N16,-0.08597,51.55199,600,1320
+2339,wine_bars,28-50 Wine Workshop and Kitchen,-0.15049,51.51636,660,1380
+2340,wine_bars,El Parador,-0.13776,51.53357,1080,1380
+2341,wine_bars,Super Lyan,-0.08039,51.53126,1080,1380
+2342,wine_bars,The Library Bar,-0.15254,51.50238,660,60
+2343,wine_bars,Augustus Harris,-0.12072,51.51269,1020,1380
+2344,wine_bars,Bar 366 St John's Hill,-0.17733,51.46036,960,1380
+2345,wine_bars,Albertine,-0.22483,51.50557,1020,1380
+2346,wine_bars,Brick & Liquor,-0.16561,51.42601,1020,0
+2347,wine_bars,Dalla Terra,-0.12623,51.51283,720,1410
+2348,wine_bars,Vino & Vino,-0.10178,51.5178,660,1320
+2349,wine_bars,Charlotte's Place,-0.29608,51.50845,660,1320
+2350,wine_bars,The Hive Wellbeing,-0.05719,51.53423,480,1320
+2351,wine_bars,Notes,-0.01945,51.50495,420,1260
+2352,wine_bars,Treviso Restaurant,-0.2981,51.46619,1080,1380
+2353,wine_bars,Notes,-0.14336,51.4971,450,1260
+2354,wine_bars,Da Franco Ristorante Italiano,-0.15712,51.61299,450,1260
+2355,wine_bars,Numidie Wine Bar and Bistro,-0.08081,51.41957,450,1260
+2356,wine_bars,PF Chang's Asian Table,-0.12771,51.51193,480,0
+2357,wine_bars,Star & Garter,-0.21632,51.46708,1020,0
+2358,wine_bars,More Bar,-0.08267,51.50484,600,1380
+2359,wine_bars,Ciao Bella,-0.11912,51.52324,720,1410
+2360,wine_bars,L'Entrepot,-0.06105,51.54851,720,1410
+2361,wine_bars,Banyan On Thames,-0.17796,51.47037,360,1320
+2362,wine_bars,Le Garrick,-0.12607,51.51157,720,1380
+2363,wine_bars,203 Restaurant & Wine Bar,-0.13079,51.42829,780,0
+2364,wine_bars,Meson Don Felipe,-0.1072,51.50297,720,1380
+2365,wine_bars,The Vineyard,-0.10313,51.54181,720,1380
+2366,wine_bars,The Metro,-0.16174,51.49987,450,1320
+2367,wine_bars,Davy's,-0.02145,51.50616,480,1380
+2368,wine_bars,The Lonsdale,-0.20144,51.51478,480,1380
+2369,wine_bars,Drury,-0.12404,51.51609,450,1140
+2370,wine_bars,Little Square,-0.14648,51.50646,720,1380
+2371,wine_bars,Tiles,-0.14453,51.49719,720,1410
+2372,wine_bars,Enoteca Supertuscan,-0.0774,51.51809,1050,1320
+2373,wine_bars,La Gioconda Pizzorante,-0.11653,51.58793,1050,30
+2374,wine_bars,Louies Bar,-0.08875,51.51702,450,1350
+2375,wine_bars,Milkwood Kitchen & Bar,-0.10267,51.45294,570,1380
+2376,wine_bars,Via Emilia by FOOD ROOTS,-0.08069,51.52743,690,1380
+2377,wine_bars,Bacco Italian Restaurant & Wine Bar,-0.11701,51.51943,1050,1320
+2378,wine_bars,The Meat Co,-0.2193,51.50575,660,1410
+2379,wine_bars,Ostuni,-0.15031,51.57152,720,1350
+2380,wine_bars,Valentina,-0.21019,51.45905,510,1230
+2381,wine_bars,Jamavar,-0.14841,51.51034,1050,1350
+2382,wine_bars,Andrew Edmunds,-0.13623,51.51316,1050,1350
+2383,wine_bars,Treves & Hyde,-0.07061,51.51411,1080,1350
+2384,wine_bars,Vinoteca,-0.13712,51.51261,720,1380
+2385,wine_bars,Mandarin Bar,-0.15997,51.50241,690,90
+2386,wine_bars,Vinoteca Chiswick,-0.25572,51.49185,720,1380
+2387,wine_bars,The Winemakers Club,-0.10474,51.51696,690,1140
+2388,wine_bars,68 and Boston,-0.13118,51.51471,1020,0
+2389,wine_bars,Polpo - Soho,-0.13763,51.51251,720,1380
+2390,wine_bars,Willy's Wine Bar,-0.07927,51.51259,660,1380
+2391,wine_bars,Burgess & Hall Wines,0.01877,51.55549,660,1380
+2392,wine_bars,Harry's Bar Pizzeria,-0.10347,51.51292,1020,1320
+2393,wine_bars,All Bar One,-0.15149,51.51541,660,1380
+2394,wine_bars,Cinnamon Bazaar,-0.12369,51.51076,1050,0
+2395,wine_bars,IDDU,-0.17817,51.49402,450,1320
+2396,wine_bars,Terroirs,-0.12521,51.50936,720,1380
+2397,wine_bars,Spaghetti House,-0.1401,51.51417,720,1380
+2398,wine_bars,Tartufi & Friends,-0.16293,51.50095,600,1260
+2399,wine_bars,Grelha D'Ouro,-0.12325,51.47806,720,1380
+2400,wine_bars,Manitoba Tigella,-0.12822,51.51682,720,1350
+2401,wine_bars,Cafe El Buen Gusto,-0.13126,51.51296,480,1320
+2402,wine_bars,The Providores and Tapa Room,-0.15177,51.51916,480,1350
+2403,wine_bars,Corney & Barrow,-0.08122,51.51243,450,1380
+2404,wine_bars,Mug House,-0.08809,51.50647,600,1380
+2405,wine_bars,Alla Salute! Trattoria Pizzeria Social,-0.02155,51.47291,600,1380
+2406,wine_bars,Corney & Barrow Bars,-0.08589,51.51069,540,1380
+2407,wine_bars,All Bar One,-0.1667,51.45959,540,1380
+2408,wine_bars,duck duck goose,-0.10861,51.46377,540,1380
+2409,wine_bars,The Den,-0.13396,51.51369,720,0
+2410,wine_bars,Off The Cuff,-0.10212,51.45298,960,0
+2411,musicvenues,Alexandra Palace,-0.13009,51.59391,960,0
+2412,musicvenues,Cadogan Hall,-0.15757,51.49366,600,1080
+2413,musicvenues,Roundhouse,-0.15096,51.54341,570,1020
+2414,musicvenues,The Queen of Hoxton,-0.08109,51.52227,960,0
+2415,musicvenues,Styx,-0.06116,51.5902,960,0
+2416,musicvenues,Green Note,-0.14565,51.53744,960,0
+2417,musicvenues,Sevilla Mia,-0.13207,51.51691,960,0
+2418,musicvenues,The Hideaway,-0.13664,51.56427,1020,1410
+2419,musicvenues,The Den,-0.12548,51.51683,1020,1410
+2420,musicvenues,Proud Cabaret,-0.08074,51.51162,1020,1410
+2421,musicvenues,Mother Live,-0.08036,51.52722,1140,120
+2422,musicvenues,Barrio Central,-0.13645,51.51403,960,60
+2423,musicvenues,Studio 88,-0.13112,51.5099,1020,60
+2424,musicvenues,Hatchetts,-0.14582,51.50579,720,1380
+2425,musicvenues,showcase55,-0.08386,51.52902,720,1380
+2426,musicvenues,Troxy,-0.044,51.51305,0,0
+2427,musicvenues,Hoxton White Horse,-0.08035,51.53112,960,0
+2428,musicvenues,Barrio Shoreditch,-0.07817,51.52615,960,0
+2429,musicvenues,The George Tavern,-0.05311,51.51433,840,120
+2430,musicvenues,The Coronet,-0.09883,51.49489,600,180
+2431,musicvenues,Mau Mau Bar,-0.2068,51.51786,600,1410
+2432,musicvenues,A2 Delicious Restaurant,-0.01761,51.44798,720,1380
+2433,musicvenues,The Clapham Grand,-0.16939,51.46308,720,1380
+2434,musicvenues,Ashtar Bar & Restaurant,-0.12311,51.48792,720,1410
+2435,musicvenues,O2 Shepherd's Bush Empire,-0.22419,51.50387,540,1050
+2436,musicvenues,Jamboree,-0.04326,51.51143,1140,1380
+2437,musicvenues,Riverside Studios,-0.22755,51.48856,510,0
+2438,musicvenues,Bonafide Studio,-0.14188,51.58915,480,0
+2439,musicvenues,Albany Centre & Theatre,-0.02817,51.47759,540,1080
+2440,musicvenues,Caffé Concerto,-0.13668,51.5097,420,1380
+2441,musicvenues,RADA Studios,-0.13264,51.52074,540,1320
+2442,musicvenues,Café Oto,-0.07479,51.54691,1200,0
+2443,musicvenues,Aces & Eights,-0.13842,51.55682,960,60
+2444,musicvenues,Bush Theatre,-0.22592,51.50523,600,1380
+2445,musicvenues,Wilton's Music Hall,-0.06678,51.51059,1020,1380
+2446,musicvenues,Servant Jazz Quarters,-0.07672,51.54864,1020,1380
+2447,musicvenues,Eaton Square Bar,-0.14821,51.49827,720,0
+2448,musicvenues,Euphoriom Nightclub & Bar,-0.26454,51.5064,1260,150
+2449,musicvenues,Proud Camden,-0.14874,51.54286,660,90
+2450,musicvenues,606 Club,-0.18197,51.47814,1140,1410
+2451,musicvenues,Dee Dee's,-0.09633,51.45678,720,1410
+2452,musicvenues,Rigatoni London,-0.20066,51.48302,660,1380
+2453,musicvenues,The Scotch of St James,-0.13724,51.50761,660,1380
+2454,musicvenues,333 Mother Bar,-0.08036,51.52727,720,150
+2455,musicvenues,The Distillers Pub,-0.10062,51.51896,600,1380
+2456,musicvenues,The Half Moon,-0.10076,51.45275,420,1380
+2457,musicvenues,Palace Theatre,-0.12952,51.51324,1140,1290
+2458,musicvenues,St Martin in the Fields,-0.12676,51.50879,480,1200
+2459,musicvenues,Old Tom's Bar,-0.08341,51.51269,660,1380
+2460,musicvenues,Royal Court Theatre,-0.15652,51.49256,720,0
+2461,musicvenues,The Cockpit,-0.16929,51.52453,600,1080
+2462,musicvenues,Bateaux London,-0.1215,51.50878,720,1380
+2463,musicvenues,The Victoria,-0.06998,51.54565,1020,0
+2464,musicvenues,Roadtrip & The Workshop,-0.08433,51.52663,720,60
+2465,musicvenues,Mill Hill Music Complex,-0.24482,51.60999,660,1380
+2466,musicvenues,New Cross Inn,-0.03714,51.47582,720,120
+2467,musicvenues,Ritzy,-0.11478,51.46131,720,1380
+2468,musicvenues,Cool Cats' Cafe,-0.08382,51.47807,720,1380
+2469,musicvenues,Floripa,-0.08375,51.52593,720,1380
+2470,musicvenues,Half Moon,-0.22007,51.46731,660,0
+2471,musicvenues,Hippodrome Casino,-0.12878,51.51145,0,0
+2472,musicvenues,The Tabernacle,-0.20192,51.51706,540,1350
+2473,musicvenues,The Vortex Jazz Club,-0.07652,51.54932,1200,0
+2474,musicvenues,Piccadilly Theatre,-0.13536,51.51085,600,1200
+2475,musicvenues,Club 414,-0.11309,51.46187,600,1200
+2476,musicvenues,Dirty Water Club,-0.13825,51.55813,600,1200
+2477,musicvenues,Project Orange,-0.17041,51.46285,1020,1380
+2478,musicvenues,The Social,-0.14085,51.5174,900,0
+2479,musicvenues,Hen Party London,-0.2321,51.54948,540,420
+2480,musicvenues,Kingpin Suite,-0.12833,51.52425,720,120
+2481,musicvenues,Ministry Of Sound,-0.09953,51.49778,720,120
+2482,musicvenues,Moors Bar,-0.1261,51.58127,720,120
+2483,musicvenues,Islington Assembly Hall,-0.10266,51.54162,540,1020
+2484,musicvenues,Barfly,-0.14926,51.54315,900,0
+2485,musicvenues,White Post,-0.02253,51.54176,480,1380
+2486,musicvenues,The Garage,-0.10397,51.54674,1140,60
+2487,musicvenues,The Artworks Elephant,-0.09854,51.49315,480,1380
+2488,musicvenues,The Moustache Bar,-0.0748,51.55233,480,1380
+2489,musicvenues,Source Below,-0.13707,51.51082,1020,1380
+2490,musicvenues,Great Suffolk Street Warehouse,-0.10133,51.50435,420,1380
+2491,musicvenues,O2 Forum,-0.14192,51.55203,1080,0
+2492,musicvenues,The Crystal,0.01624,51.5073,1080,0
+2493,musicvenues,Union Chapel,-0.10277,51.54437,570,1080
+2494,musicvenues,93 Feet East,-0.07155,51.52124,1020,1380
+2495,musicvenues,St Martin's Theatre,-0.12767,51.51285,600,1200
+2496,musicvenues,The Venue,-0.03657,51.47582,600,1200
+2497,musicvenues,Arch1,0.00461,51.52221,1140,1410
+2498,musicvenues,Tara Theatre,-0.18788,51.44179,600,1080
+2499,musicvenues,Under The Bridge,-0.19031,51.48113,600,1080
+2500,musicvenues,AlleyCat Club,-0.12919,51.51531,1020,120
+2501,musicvenues,KOKO,-0.13836,51.53464,1140,1380
+2502,musicvenues,oil on canvas,-0.12624,51.5002,540,1080
+2503,musicvenues,The CLF Art Cafe,-0.06801,51.46987,1020,1380
+2504,musicvenues,The Great Northern Railway Tavern,-0.11613,51.58798,660,1380
+2505,musicvenues,Cyprus Meze Bar & Restaurant,-0.01734,51.57267,660,1380
+2506,musicvenues,Luna Lounge,0.009,51.56836,660,1380
+2507,musicvenues,The Junction,-0.09963,51.46702,960,1380
+2508,musicvenues,CellarDoor,-0.11923,51.51152,960,60
+2509,musicvenues,The Prince Albert,-0.11372,51.46167,1260,180
+2510,musicvenues,Royal Academy Of Music,-0.15217,51.52362,420,1380
+2511,musicvenues,Party Pianos - The UK Duelling Pianos Show,-0.15747,51.51665,420,1380
+2512,musicvenues,Thomas A Becket,-0.07757,51.48842,720,210
+2513,musicvenues,Tape London,-0.14462,51.51428,720,210
+2514,musicvenues,Fabric,-0.10247,51.51961,720,210
+2515,musicvenues,jam session,-0.03714,51.47583,660,120
+2516,musicvenues,St James Theatre,-0.14226,51.49882,840,1170
+2517,musicvenues,Shacklewell Arms,-0.07132,51.55239,240,0
+2518,musicvenues,The Sound Lounge,-0.2045,51.42019,240,0
+2519,musicvenues,Royal Albert Hall,-0.17741,51.501,540,1260
+2520,musicvenues,Tooting Tram and Social,-0.16677,51.42692,540,1260
+2521,musicvenues,Bloomsbury Theatre,-0.13259,51.52495,600,1080
+2522,musicvenues,Bush Hall,-0.23163,51.50657,1170,1380
+2523,musicvenues,Conway Hall,-0.11842,51.51955,510,1350
+2524,musicvenues,The Midnight Rebel Band,-0.13914,51.53476,510,1350
+2525,musicvenues,Zigfrid von Underbelly,-0.08174,51.52802,960,60
+2526,musicvenues,Rise46,-0.16456,51.46105,960,60
+2527,musicvenues,LSE Student Union,-0.11674,51.51398,960,60
+2528,musicvenues,Ladybird Bar,-0.10403,51.536,1020,120
+2529,musicvenues,Victoria Palace Theatre,-0.14255,51.49678,1170,1350
+2530,musicvenues,Birthdays,-0.0752,51.5516,960,0
+2531,musicvenues,Royal Vauxhall Tavern,-0.12195,51.48607,1140,0
+2532,musicvenues,Cart & Horses,0.00435,51.54588,720,0
+2533,musicvenues,Camden Peoples Theatre,-0.1384,51.5264,600,1080
+2534,musicvenues,Shakespeare's Globe Theatre,-0.09711,51.50811,540,1020
+2535,musicvenues,Gielgud Theatre,-0.13324,51.51202,600,1200
+2536,musicvenues,Spiritual Caipirinha Bar,-0.14892,51.54327,600,1200
+2537,musicvenues,Portobello Lounge,-0.2068,51.51786,600,1200
+2538,musicvenues,Suburban Bar & Lounge,-0.20572,51.41959,1020,1380
+2539,musicvenues,Jazz Cafe,-0.14318,51.53873,1140,120
+2540,musicvenues,Resident Studios,-0.23206,51.5503,600,1380
+2541,musicvenues,Cargo,-0.07891,51.52663,720,60
+2542,musicvenues,Farmopolis,0.0129,51.49815,600,1080
+2543,musicvenues,Scala,-0.12084,51.53077,600,1080
+2544,danceclubs,Rise Nightclub,-0.12942,51.51174,1320,180
+2545,danceclubs,Masters Club,-0.13522,51.51085,1080,0
+2546,danceclubs,Video Ropes Productions,-0.03586,51.48887,540,1080
+2547,danceclubs,Sosho Match,-0.08647,51.52241,540,1080
+2548,danceclubs,Mason House,-0.14053,51.5141,540,1080
+2549,danceclubs,"Drink, Shop & Do",-0.12115,51.53134,450,0
+2550,danceclubs,Concrete,-0.07624,51.52414,450,0
+2551,danceclubs,Raffles,-0.17363,51.48535,450,0
+2552,danceclubs,Salsa Classes,-0.13485,51.46306,450,0
+2553,danceclubs,Simmons,-0.12054,51.53194,960,0
+2554,danceclubs,The Cuckoo Club,-0.13751,51.50935,960,0
+2555,danceclubs,Thirst Bar,-0.13118,51.51429,1020,180
+2556,danceclubs,Visions Banqueting Suite,-0.07555,51.54575,1020,180
+2557,danceclubs,Slimelight,-0.10527,51.5322,1020,180
+2558,danceclubs,Rhum Jungle,-0.11171,51.52299,720,60
+2559,danceclubs,The Zoo Bar & Club,-0.12899,51.51085,720,210
+2560,danceclubs,The Aquarium,-0.10615,51.52085,720,210
+2561,danceclubs,Corsica Studios,-0.09866,51.49384,1200,180
+2562,danceclubs,Tonteria,-0.15701,51.49299,1200,180
+2563,danceclubs,Salsa!,-0.12935,51.51401,1050,120
+2564,danceclubs,Market Place,-0.14039,51.51634,660,0
+2565,danceclubs,Boujis,-0.17437,51.49446,660,0
+2566,danceclubs,The Nest,-0.07482,51.55164,660,0
+2567,danceclubs,Reflex London,-0.09454,51.51302,660,0
+2568,danceclubs,Dirty Martini,-0.12184,51.51223,1020,60
+2569,danceclubs,Lo-Profile,-0.13366,51.51335,1020,60
+2570,danceclubs,TSQ Club,-0.12926,51.5075,1020,60
+2571,danceclubs,Kitts,-0.15708,51.49301,1020,60
+2572,danceclubs,Tipsy,-0.07495,51.55116,1020,60
+2573,danceclubs,Beduin,-0.10579,51.51563,1020,60
+2574,danceclubs,100 Wardour Street,-0.13392,51.5136,660,1380
+2575,danceclubs,Area Club,-0.12318,51.48794,660,1380
+2576,danceclubs,Babble City,-0.08354,51.51629,720,0
+2577,danceclubs,Ridley Road Market Bar,-0.07312,51.54836,720,0
+2578,danceclubs,The London Sky Bar,-0.12592,51.49199,720,0
+2579,danceclubs,The Shoreditch,-0.07799,51.5258,720,60
+2580,danceclubs,Panache,0.01104,51.56794,720,60
+2581,danceclubs,Oslo,-0.05615,51.5475,720,0
+2582,danceclubs,Dance Tunnel,-0.0755,51.54937,720,0
+2583,danceclubs,The Roof Gardens,-0.1915,51.50092,720,0
+2584,danceclubs,151 Club,-0.16736,51.48782,1380,180
+2585,danceclubs,Renaissance Rooms,-0.12668,51.48228,1380,180
+2586,danceclubs,Bisous,-0.17731,51.49501,1380,180
+2587,danceclubs,The Roxy,-0.13295,51.5166,1020,180
+2588,danceclubs,FM Bar & Restaurant,-0.22553,51.50548,1020,180
+2589,danceclubs,Maggie's,-0.18022,51.48619,1020,180
+2590,danceclubs,Chimayo,-0.18768,51.47938,720,0
+2591,danceclubs,Project London,-0.13732,51.51617,720,0
+2592,danceclubs,Fez Club,-0.21679,51.46086,720,0
+2593,danceclubs,Deep Attraction,-0.13588,51.50942,630,180
+2594,danceclubs,Kabaret's Prophecy,-0.13829,51.51195,1380,180
+2595,danceclubs,Kings Head,-0.07714,51.53585,600,120
+2596,danceclubs,Bodo's Schloss,-0.18774,51.50254,1020,60
+2597,danceclubs,Storm Nightclub,-0.12937,51.51033,1350,180
+2598,danceclubs,The Rocket,-0.11025,51.55183,600,0
+2599,danceclubs,Club Couture,-0.08936,51.47366,600,0
+2600,danceclubs,Mahiki,-0.14147,51.50791,1050,210
+2601,danceclubs,The Candlelight Club,-0.05905,51.50069,1050,210
+2602,danceclubs,Adventure Bar,-0.132,51.4644,1020,0
+2603,danceclubs,Bar Elba,-0.1102,51.50267,960,0
+2604,danceclubs,The Lightbox,-0.12346,51.48536,960,0
+2605,danceclubs,Eclipse,-0.18319,51.49087,1020,30
+2606,danceclubs,My Place Hotel,-0.19455,51.49235,1020,30
+2607,danceclubs,Mayfair Club,-0.14179,51.50759,540,1080
+2608,danceclubs,London Groove,-0.08683,51.51118,600,1140
+2609,danceclubs,The Big Chill House,-0.12008,51.53081,480,0
+2610,danceclubs,Adventure Bar,-0.12468,51.51088,1020,1410
+2611,danceclubs,Electrowerkz,-0.10509,51.53223,1140,0
+2612,danceclubs,Cable Street Studios,-0.04342,51.51144,600,1320
+2613,danceclubs,Tramp,-0.13763,51.50826,600,1320
+2614,danceclubs,Maddox Club,-0.1422,51.5126,600,1320
+2615,danceclubs,Libertine Club,-0.13827,51.51604,600,1320
+2616,danceclubs,Departure,-0.07677,51.51203,600,1320
+2617,danceclubs,The Alibi,-0.07559,51.54948,1200,120
+2618,danceclubs,Ruski's Caviar & Vodka Tavern,-0.19273,51.50104,1200,120
+2619,danceclubs,Club 49,-0.13092,51.5139,1050,180
+2620,danceclubs,Dogstar,-0.11187,51.46176,1050,180
+2621,danceclubs,Churchills,-0.13965,51.50835,1260,240
+2622,danceclubs,55 Club,-0.1271,51.51669,1260,240
+2623,danceclubs,Capital A List,-0.14826,51.52237,540,1260
+2624,danceclubs,Vendôme,-0.1676,51.49409,540,1260
+2625,danceclubs,The Whitehouse,-0.13553,51.4608,540,1260
+2626,danceclubs,Maya,-0.13376,51.5159,540,1260
+2627,danceclubs,McQueen,-0.08545,51.52489,1020,0
+2628,danceclubs,Manero's,-0.07678,51.53556,1020,0
+2629,danceclubs,Moonlighting Nightclub,-0.13085,51.51401,1290,210
+2630,danceclubs,Basement of Tavistock Hotel,-0.12833,51.52425,720,60
+2631,danceclubs,Basing House,-0.0782,51.52844,720,60
+2632,danceclubs,Revolution,-0.13447,51.46282,720,0
+2633,danceclubs,Trapeze Bar,-0.08354,51.52568,720,0
+2634,danceclubs,The Box,-0.12721,51.50642,720,0
+2635,danceclubs,Lately,-0.19143,51.54633,960,120
+2636,danceclubs,Embargo Night Clubs,-0.18528,51.48023,960,120
+2637,danceclubs,Blagclub,-0.19603,51.50932,960,120
+2638,danceclubs,Zebrano City,-0.07692,51.5142,1020,1380
+2639,danceclubs,Amika,-0.14829,51.51403,1350,210
+2640,danceclubs,Funkybuddha,-0.14327,51.50846,1320,180
+2641,danceclubs,Exilio LGBT Latin Dance Club,-0.089,51.50465,1320,180
+2642,danceclubs,No 5 Cavendish,-0.14416,51.51675,450,0
+2643,danceclubs,Montezuma,-0.17594,51.49393,450,0
+2644,danceclubs,Miabella,-0.13095,51.51448,1080,180
+2645,danceclubs,Kosmopol,-0.17893,51.48731,1020,60
+2646,danceclubs,Rumba,-0.1335,51.51096,1260,180
+2647,danceclubs,Visions Video Bar,-0.07551,51.54589,1260,180
+2648,danceclubs,Apt,-0.09282,51.51298,720,1380
+2649,danceclubs,SO.UK Clapham,-0.137,51.4622,720,1380
+2650,danceclubs,Phonox,-0.11454,51.46438,720,1380
+2651,danceclubs,Funky Mojoe,0.02123,51.59671,1020,1380
+2652,danceclubs,Cirque le Soir Club,-0.13901,51.51289,1380,180
+2653,danceclubs,The Aquarium,-0.0852,51.5259,1380,180
+2654,danceclubs,Piccadilly Institute,-0.1341,51.51032,1020,180
+2655,danceclubs,The Gate,-0.19749,51.50873,1140,60
+2656,danceclubs,Under Solo,-0.14407,51.53962,1140,60
+2657,danceclubs,The Underworld,-0.14219,51.53913,1380,180
+2658,danceclubs,Surya - Live Music Venue,-0.10933,51.53196,420,0
+2659,danceclubs,Camden Centre,-0.12538,51.5291,540,0
+2660,danceclubs,Café de Paris,-0.13185,51.51049,540,0

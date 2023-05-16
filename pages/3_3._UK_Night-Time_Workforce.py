@@ -288,5 +288,3 @@ with tab2:
         ' night-time employees reached the maximum in 2020. For Glasgow, the number of night-time employees reached'
         ' the maximum in 2017 and then experienced a sharp decline between 2017 and 2018.'
     )
-
-st.markdown('hi')
