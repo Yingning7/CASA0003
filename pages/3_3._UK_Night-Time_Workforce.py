@@ -80,7 +80,7 @@ map_fig = px.scatter_mapbox(
         'Culture & Leisure (native)': '#DC143C',
         'Culture & Leisure (support)': '#FF7F50',
         '24-hr Health & Personal Social Services': '#6495ED',
-        'Activities support wider social & ecnomics activties': '#9370DB',
+        'Activities Supporting Wider Social & Economics Activities': '#9370DB',
         'Culture & Leisure': '#DB7093',
         'Health & Personal Social Services': '#6A5ACD',
         'All': '#FFF8DC'
