@@ -28,7 +28,7 @@ def minutes_to_time(minutes):
 
 # 加载数据
 def load_data():
-    df = pd.read_csv('https://raw.githubusercontent.com/syc201313/syc201313/main/location_hours.csv')
+    df = pd.read_csv('https://raw.githubusercontent.com/Yingning7/CASA0003/master/data/location_hours.csv')
     df['open'] = df['open'].apply(minutes_to_time)
     df['close'] = df['close'].apply(minutes_to_time)
     return df
