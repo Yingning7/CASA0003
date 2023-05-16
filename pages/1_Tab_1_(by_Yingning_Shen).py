@@ -33,7 +33,6 @@ with left:
     st.markdown(
         """
         *Grouper:
-        
         - **All**: Numbers of all night-time workers in a selected region and year
         - **Primary Group**: Include two generalised industry groupings of night-time cultural and leisure activities 
         and health and personal social services
@@ -185,7 +184,8 @@ line_fig_1 = px.line(line_data,
                      y='num_employees_rate_of_change',
                      color='region',
                      markers=True,
-                     labels={'region':'Region', 'num_employees_rate_of_change':'Changing Rate','year':'Year'})
+                     labels={'region':'Region', 'num_employees_rate_of_change':'Changing Rate','year':'Year'},
+                     color_discrete_sequence=px.colors.qualitative.Safe)
 line_fig_1.update_layout(
     legend={
         'orientation': 'h',
@@ -200,7 +200,8 @@ line_fig_2 = px.line(line_data,
                      y='num_employees_ratio',
                      color='region',
                      markers=True,
-                     labels={'region':'Region', 'num_employees_ratio':'Ratio','year':'Year'})
+                     labels={'region':'Region', 'num_employees_ratio':'Ratio','year':'Year'},
+                     color_discrete_sequence=px.colors.qualitative.Safe)
 line_fig_2.update_layout(
     legend={
         'orientation': 'h',
@@ -230,10 +231,28 @@ bar_fig.update_layout(
 
 st.subheader('Total Number of Employees by Different Industry Groupings (2012-2022)')
 st.plotly_chart(bar_fig, use_container_width=True)
+st.caption('Activities which support wider social and economic activities has been the largest proportions in ten years'
+           ' among all four industry groupings. Number of night-time workers for cultural and leisure activities'
+           ' decreased since the COVID-19 pandemic begins.')
 
-st.subheader('Changing Rate and Ratio for Number of Employees (2012-2022)')
+st.subheader('Changing Rate and Ratio for Number of Employees in Different Regions (2012-2022)')
 tab1, tab2 = st.tabs(["Changing Rate", "Ratio"])
 with tab1:
     st.plotly_chart(line_fig_1, use_container_width=True)
+    st.caption(
+        'For the whole UK, the changing rate of night-time workers became smaller after 2017 and had a negative growth'
+        ' in the year of 2021, but then had a rapid rebound in 2022. The negative growth in 2021 might be an impact of the pandemic.'
+        ' For Greater London area, the changing rate had a negative growth in 2022, this might relate to economic depression'
+        ' and inflation happened recently. For Edinburgh, the changing rate has become negative since 2020 and had a recovery in 2022'
+        ' although still a negative growth. For other three regions, there is no obvious patterns in changing rate that we'
+        ' can observe directly.')
 with tab2:
     st.plotly_chart(line_fig_2, use_container_width=True)
+    st.caption(
+        'For the whole UK, the number of night-time employees grew gradually and reached the maximum in 2022'
+        ' but the rate become slower after 2017. Similarly for Greater Manchester area and Birmingham that the'
+        ' number of night-time employees reached the maximum in 2022. For Greater London area, the number of'
+        ' night-time employees reached the maximum in 2021 and had a decrease in 2022. For Edinburgh, the number of'
+        ' night-time employees reached the maximum in 2020. For Glasgow, the number of night-time employees reached'
+        ' the maximum in 2017 and then experienced a sharp decline between 2017 and 2018.'
+    )
