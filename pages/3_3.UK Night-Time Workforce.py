@@ -256,3 +256,7 @@ with tab2:
         ' night-time employees reached the maximum in 2020. For Glasgow, the number of night-time employees reached'
         ' the maximum in 2017 and then experienced a sharp decline between 2017 and 2018.'
     )
+
+gap_data = data.groupby(['year', 'region'])['num_employees'].sum().reset_index().sort_values('region').reset_index(drop=True)
+st.write(gap_data)
+
