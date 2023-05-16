@@ -79,8 +79,8 @@ map_fig = px.scatter_mapbox(
     color_discrete_map={
         'Culture & Leisure (native)': '#DC143C',
         'Culture & Leisure (support)': '#FF7F50',
-        'Health & Personal Social Services (native)': '#6495ED',
-        'Health & Personal Social Services (support)': '#9370DB',
+        '24-hr Health & Personal Social Services': '#6495ED',
+        'Activities support wider social & ecnomics activties': '#9370DB',
         'Culture & Leisure': '#DB7093',
         'Health & Personal Social Services': '#6A5ACD',
         'All': '#FFF8DC'
