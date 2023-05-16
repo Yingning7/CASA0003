@@ -180,13 +180,15 @@ city_config = {
 
 line_data = pd.concat([get_city_df(data, region_name, isin) for region_name, isin in city_config.items()], ignore_index=True)
 
-line_fig_1 = px.line(line_data,
-                     x='year',
-                     y='num_employees_rate_of_change',
-                     color='region',
-                     markers=True,
-                     labels={'region':'Region', 'num_employees_rate_of_change':'Changing Rate','year':'Year'},
-                     color_discrete_sequence=px.colors.qualitative.Safe)
+line_fig_1 = px.line(
+    line_data,
+    x='year',
+    y='num_employees_rate_of_change',
+    color='region',
+    markers=True,
+    labels={'region': 'Region', 'num_employees_rate_of_change': 'Changing Rate', 'year': 'Year'},
+    color_discrete_sequence=px.colors.qualitative.Safe
+)
 line_fig_1.update_layout(
     legend={
         'orientation': 'h',
@@ -196,13 +198,16 @@ line_fig_1.update_layout(
         'x': 1
     }
 )
-line_fig_2 = px.line(line_data,
-                     x='year',
-                     y='num_employees_ratio',
-                     color='region',
-                     markers=True,
-                     labels={'region':'Region', 'num_employees_ratio':'Ratio','year':'Year'},
-                     color_discrete_sequence=px.colors.qualitative.Safe)
+
+line_fig_2 = px.line(
+    line_data,
+    x='year',
+    y='num_employees_ratio',
+    color='region',
+    markers=True,
+    labels={'region': 'Region', 'num_employees_ratio': 'Ratio', 'year': 'Year'},
+    color_discrete_sequence=px.colors.qualitative.Safe
+)
 line_fig_2.update_layout(
     legend={
         'orientation': 'h',
@@ -214,12 +219,14 @@ line_fig_2.update_layout(
 )
 
 bar_data = data.groupby(['year', 'secondary_type'])['num_employees'].sum().reset_index()
-bar_fig = px.bar(bar_data,
-                 x='year',
-                 y='num_employees',
-                 color='secondary_type',
-                 labels={'secondary_type':'Industry Groupings','year':'Year','num_employees':'Number of Employees'},
-                 text_auto=True)
+bar_fig = px.bar(
+    bar_data,
+    x='year',
+    y='num_employees',
+    color='secondary_type',
+    labels={'secondary_type': 'Industry Groupings', 'year': 'Year', 'num_employees': 'Number of Employees'},
+    text_auto=True
+)
 bar_fig.update_layout(
     legend={
         'orientation': 'h',
@@ -232,9 +239,11 @@ bar_fig.update_layout(
 
 st.subheader('Total Number of Employees by Different Industry Groupings (2012-2022)')
 st.plotly_chart(bar_fig, use_container_width=True)
-st.caption('Activities which support wider social and economic activities has been the largest proportions in ten years'
-           ' among all four industry groupings. Number of night-time workers for cultural and leisure activities'
-           ' decreased since the COVID-19 pandemic begins.')
+st.caption(
+    'Activities which support wider social and economic activities has been the largest proportions in ten years'
+    ' among all four industry groupings. Number of night-time workers for cultural and leisure activities'
+    ' decreased since the COVID-19 pandemic begins.'
+)
 
 st.subheader('Changing Rate and Ratio for Number of Employees in Different Regions (2012-2022)')
 tab1, tab2 = st.tabs(["Changing Rate", "Ratio"])
@@ -246,7 +255,9 @@ with tab1:
         ' For Greater London area, the changing rate had a negative growth in 2022, this might relate to economic depression'
         ' and inflation happened recently. For Edinburgh, the changing rate has become negative since 2020 and had a recovery in 2022'
         ' although still a negative growth. For other three regions, there is no obvious patterns in changing rate that we'
-        ' can observe directly.')
+        ' can observe directly.'
+    )
+
 with tab2:
     st.plotly_chart(line_fig_2, use_container_width=True)
     st.caption(
@@ -258,6 +269,17 @@ with tab2:
         ' the maximum in 2017 and then experienced a sharp decline between 2017 and 2018.'
     )
 
-gap_data = data.groupby(['year', 'region'])['num_employees'].sum().reset_index().sort_values('region').reset_index(drop=True)
-st.write(gap_data)
+gap_data = data.groupby(['year', 'region'])['num_employees'].sum().reset_index().sort_values(
+    ['region', 'year']
+).reset_index(drop=True).groupby('region').agg(
+    {
+        'num_employees': ['first', 'last']
+    }
+).reset_index().droplevel(0, axis=1).rename(columns={'': 'region'})
+gap_data['diff'] = gap_data['last'] - gap_data['first']
+gap_data['diff_percentage'] = gap_data['diff'] / gap_data['first'] * 100
+gap_data = gap_data.sort_values('diff', ascending=False).reset_index(drop=True)
 
+st.plotly_chart(px.bar(gap_data.head(10), x='region', y='diff'))
+
+st.write(gap_data)
