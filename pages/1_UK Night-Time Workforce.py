@@ -62,7 +62,7 @@ else:
         'lat': region_lat_lon.loc[region_lat_lon['region'] == locate, 'lat'].item(),
         'lon': region_lat_lon.loc[region_lat_lon['region'] == locate, 'lon'].item()
     }
-    fig_zoom = 10
+    fig_zoom = 9.5
 
 map_fig = px.scatter_mapbox(
     map_data_with_lat_lon,
