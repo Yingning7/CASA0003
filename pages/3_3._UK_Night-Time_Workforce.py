@@ -85,7 +85,7 @@ map_fig = px.scatter_mapbox(
         'Health & Personal Social Services': '#6A5ACD',
         'All': '#FFF8DC'
     },
-    labels={'colour_type':'Grouping','num_employees':'Number of employees'}
+    labels={'colour_type': 'Grouping', 'num_employees': 'Number of employees'}
 )
 map_fig.update_layout(
     mapbox_style='dark',
