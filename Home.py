@@ -17,7 +17,7 @@ st.markdown(
      f"""
      <style>
      .stApp {{
-         background-image: url("https://raw.githubusercontent.com/Yingning7/CASA0003/db57feaa15089fd6d0e4799b1b9ab4fc91316792/background.jpg");
+         background-image: url("https://raw.githubusercontent.com/Yingning7/CASA0003/master/WechatIMG523.jpeg");
          background-attachment: fixed;
          background-size: cover
      }}
