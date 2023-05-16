@@ -82,7 +82,7 @@ map_fig = px.scatter_mapbox(
         '24-hr Health & Personal Social Services': '#6495ED',
         'Activities Supporting Wider Social & Economics Activities': '#9370DB',
         'Culture & Leisure': '#DB7093',
-        'Health & Personal Social Services': '#6A5ACD',
+        'Others': '#6A5ACD',
         'All': '#FFF8DC'
     },
     labels={'colour_type': 'Grouping', 'num_employees': 'Number of employees'}
