@@ -36,8 +36,8 @@ with left:
         - **All**: Numbers of all night-time workers in a selected region and year
         - **Primary Group**: Include two generalised industry groupings of night-time cultural and leisure activities 
         and health and personal social services
-        - **Secondary Group**: Include four more specific industry groupings of Night-time cultural and leisure activities, 
-        Activities which support night-time cultural and leisure activities, 24-hour health and personal social services 
+        - **Secondary Group**: Include four more specific industry groupings of night-time cultural and leisure activities, 
+        activities which support night-time cultural and leisure activities, 24-hour health and personal social services 
         and activities which support wider social and economic activities
         """
     )
