@@ -224,8 +224,7 @@ bar_fig = px.bar(
     x='year',
     y='num_employees',
     color='secondary_type',
-    labels={'secondary_type': 'Industry Groupings', 'year': 'Year', 'num_employees': 'Number of Employees'},
-    text_auto=True
+    labels={'secondary_type': 'Industry Groupings', 'year': 'Year', 'num_employees': 'Number of Employees'}
 )
 bar_fig.update_layout(
     legend={
@@ -237,13 +236,34 @@ bar_fig.update_layout(
     }
 )
 
-st.subheader('Total Number of Employees by Different Industry Groupings (2012-2022)')
-st.plotly_chart(bar_fig, use_container_width=True)
-st.caption(
-    'Activities which support wider social and economic activities has been the largest proportions in ten years'
-    ' among all four industry groupings. Number of night-time workers for cultural and leisure activities'
-    ' decreased since the COVID-19 pandemic begins.'
-)
+gap_data = data.groupby(['year', 'region'])['num_employees'].sum().reset_index().sort_values(
+    ['region', 'year']
+).reset_index(drop=True).groupby('region').agg(
+    {
+        'num_employees': ['first', 'last']
+    }
+).reset_index().droplevel(0, axis=1).rename(columns={'': 'region'})
+gap_data['diff'] = gap_data['last'] - gap_data['first']
+gap_data['diff_percentage'] = gap_data['diff'] / gap_data['first'] * 100
+gap_data = gap_data.sort_values('diff', ascending=False).reset_index(drop=True)
+gap_data_1 = gap_data.sort_values('diff_percentage', ascending=False).reset_index(drop=True)
+
+left, right = st.columns(2)
+with left:
+    st.subheader('Total Number of Employees by Different Industry Groupings (2012-2022)')
+    st.plotly_chart(bar_fig, use_container_width=True)
+    st.caption(
+        'Activities which support wider social and economic activities has been the largest proportions in ten years'
+        ' among all four industry groupings. Number of night-time workers for cultural and leisure activities'
+        ' decreased since the COVID-19 pandemic begins.'
+    )
+with right:
+    st.subheader('Top 10 Regions with the Greatest Increase of Night-Time Workers (2012-2022)')
+    tab3, tab4 = st.tabs(["By Number", "By Percentage"])
+    with tab3:
+        st.plotly_chart(px.bar(gap_data.head(10), x='region', y='diff'), use_container_width=True)
+    with tab4:
+        st.plotly_chart(px.bar(gap_data_1.head(10), x='region', y='diff_percentage'), use_container_width=True)
 
 st.subheader('Changing Rate and Ratio for Number of Employees in Different Regions (2012-2022)')
 tab1, tab2 = st.tabs(["Changing Rate", "Ratio"])
@@ -269,17 +289,4 @@ with tab2:
         ' the maximum in 2017 and then experienced a sharp decline between 2017 and 2018.'
     )
 
-gap_data = data.groupby(['year', 'region'])['num_employees'].sum().reset_index().sort_values(
-    ['region', 'year']
-).reset_index(drop=True).groupby('region').agg(
-    {
-        'num_employees': ['first', 'last']
-    }
-).reset_index().droplevel(0, axis=1).rename(columns={'': 'region'})
-gap_data['diff'] = gap_data['last'] - gap_data['first']
-gap_data['diff_percentage'] = gap_data['diff'] / gap_data['first'] * 100
-gap_data = gap_data.sort_values('diff', ascending=False).reset_index(drop=True)
 
-st.plotly_chart(px.bar(gap_data.head(10), x='region', y='diff'))
-
-st.write(gap_data)
