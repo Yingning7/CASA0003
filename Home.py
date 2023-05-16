@@ -11,13 +11,14 @@ st.set_page_config(
     }
 )
 
-st.title('CASA0003 Visualisation')
+st.title('UK Night-Time Economy')
+st.subheader('Data Visualisation by Group 12 for CASA0003')
 
 st.markdown(
      f"""
      <style>
      .stApp {{
-         background-image: url("https://raw.githubusercontent.com/Yingning7/CASA0003/master/WechatIMG118.jpeg");
+         background-image: url("https://raw.githubusercontent.com/Yingning7/CASA0003/master/WechatIMG523.jpeg");
          background-attachment: fixed;
          background-size: cover
      }}

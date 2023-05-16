@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title='CASA0003 Visualisation - Tab 2',
+    page_title='CASA0003 Visualisation - Night Business Clusters in London',
     layout='wide',
     initial_sidebar_state= 'expanded',
     menu_items={
