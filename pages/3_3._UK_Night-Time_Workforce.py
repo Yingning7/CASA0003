@@ -278,7 +278,7 @@ with right:
                         )
         st.caption('A region called Dacorum ranked the 1st when we evaluate the increase by percentage. According to local news'
                    ' there seems to be house crisis in recent years, which indicates the number of residents in this area'
-                   ' is growing rapidly')
+                   ' is growing rapidly.')
 
 
 st.subheader('Changing Rate and Ratio for Number of Night-Time Workers in Different Regions (2012-2022)')
