@@ -36,7 +36,7 @@ with left:
         *Grouper:
         - **All**: Numbers of all night-time workers in a selected region and year
         - **Primary Group**: Include two generalised industry groupings of night-time cultural and leisure activities 
-        and health and personal social services
+        and others
         - **Secondary Group**: Include four more specific industry groupings of night-time cultural and leisure activities, 
         activities which support night-time cultural and leisure activities, 24-hour health and personal social services 
         and activities which support wider social and economic activities
@@ -85,7 +85,7 @@ map_fig = px.scatter_mapbox(
         'Others': '#6A5ACD',
         'All': '#FFF8DC'
     },
-    labels={'colour_type': 'Grouping', 'num_employees': 'Number of employees'}
+    labels={'colour_type': 'Grouping', 'num_employees': 'Number of Night-Time Workers'}
 )
 map_fig.update_layout(
     mapbox_style='dark',
@@ -224,7 +224,7 @@ bar_fig = px.bar(
     x='year',
     y='num_employees',
     color='secondary_type',
-    labels={'secondary_type': 'Industry Groupings', 'year': 'Year', 'num_employees': 'Number of Employees'}
+    labels={'secondary_type': 'Industry Groupings', 'year': 'Year', 'num_employees': 'Number of Night-Time Workers'}
 )
 bar_fig.update_layout(
     legend={
@@ -250,7 +250,7 @@ gap_data_1 = gap_data.sort_values('diff_percentage', ascending=False).reset_inde
 
 left, right = st.columns(2)
 with left:
-    st.subheader('Total Number of Employees by Different Industry Groupings (2012-2022)')
+    st.subheader('Total Number of Night-Time Workers by Different Industry Groupings (2012-2022)')
     st.plotly_chart(bar_fig, use_container_width=True)
     st.caption(
         'Activities which support wider social and economic activities has been the largest proportions in ten years'
@@ -261,11 +261,27 @@ with right:
     st.subheader('Top 10 Regions with the Greatest Increase of Night-Time Workers (2012-2022)')
     tab3, tab4 = st.tabs(["By Number", "By Percentage"])
     with tab3:
-        st.plotly_chart(px.bar(gap_data.head(10), x='region', y='diff'), use_container_width=True)
+        st.plotly_chart(px.bar(gap_data.head(10),
+                               x='region',
+                               y='diff',
+                               labels={'diff':'Increase', 'region':'Region'}),
+                               use_container_width=True
+                        )
+        st.caption('It is not surprising that big cities see the greatest growth in the number of night workers. Four of the top'
+                   'ten regions are London Boroughs.')
     with tab4:
-        st.plotly_chart(px.bar(gap_data_1.head(10), x='region', y='diff_percentage'), use_container_width=True)
+        st.plotly_chart(px.bar(gap_data_1.head(10),
+                               x='region',
+                               y='diff_percentage',
+                               labels={'diff_percentage':'Increase%', 'region':'Region'}),
+                               use_container_width=True
+                        )
+        st.caption('A region called Dacorum ranked the 1st when we evaluate the increase by percentage. According to local news'
+                   'there seems to be house crisis in recent years, which indicates the number of residents in this area '
+                   'is growing rapidly')
 
-st.subheader('Changing Rate and Ratio for Number of Employees in Different Regions (2012-2022)')
+
+st.subheader('Changing Rate and Ratio for Number of Night-Time Workers in Different Regions (2012-2022)')
 tab1, tab2 = st.tabs(["Changing Rate", "Ratio"])
 with tab1:
     st.plotly_chart(line_fig_1, use_container_width=True)
@@ -281,10 +297,10 @@ with tab1:
 with tab2:
     st.plotly_chart(line_fig_2, use_container_width=True)
     st.caption(
-        'For the whole UK, the number of night-time employees grew gradually and reached the maximum in 2022'
+        'For the whole UK, the number of night-time workers grew gradually and reached the maximum in 2022'
         ' but the rate become slower after 2017. Similarly for Greater Manchester area and Birmingham that the'
-        ' number of night-time employees reached the maximum in 2022. For Greater London area, the number of'
-        ' night-time employees reached the maximum in 2021 and had a decrease in 2022. For Edinburgh, the number of'
-        ' night-time employees reached the maximum in 2020. For Glasgow, the number of night-time employees reached'
+        ' number of night-time workers reached the maximum in 2022. For Greater London area, the number of'
+        ' night-time workers reached the maximum in 2021 and had a decrease in 2022. For Edinburgh, the number of'
+        ' night-time workers reached the maximum in 2020. For Glasgow, the number of night-time workers reached'
         ' the maximum in 2017 and then experienced a sharp decline between 2017 and 2018.'
     )
