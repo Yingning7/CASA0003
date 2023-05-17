@@ -268,7 +268,7 @@ with right:
                                use_container_width=True
                         )
         st.caption('It is not surprising that big cities see the greatest growth in the number of night workers. Four of the top'
-                   'ten regions are London Boroughs.')
+                   ' ten regions are London Boroughs.')
     with tab4:
         st.plotly_chart(px.bar(gap_data_1.head(10),
                                x='region',
@@ -277,8 +277,8 @@ with right:
                                use_container_width=True
                         )
         st.caption('A region called Dacorum ranked the 1st when we evaluate the increase by percentage. According to local news'
-                   'there seems to be house crisis in recent years, which indicates the number of residents in this area '
-                   'is growing rapidly')
+                   ' there seems to be house crisis in recent years, which indicates the number of residents in this area'
+                   ' is growing rapidly')
 
 
 st.subheader('Changing Rate and Ratio for Number of Night-Time Workers in Different Regions (2012-2022)')
