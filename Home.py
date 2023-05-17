@@ -12,7 +12,7 @@ st.set_page_config(
 )
 
 st.title('The Evolution of UK Night-Time Economy')
-st.subheader('Data Visualisation by Group 12 for CASA0003')
+st.subheader('Digital Visualisation by Group 12 for CASA0003')
 
 st.markdown(
      f"""
