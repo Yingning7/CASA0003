@@ -4,6 +4,8 @@
 
 This is a web-based application for CASA0003 Visualisation, which combines JavaScript and Python for the ease of development.
 
+You can view this web-app at https://casa0003.streamlit.app/.
+
 Please follow the instruction for installation and running it locally. 
 
 ## Environment
@@ -18,7 +20,7 @@ Please follow the instruction for installation and running it locally.
 
 This project was tested in the macOS Monterey 12.6, Windows 10, and Ubuntu 20.04.
 
-## Instruction
+## Instruction for executing locally
 
 1. Locate to the root of this project `cd CASA0003`
 
