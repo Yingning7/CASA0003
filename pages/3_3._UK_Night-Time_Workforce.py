@@ -33,7 +33,7 @@ with left:
 
     st.markdown(
         """
-        *Grouper:
+        Grouper:
         - **All**: Numbers of all night-time workers in a selected region and year
         - **Primary Group**: Include two generalised industry groupings of night-time cultural and leisure activities 
         and others

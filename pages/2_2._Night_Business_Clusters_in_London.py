@@ -19,14 +19,12 @@ st.title('Night Business Clusters in London')
 st.subheader('by Yichen Song')
 
 
-# 将分钟数转换为时间
 def minutes_to_time(minutes):
     hours = minutes // 60
     minutes = minutes % 60
     return time(hours, minutes)
 
 
-# 加载数据
 def load_data():
     df = pd.read_csv('https://raw.githubusercontent.com/Yingning7/CASA0003/master/data/location_hours.csv')
     df['open'] = df['open'].apply(minutes_to_time)
@@ -48,9 +46,8 @@ with left:
         'Dance Clubs': 'danceclubs'
     }
     categories = list(categories_mapping.keys())
-    selected_category = st.selectbox('Category', categories, index=0)  # 设置默认选项为第一个
+    selected_category = st.selectbox('Category', categories, index=0)
 
-    # 将时间范围转换为字符串
     min_time = min(df['open'].min(), df['close'].min())
     max_time = max(df['open'].max(), df['close'].max())
     time_range = st.slider(
@@ -73,14 +70,36 @@ with left:
             (df['close'] >= time_range[0])
             ]
 
-    st.dataframe(filtered_data)
+    category_counts = filtered_data['category'].value_counts()
+
+    count_df = pd.DataFrame({
+        'Category': category_counts.index,
+        'Counts': category_counts.values
+    })
+
+    category_mapping = {
+        'restaurants': 'Restaurants',
+        'pubs': 'Pubs',
+        'cocktailbars': 'Cocktail Bars',
+        'wine_bars': 'Wine Bars',
+        'musicvenues': 'Music Venues',
+        'danceclubs': 'Dance Clubs'
+    }
+
+    count_df['Category'] = count_df['Category'].replace(category_mapping)
+
+    st.table(count_df)
+
     st.markdown(
         """
-        *Category:
+        *Category*:
         - **All**: Numbers of all night-time business in London
 
-        *Time:
+        *Time*:
         - **Selected Time Period**: Businesses that were open during the selected time period
+
+        *Table*:
+        - The number of different businesses that were open during the selected time period
         """
     )
 
@@ -91,9 +110,9 @@ with right:
         'cocktailbars': 'rgb(44, 160, 44)',
         'wine_bars': 'rgb(214, 39, 40)',
         'musicvenues': 'rgb(148, 103, 189)',
-        'danceclubs': 'rgb(214, 191, 179)'  # 较暗的棕色
+        'danceclubs': 'rgb(214, 191, 179)'
     }
-    # 更新键值对应关系
+
     color_map_updated = {
         'restaurants': 'Restaurants',
         'pubs': 'Pubs',
@@ -139,6 +158,30 @@ with right:
     )
 
 st.divider()
+st.subheader('Some Specific Night Business Clusters')
+st.markdown(
+    """
+    **Soho**:
+    - Soho is one of the most vibrant nightlife areas in London, situated in the western part of the city center. 
+    It is home to various restaurants, pubs, music venues, and nightclubs. 
+    Soho is renowned for its diverse cultural atmosphere and abundant entertainment options.
+
+    **Central London**:
+    - Central London serves as a significant hub for night-time businesses. 
+    This area boasts numerous upscale restaurants, pubs, and cocktail bars, particularly near renowned shopping districts such as Oxford Street, The City of London, Westminster and Covent Garden.
+    Central London is also home to some historic music venues and theaters.
+
+    **East London**:
+    - In recent years, East London has emerged as a hotspot for nightlife. 
+    Areas such as Shoreditch and Islington feature fashionable bars, cocktail bars, and music venues, attracting young people and creative individuals.
+
+    **Canary Wharf**:
+    - As the hub of London's financial district, Canary Wharf is a gathering place for night-time businesses. 
+    It offers upscale restaurants and bars suitable for business gatherings and social events.
+    """
+)
+
+st.divider()
 left, right = st.columns([1, 1])
 with left:
     data = {
@@ -163,20 +206,23 @@ with left:
         )
     fig.update_layout(
         title={
-            'text': 'Average Time for Night Businesses to Open in London',
+            'text': 'Average Opening Time for Night Businesses in London',
             'font': {'size': 26}
         },
         xaxis=dict(title='Year', tickmode='array', tickvals=[2019, 2020, 2021, 2022, 2023],
                    ticktext=['2019', '2020', '2021', '2022', '2023']),
         yaxis=dict(title='Time'),
         legend=dict(orientation='h', yanchor='bottom', y=1, xanchor='right', x=1, title='Category'),
-        margin=dict(t=95),
+        margin=dict(t=100),
         autosize=True
     )
     y_range = ['11:00', '12:00', '13:00', '14:00', '15:00', '16:00', '17:00', '18:00']
     y_values = [int(y.split(':')[0]) * 60 + int(y.split(':')[1]) for y in y_range]
     fig.update_yaxes(range=[y_values[0], y_values[-1]], tickmode='array', tickvals=y_values, ticktext=y_range)
     st.plotly_chart(fig, use_container_width=True)
+    st.caption(
+        'Data sources: [Yelp data API](https://www.yelp.com/developers/documentation/v3)'
+    )
 
 with right:
     data1 = {
@@ -201,17 +247,20 @@ with right:
         )
     fig1.update_layout(
         title={
-            'text': 'Average Time for Night Businesses to Close in London',
+            'text': 'Average Closing Time for Night Businesses in London',
             'font': {'size': 26}
         },
         xaxis=dict(title='Year', tickmode='array', tickvals=[2019, 2020, 2021, 2022, 2023],
                    ticktext=['2019', '2020', '2021', '2022', '2023']),
         yaxis=dict(title='Time'),
         legend=dict(orientation='h', yanchor='bottom', y=1, xanchor='right', x=1, title='Category'),
-        margin=dict(t=95),
+        margin=dict(t=100),
         autosize=True
     )
     y_range = ['21:00', '22:00', '23:00', '0:00', '1:00', '2:00', '3:00']
     y_values = [1260, 1320, 1380, 1440, 1500, 1560, 1620]
     fig1.update_yaxes(range=[y_values[0], y_values[-1]], tickmode='array', tickvals=y_values, ticktext=y_range)
     st.plotly_chart(fig1, use_container_width=True)
+    st.caption(
+        'Data sources: [Yelp data API](https://www.yelp.com/developers/documentation/v3)'
+    )
