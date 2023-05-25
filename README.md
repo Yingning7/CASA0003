@@ -28,4 +28,4 @@ This project was tested in the macOS Monterey 12.6, Windows 10, and Ubuntu 20.04
 
 3. Start the streamlit web-based application server locally `streamlit run Home.py`
 
-4. Navigate to http://localhost:8501/ in your browser. This project was tested on Google Chrome.
+4. Navigate to http://localhost:8501/ in your browser. This project was tested on Google Chrome
