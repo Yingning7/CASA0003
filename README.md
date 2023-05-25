@@ -10,7 +10,7 @@ Please follow the instruction for installation and running it locally.
 
 ## Environment
 
-- Python 3.9 or 3.10 with appropriate `pip`
+- Python 3.9 or 3.10 with the appropriate `pip`
 
 - Python Libraries / Packages:
 
