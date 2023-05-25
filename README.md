@@ -10,7 +10,7 @@ Please follow the instruction for installation and running it locally.
 
 ## Environment
 
-- Python 3.9 or 3.10 with the appropriate `pip`
+- Python 3.9 or 3.10 with the appropriate `pip` (or `pip3` depending on your environment variable settings)
 
 - Python Libraries / Packages:
 
@@ -24,7 +24,7 @@ This project was tested in the macOS Monterey 12.6, Windows 10, and Ubuntu 20.04
 
 1. Locate to the root of this project `cd CASA0003`
 
-2. Install the Python libraries and packages and the associated dependencies `pip install -r requirements.txt`
+2. Install the Python libraries and packages and the associated dependencies `pip install -r requirements.txt` (or `pip3` depending on your environment variable settings)
 
 3. Start the streamlit web-based application server locally `streamlit run Home.py`
 
