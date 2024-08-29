@@ -13,7 +13,7 @@ Please follow the instruction for installation and running it locally.
 - Python 3.9 or 3.10 with the appropriate `pip` (or `pip3` depending on your environment variable settings)
 
 - Python Libraries / Packages:
-
+  - NumPy 1.24.3
   - Pandas 1.5.3
   - Plotly 5.9.0
   - Streamlit 1.22.0
